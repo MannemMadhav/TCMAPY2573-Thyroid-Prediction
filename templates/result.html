@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prediction Result - TCMAPY2573</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Navigation -->
+    <nav>
+        <a href="/">Prediction</a> |
+        <a href="/history">Prediction History</a> |
+        <a href="/logout">Logout</a>
+    </nav>
+
+    <hr>
+
+    <!-- Logged-in user -->
+    <p>
+        Logged in as:
+        <strong>{{ session_username }}</strong>
+    </p>
+
+    <!-- Result heading -->
+    <h1>Thyroid Prediction Result</h1>
+
+    <!-- Predicted class -->
+    <h2>Predicted Class</h2>
+
+    <div class="success">
+        <strong>{{ predicted_class }}</strong>
+    </div>
+    <!-- Prediction probabilities -->
+<h2>Prediction Probabilities</h2>
+
+<div class="card">
+
+    <!-- Stage 1 -->
+    <h3>Stage 1 - Thyroid Dysfunction Screening</h3>
+
+    <p>
+        <strong>Stage 1 Result:</strong>
+        {{ stage1_class }}
+    </p>
+
+    <p>
+        <strong>Normal Probability:</strong>
+        {{ stage1_normal_probability }}%
+    </p>
+
+    <div class="probability-bar">
+        <div
+            class="probability-fill negative-fill"
+            style="width: {{ stage1_normal_probability }}%;">
+        </div>
+    </div>
+
+    <p>
+        <strong>Thyroid Dysfunction Probability:</strong>
+        {{ stage1_dysfunction_probability }}%
+    </p>
+
+    <div class="probability-bar">
+        <div
+            class="probability-fill hypothyroid-fill"
+            style="width: {{ stage1_dysfunction_probability }}%;">
+        </div>
+    </div>
+
+
+    {% if stage2_class %}
+
+        <!-- Stage 2 -->
+        <hr>
+
+        <h3>Stage 2 - Thyroid Condition Classification</h3>
+
+        <p>
+            <strong>Stage 2 Result:</strong>
+            {{ stage2_class }}
+        </p>
+
+        <p>
+            <strong>Normal:</strong>
+            {{ stage2_normal_probability }}%
+        </p>
+
+        <div class="probability-bar">
+            <div
+                class="probability-fill negative-fill"
+                style="width: {{ stage2_normal_probability }}%;">
+            </div>
+        </div>
+
+
+        <p>
+            <strong>Hyperfunction:</strong>
+            {{ stage2_hyperfunction_probability }}%
+        </p>
+
+        <div class="probability-bar">
+            <div
+                class="probability-fill hypothyroid-fill"
+                style="width: {{ stage2_hyperfunction_probability }}%;">
+            </div>
+        </div>
+
+
+        <p>
+            <strong>Subnormal:</strong>
+            {{ stage2_subnormal_probability }}%
+        </p>
+
+        <div class="probability-bar">
+            <div
+                class="probability-fill hypothyroid-fill"
+                style="width: {{ stage2_subnormal_probability }}%;">
+            </div>
+        </div>
+
+    {% else %}
+
+        <hr>
+
+        <p>
+            <strong>Stage 2:</strong>
+            Not required because Stage 1 classified the
+            sample as normal.
+        </p>
+
+    {% endif %}
+
+</div>
+
+    
+    
+
+    <!-- Explainable AI -->
+    <h2 class="explainability-title">
+        Explainable AI - Top Contributing Features
+    </h2>
+
+    <div class="card explainability-card">
+
+        <p class="shap-description">
+            SHAP values show how each feature influenced this individual
+prediction. Positive SHAP values push the prediction toward
+thyroid dysfunction, while negative SHAP values push it away
+from thyroid dysfunction.
+        </p>
+
+        <!-- SHAP legend -->
+        <p>
+            <span class="shap-positive">
+                Green = pushes toward thyroid dysfunction
+            </span>
+
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+
+            <span class="shap-negative">
+                Red = pushes away from thyroid dysfunction
+            </span>
+        </p>
+
+        <!-- SHAP table -->
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>SHAP Value</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for feature in top_shap_features %}
+
+                <tr>
+
+                    <td>
+                        {{ feature["Feature"] }}
+                    </td>
+
+                    <td>
+
+                        {% if feature["SHAP_Value"] > 0 %}
+
+                            <span class="shap-positive">
+                                {{ "%.4f"|format(feature["SHAP_Value"]) }}
+                            </span>
+
+                            <br>
+
+                            <small>
+                                Pushes toward thyroid dysfunction
+                            </small>
+
+                        {% elif feature["SHAP_Value"] < 0 %}
+
+                            <span class="shap-negative">
+                                {{ "%.4f"|format(feature["SHAP_Value"]) }}
+                            </span>
+
+                            <br>
+
+                            <small>
+                                Pushes away from thyroid dysfunction
+                            </small>
+
+                        {% else %}
+
+                            <span>
+                                {{ "%.4f"|format(feature["SHAP_Value"]) }}
+                            </span>
+
+                            <br>
+
+                            <small>
+                                Little contribution
+                            </small>
+
+                        {% endif %}
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- Another prediction -->
+    <br>
+
+    <a href="/">
+        Make Another Prediction
+    </a>
+
+    <!-- Medical disclaimer -->
+    <div class="disclaimer">
+
+        <strong>Academic decision-support prototype:</strong>
+
+        This prediction is not a medical diagnosis.
+        Consult a qualified healthcare professional for medical advice.
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

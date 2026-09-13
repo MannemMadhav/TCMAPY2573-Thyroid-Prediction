@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TCMAPY2573 - Thyroid Prediction</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <p>
+        Logged in as:
+        <strong>{{ session_username }}</strong>
+    </p>
+
+    <nav>
+        <a href="/">Prediction</a> |
+        <a href="/history">Prediction History</a> |
+        <a href="/logout">Logout</a>
+    </nav>
+
+    <hr>
+
+    <h1>TCMAPY2573 Thyroid Disease Prediction</h1>
+
+    <p>Enter patient information and thyroid test values.</p>
+
+    {% if error %}
+<div class="warning">
+    {{ error }}
+</div>
+<br>
+{% endif %}
+
+    <form method="POST" action="/predict">
+
+        <!-- Patient Information -->
+        <div class="card">
+
+            <h2>Patient Information</h2>
+
+            <label for="age">Age:</label>
+            <input
+                type="number"
+                id="age"
+                name="age"
+                min="1"
+                max="120"
+                required
+            >
+
+            <br><br>
+
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select>
+
+        </div>
+
+        <!-- Medical Information -->
+        <div class="card">
+
+            <h2>Medical Information</h2>
+
+            <label>On Thyroxine:</label>
+            <select name="on_thyroxine">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Query on Thyroxine:</label>
+            <select name="query_on_thyroxine">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>On Antithyroid Medication:</label>
+            <select name="on_antithyroid_medication">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <div class="form-row">
+    <label for="thyroid_surgery">
+        Thyroid Surgery:
+    </label>
+
+    <select
+        id="thyroid_surgery"
+        name="thyroid_surgery"
+        required
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </select>
+</div>
+
+
+<div class="form-row">
+    <label for="I131_treatment">
+        I131 Treatment:
+    </label>
+
+    <select
+        id="I131_treatment"
+        name="I131_treatment"
+        required
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </select>
+</div>
+
+
+<div class="form-row">
+    <label for="hypopituitary">
+        Hypopituitary:
+    </label>
+
+    <select
+        id="hypopituitary"
+        name="hypopituitary"
+        required
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </select>
+</div>
+
+
+<div class="form-row">
+    <label for="psych">
+        Psychological Condition:
+    </label>
+
+    <select
+        id="psych"
+        name="psych"
+        required
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </select>
+</div>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Query Hypothyroid:</label>
+            <select name="query_hypothyroid">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Query Hyperthyroid:</label>
+            <select name="query_hyperthyroid">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Pregnant:</label>
+            <select name="pregnant">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Sick:</label>
+            <select name="sick">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Tumor:</label>
+            <select name="tumor">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Lithium:</label>
+            <select name="lithium">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <br><br>
+
+            <label>Goitre:</label>
+            <select name="goitre">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+        </div>
+
+        <!-- Thyroid Measurements -->
+        <div class="card">
+
+            <h2>Thyroid Measurements</h2>
+
+            <label>TSH Measured:</label>
+            <select name="TSH_measured">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="TSH">TSH:</label>
+           <input
+    type="number"
+    step="any"
+    id="TSH"
+    name="TSH"
+    min="0"
+    required
+>
+
+            <br><br>
+
+            <label>T3 Measured:</label>
+            <select name="T3_measured">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="T3">T3:</label>
+            <input
+    type="number"
+    step="any"
+    id="T3"
+    name="T3"
+    min="0"
+    required
+>
+
+            <br><br>
+
+            <label>TT4 Measured:</label>
+            <select name="TT4_measured">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="TT4">TT4:</label>
+            <input
+    type="number"
+    step="any"
+    id="TT4"
+    name="TT4"
+    min="0"
+    required
+>
+
+            <br><br>
+
+            <label>T4U Measured:</label>
+            <select name="T4U_measured">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="T4U">T4U:</label>
+            <input
+    type="number"
+    step="any"
+    id="T4U"
+    name="T4U"
+    min="0"
+    required
+>
+            <br><br>
+
+            <label>FTI Measured:</label>
+            <select name="FTI_measured">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="FTI">FTI:</label>
+         <input
+    type="number"
+    step="any"
+    id="FTI"
+    name="FTI"
+    min="0"
+    required
+>
+            <br><br>
+
+            <button type="submit">
+                Predict Thyroid Disease
+            </button>
+
+        </div>
+
+    </form>
+
+    <br>
+
+    <a href="/history">View Prediction History</a>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prediction History - TCMAPY2573</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container"></div>
+
+<nav>
+    <a href="/">Prediction</a> |
+    <a href="/history">Prediction History</a> |
+    <a href="/logout">Logout</a>
+</nav>
+
+<hr>
+
+<p>
+    Logged in as:
+    <strong>{{ session_username }}</strong>
+</p>
+
+<h1>Prediction History</h1>
+
+<table>
+
+    <tr>
+        <th>ID</th>
+        <th>Predicted Class</th>
+        <th>Stage 1 Normal Probability</th>
+<th>Stage 1 Dysfunction Probability</th>
+        <th>Date & Time</th>
+        <th>SHAP Summary</th>
+    </tr>
+
+    {% for prediction in predictions %}
+
+    <tr>
+        <td>{{ prediction[0] }}</td>
+        <td>{{ prediction[1] }}</td>
+        <td>{{ prediction[2] }}%</td>
+        <td>{{ prediction[3] }}%</td>
+        <td>{{ prediction[4] }}</td>
+   <td>
+    {% if prediction[5] %}
+        <small>{{ prediction[5] }}</small>
+    {% else %}
+        <small>SHAP explanation not available for this older prediction.</small>
+    {% endif %}
+</td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+</div>
+</body>
+
+</html>
