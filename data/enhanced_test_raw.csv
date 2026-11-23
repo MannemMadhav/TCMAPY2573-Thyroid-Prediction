@@ -1,0 +1,1836 @@
+age,sex,on_thyroxine,query_on_thyroxine,on_antithyroid_medication,sick,pregnant,thyroid_surgery,I131_treatment,query_hypothyroid,query_hyperthyroid,lithium,goitre,tumor,hypopituitary,psych,TSH_measured,TSH,T3_measured,T3,TT4_measured,TT4,T4U_measured,T4U,FTI_measured,FTI,TBG_measured,TBG,referral_source,diagnosis_code,patient_id,target_group
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.1,t,2.2,t,145.0,t,1.34,t,108.0,f,,other,-,850621028,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,81.0,t,0.74,t,109.0,f,,other,-,861118068,Normal
+39.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,17.0,other,-,860327036,Normal
+72.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.25,t,4.4,t,192.0,t,0.91,t,211.0,f,,other,A,860226043,Hyperthyroid
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.9,t,151.0,t,1.35,t,111.0,f,,other,I,850703050,Other / Related Diagnosis
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.63,t,2.4,t,94.0,t,0.93,t,101.0,f,,other,-,860714047,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.1,t,2.4,t,109.0,t,1.07,t,102.0,f,,SVHC,-,840917002,Normal
+48.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,t,1.8,t,87.0,t,0.89,t,98.0,f,,other,-,841122045,Normal
+61.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,61.0,t,0.78,t,81.0,f,,other,-,850912037,Normal
+45.0,M,t,f,f,f,f,f,f,f,f,t,f,f,f,t,t,1.7,t,1.8,t,94.0,t,0.86,t,109.0,f,,SVHC,-,861013003,Normal
+21.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,f,,f,,f,,f,,f,,other,-,841122079,Normal
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,196.0,t,0.94,t,209.0,f,,other,A,850328042,Hyperthyroid
+57.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.0,t,91.0,t,1.18,t,77.0,f,,SVI,-,850516012,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.0,t,101.0,t,0.93,t,109.0,f,,other,-,850614033,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.0,t,87.0,f,,f,,f,,other,-,850306023,Normal
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,1.8,t,105.0,t,0.92,t,114.0,f,,SVI,-,850930061,Normal
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,f,,t,59.0,t,0.5,t,119.0,f,,other,J,850312001,Other / Related Diagnosis
+72.0,M,f,f,f,f,f,f,f,f,t,f,f,t,f,f,f,,t,2.8,t,120.0,t,1.18,t,102.0,f,,other,-,850517048,Normal
+85.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,f,,t,84.0,t,0.8,t,105.0,f,,SVHC,-,861120044,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,2.2,t,146.0,t,1.48,t,98.0,f,,SVI,-,850815061,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,2.1,t,55.0,t,0.79,t,70.0,f,,other,-,840830004,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,80.0,t,0.94,t,85.0,f,,other,-,861021002,Normal
+8.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,f,,t,87.0,t,1.0,t,87.0,f,,other,-,850705010,Normal
+67.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.4,t,119.0,t,0.98,t,121.0,f,,SVI,-,850301017,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,32.0,other,S,841108072,Other / Related Diagnosis
+63.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.8,t,1.3,t,92.0,t,0.94,t,98.0,f,,other,-,850904061,Normal
+36.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.085,t,4.5,t,198.0,t,1.15,t,172.0,f,,other,A,860428059,Hyperthyroid
+42.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,6.2,t,1.7,t,72.0,t,0.89,t,81.0,f,,other,G,850430048,Hypothyroid
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.6,t,1.8,t,111.0,t,0.81,t,137.0,f,,SVHC,-,860813015,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.2,t,2.4,t,134.0,t,0.92,t,145.0,f,,SVHC,-,851028013,Normal
+50.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.8,t,142.0,t,0.99,t,144.0,f,,SVHC,-,851014031,Normal
+73.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,123.0,t,1.01,t,121.0,f,,other,-,860210009,Normal
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.3,t,2.0,t,63.0,t,0.95,t,66.0,f,,SVHC,-,850103010,Normal
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,0.5,t,54.0,t,0.86,t,62.0,f,,SVI,K,850724051,Other / Related Diagnosis
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,2.0,t,149.0,t,1.09,t,136.0,f,,other,-,850312056,Normal
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.4,t,149.0,t,1.18,t,126.0,f,,other,-,850412071,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.07,t,2.0,t,144.0,t,0.78,t,185.0,f,,other,R,861009025,Other / Related Diagnosis
+70.0,,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,11.5,t,1.0,t,128.0,t,0.96,t,133.0,f,,other,GK,860213020,Hypothyroid
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.45,t,2.5,t,100.0,t,1.17,t,86.0,f,,SVHC,-,850826068,Normal
+47.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.7,t,94.0,f,,f,,f,,other,-,850415005,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.17,t,1.2,t,75.0,t,0.88,t,85.0,f,,SVI,-,850918064,Normal
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.5,t,95.0,t,0.98,t,97.0,f,,SVHC,-,870106030,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,92.0,t,0.83,t,111.0,f,,other,-,850815078,Normal
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.8,t,121.0,t,0.99,t,122.0,f,,SVI,-,840921039,Normal
+50.0,,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.7,t,1.8,t,113.0,t,1.01,t,112.0,f,,STMW,-,851003015,Normal
+68.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,12.0,t,1.4,t,111.0,t,1.2,t,93.0,f,,SVI,G,850719033,Hypothyroid
+61.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,0.15,other,-,850621006,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,2.4,t,102.0,t,0.83,t,123.0,f,,SVHC,-,841207030,Normal
+68.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.3,t,1.5,t,112.0,t,0.99,t,114.0,f,,other,-,850618025,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.3,t,2.4,t,138.0,t,1.16,t,118.0,f,,SVHC,-,850729011,Normal
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,1.3,t,118.0,t,1.12,t,105.0,f,,other,-,851205087,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.099999,t,0.8,t,81.0,t,0.66,t,123.0,f,,other,GK,860915061,Hypothyroid
+46.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.8,f,,t,123.0,t,0.99,t,124.0,f,,SVHC,-,861219002,Normal
+59.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.5,f,,f,,f,,f,,other,-,851010025,Normal
+33.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.01,f,,t,132.0,t,0.87,t,152.0,f,,other,-,850718102,Normal
+13.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,2.4,t,62.0,t,1.03,t,60.0,f,,other,-,841213078,Normal
+33.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,1.6,t,13.0,t,0.92,t,14.0,f,,other,O,860313029,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.9,t,2.4,t,95.0,t,1.21,t,78.0,f,,other,-,850620012,Normal
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.6,t,122.0,t,1.03,t,118.0,f,,other,-,860710070,Normal
+54.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.075,t,5.0,t,216.0,t,0.86,t,251.0,f,,other,A,861010020,Hyperthyroid
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.69,t,3.4,t,147.0,t,1.35,t,109.0,f,,other,I,861013010,Other / Related Diagnosis
+59.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.3,t,2.4,t,86.0,t,0.9,t,96.0,f,,SVI,-,850506009,Normal
+88.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,t,1.6,t,94.0,t,0.944,t,100.0,f,,SVI,-,850627020,Normal
+39.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.5,t,1.6,t,66.0,t,1.15,t,57.0,f,,other,-,861203024,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,2.1,t,93.0,t,0.96,t,97.0,f,,SVI,-,850410040,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.1,t,105.0,t,1.02,t,100.0,f,,other,-,850416083,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.2,t,97.0,t,0.9,t,107.0,f,,SVI,-,850514054,Normal
+60.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.7,t,109.0,t,0.84,t,130.0,f,,SVI,-,850930058,Normal
+67.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.1,t,132.0,t,1.13,t,116.0,f,,SVI,-,850924031,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.3,t,134.0,t,0.99,t,135.0,f,,other,-,841101001,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,2.2,t,101.0,t,0.79,t,129.0,f,,other,-,851115019,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,2.0,t,116.0,t,1.26,t,92.0,f,,other,-,850725009,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.7,t,2.3,t,100.0,t,1.11,t,90.0,f,,SVHC,-,850906053,Normal
+21.0,,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.8,t,143.0,t,1.25,t,114.0,f,,other,-,850509014,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,2.4,t,82.0,t,0.81,t,102.0,f,,SVHC,-,860822072,Normal
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,28.0,f,,t,208.0,t,2.03,t,102.0,f,,other,I,870113001,Other / Related Diagnosis
+84.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.6,t,0.6,t,82.0,t,0.74,t,110.0,f,,SVI,K,851004056,Other / Related Diagnosis
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.01,t,2.2,t,172.0,t,1.1,t,157.0,f,,other,N,850913042,Other / Related Diagnosis
+67.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.0,t,2.5,t,133.0,t,1.19,t,112.0,f,,other,-,850903005,Normal
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.96,f,,t,128.0,t,0.8,t,160.0,f,,SVI,-,870113011,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,3.2,t,174.0,f,,f,,f,,SVI,A,870114026,Hyperthyroid
+49.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,85.0,t,0.79,t,107.0,f,,other,-,860414030,Normal
+43.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,f,,t,200.0,t,1.1,t,182.0,f,,other,N,840911029,Other / Related Diagnosis
+40.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.15,t,3.0,t,210.0,t,1.48,t,142.0,f,,other,I,850329076,Other / Related Diagnosis
+65.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,10.0,other,-,861217042,Normal
+29.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.95,t,2.0,t,136.0,t,1.01,t,134.0,f,,SVHC,-,860924024,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,72.0,other,S,850620062,Other / Related Diagnosis
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.81,t,1.8,t,78.0,t,1.01,t,77.0,f,,other,-,860904005,Normal
+38.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.0,t,101.0,t,1.01,t,100.0,f,,SVHC,-,850424027,Normal
+17.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.1,t,121.0,t,1.17,t,103.0,f,,STMW,-,841009021,Normal
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,2.0,t,155.0,t,1.01,t,154.0,f,,other,-,851021042,Normal
+68.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,3.5,f,,f,,f,,f,,other,-,850827062,Normal
+42.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.065,t,3.1,t,156.0,t,0.94,t,166.0,f,,other,A,860731082,Hyperthyroid
+72.0,F,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,t,3.2,f,,f,,f,,f,,other,-,850108030,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.63,t,2.3,t,158.0,f,,f,,f,,SVI,R,870108006,Other / Related Diagnosis
+56.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,t,2.2,f,,f,,f,,f,,other,-,841109013,Normal
+75.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.1,t,1.3,t,88.0,t,0.77,t,114.0,f,,SVI,-,840829041,Normal
+60.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.17,t,2.4,t,165.0,t,1.0,t,165.0,f,,other,L,860828033,Other / Related Diagnosis
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,108.0,t,1.15,t,94.0,f,,other,-,851219009,Normal
+53.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.12,f,,t,47.0,t,0.93,t,50.0,f,,other,K,860204090,Other / Related Diagnosis
+42.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,f,,t,258.0,t,1.14,t,227.0,f,,other,L,850404070,Other / Related Diagnosis
+79.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,1.4,t,92.0,t,0.88,t,105.0,f,,SVI,-,850520003,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.0,t,2.5,t,109.0,t,1.03,t,105.0,f,,SVHC,-,851126004,Normal
+42.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.4,t,2.3,t,95.0,t,0.98,t,97.0,f,,other,-,860410055,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.1,f,,t,97.0,t,0.98,t,99.0,f,,other,-,860917051,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.5,t,113.0,t,0.76,t,149.0,f,,other,-,851009148,Normal
+35.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,1.9,t,115.0,t,0.86,t,134.0,f,,SVHC,-,860910012,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.035,t,1.9,t,84.0,t,0.67,t,125.0,f,,other,-,861209010,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.0,t,46.0,t,0.66,t,70.0,f,,SVI,-,850514053,Normal
+23.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.6,f,,t,78.0,t,1.07,t,73.0,f,,other,-,850515060,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,18.0,t,1.7,t,72.0,t,0.82,t,88.0,f,,SVI,G,841204043,Hypothyroid
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.4,t,2.8,t,118.0,t,1.01,t,117.0,f,,SVHC,-,861015081,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.4,t,1.8,t,92.0,t,0.85,t,108.0,f,,SVHC,-,851211008,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.6,t,99.0,t,0.87,t,114.0,f,,other,-,861013053,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.8,t,1.7,t,92.0,t,1.03,t,90.0,f,,other,-,860911043,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,1.2,t,103.0,t,0.98,t,105.0,f,,other,-,841017014,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,1.1,t,105.0,f,,f,,f,,other,-,841211037,Normal
+54.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,6.5,t,1.9,t,88.0,t,1.02,t,86.0,f,,other,G,860723041,Hypothyroid
+60.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.3,t,1.0,t,80.0,t,0.85,t,94.0,f,,SVI,K,841129087,Other / Related Diagnosis
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.8,t,199.0,t,1.46,t,137.0,f,,STMW,-,850416015,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.005,t,2.0,t,54.0,t,1.66,t,33.0,f,,STMW,-,850708031,Normal
+58.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,132.0,t,0.97,t,136.0,f,,other,-,840920080,Normal
+5.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,f,,t,206.0,t,1.41,t,146.0,f,,other,-,861204005,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.025,f,,t,113.0,t,0.98,t,116.0,f,,other,-,850905062,Normal
+51.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,104.0,t,1.06,t,98.0,f,,other,-,860210054,Normal
+68.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.16,f,,t,100.0,t,0.91,t,110.0,f,,other,-,860411010,Normal
+47.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.65,f,,t,131.0,t,0.99,t,132.0,f,,other,-,860227079,Normal
+72.0,F,t,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,113.0,t,0.85,t,132.0,f,,other,-,851030039,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.2,t,1.4,t,109.0,t,0.82,t,134.0,f,,SVHC,-,841121058,Normal
+57.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,1.9,t,2.3,t,111.0,t,1.18,t,94.0,f,,other,-,841206082,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.0,t,1.2,t,108.0,t,0.9,t,120.0,f,,SVI,G,860702036,Hypothyroid
+33.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,f,,t,217.0,t,1.22,t,178.0,f,,other,N,841016010,Other / Related Diagnosis
+18.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.7,t,2.8,t,135.0,t,1.2,t,113.0,f,,other,-,860908045,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,850529041,Other / Related Diagnosis
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,2.6,t,91.0,t,1.02,t,87.0,f,,SVI,-,841129030,Normal
+61.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,63.0,t,0.71,t,89.0,f,,other,-,851127036,Normal
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.2,t,1.9,t,114.0,t,1.0,t,114.0,f,,SVHC,-,861014048,Normal
+25.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.2,t,2.6,t,121.0,t,0.97,t,125.0,f,,SVHC,-,850829010,Normal
+19.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.2,f,,f,,f,,f,,other,-,851010021,Normal
+37.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,24.0,t,1.6,t,95.0,t,0.86,t,110.0,f,,other,M,861212054,Other / Related Diagnosis
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,f,,t,95.0,t,1.02,t,93.0,f,,other,-,851129027,Normal
+63.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,f,,t,57.0,t,1.0,t,57.0,f,,other,F,870113038,Hypothyroid
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.1,t,130.0,t,1.03,t,127.0,f,,SVI,K,850726050,Other / Related Diagnosis
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.38,f,,t,121.0,t,0.95,t,128.0,f,,other,-,850902013,Normal
+70.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.4,t,143.0,t,1.07,t,134.0,f,,SVI,-,840913018,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.1,t,131.0,t,1.04,t,126.0,t,25.0,SVI,K,860702030,Other / Related Diagnosis
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.5,t,109.0,t,1.08,t,100.0,f,,other,-,850311001,Normal
+56.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,f,,t,120.0,t,0.98,t,122.0,f,,other,-,860213077,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,4.3,t,3.7,t,124.0,t,1.46,t,85.0,f,,SVHC,-,860814008,Normal
+39.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.5,t,84.0,t,0.89,t,94.0,f,,other,-,860801041,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.68,t,1.8,t,104.0,t,0.89,t,117.0,f,,other,-,851031041,Normal
+72.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,5.0,t,160.0,t,0.87,t,184.0,t,21.0,other,I,861201009,Other / Related Diagnosis
+25.0,F,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,,t,2.2,t,113.0,t,1.08,t,105.0,f,,STMW,-,851120078,Normal
+75.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.4,f,,t,91.0,t,0.84,t,108.0,f,,other,-,860925007,Normal
+25.0,F,f,f,f,f,t,f,f,f,t,f,f,f,f,f,t,1.8,f,,t,158.0,t,1.58,t,100.0,f,,STMW,I,861009021,Other / Related Diagnosis
+85.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,32.0,f,,t,55.0,t,0.89,t,62.0,f,,other,F,861209024,Hypothyroid
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.1,t,1.8,t,132.0,t,0.83,t,158.0,f,,SVHC,R,841031036,Other / Related Diagnosis
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,91.0,t,0.89,t,102.0,f,,other,-,860922014,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,0.8,t,44.0,t,0.84,t,52.0,f,,SVI,K,850515033,Other / Related Diagnosis
+70.0,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,1.3,t,1.8,t,94.0,t,0.86,t,110.0,f,,SVI,-,850527063,Normal
+16.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,85.0,t,1.0,t,85.0,f,,other,-,860227052,Normal
+22.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.4,t,181.0,t,1.09,t,166.0,f,,other,L,860829046,Other / Related Diagnosis
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.5,t,110.0,t,0.8,t,137.0,f,,SVI,-,850613090,Normal
+42.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.9,t,151.0,t,0.98,t,154.0,f,,SVHC,-,851118008,Normal
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.2,t,1.9,t,144.0,t,0.88,t,164.0,f,,SVI,R,860731046,Other / Related Diagnosis
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.0,t,120.0,t,0.96,t,125.0,t,35.0,SVI,-,860729075,Normal
+46.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.84,t,1.7,t,111.0,t,0.98,t,113.0,f,,other,-,860320051,Normal
+64.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,1.8,t,1.6,t,80.0,t,1.11,t,72.0,f,,other,-,841220042,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,0.1,t,3.1,t,30.0,t,0.89,t,34.0,f,,SVHC,-,860716014,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,2.8,f,,t,114.0,t,0.94,t,122.0,f,,SVHC,-,860731002,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.15,t,2.6,t,110.0,t,1.02,t,107.0,f,,SVI,-,841112042,Normal
+51.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.4,t,1.5,t,37.0,t,0.71,t,52.0,f,,SVI,K,870113030,Other / Related Diagnosis
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.8,t,128.0,t,0.87,t,147.0,f,,SVI,-,841002010,Normal
+14.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.1,t,3.0,t,114.0,t,1.0,t,114.0,f,,SVI,-,860905037,Normal
+31.0,,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.1,t,212.0,t,1.17,t,181.0,f,,other,N,851010042,Other / Related Diagnosis
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.1,t,1.8,t,87.0,t,1.16,t,75.0,f,,SVHC,-,850814006,Normal
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,124.0,t,1.01,t,122.0,f,,other,-,860326052,Normal
+29.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,t,3.9,t,148.0,t,1.44,t,103.0,f,,other,B,841127030,Hyperthyroid
+23.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,f,,t,109.0,t,0.9,t,121.0,f,,other,-,860919071,Normal
+43.0,M,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,100.0,f,,t,93.0,t,0.87,t,107.0,f,,other,M,841004077,Other / Related Diagnosis
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.9,t,104.0,t,0.83,t,126.0,f,,SVHC,-,841030046,Normal
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,113.0,t,0.82,t,138.0,f,,other,-,851105042,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.3,t,117.0,t,1.11,t,105.0,f,,SVI,-,850702082,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,26.0,other,-,850529046,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.7,t,113.0,t,1.06,t,107.0,f,,other,-,851031045,Normal
+39.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.25,t,2.9,t,136.0,t,1.44,t,94.0,f,,other,-,850925057,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,1.6,t,89.0,t,0.74,t,119.0,t,24.0,SVI,-,860305065,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,f,,t,121.0,t,1.38,t,87.0,f,,other,I,860321009,Other / Related Diagnosis
+37.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.9,t,156.0,f,,f,,f,,other,L,860718079,Other / Related Diagnosis
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,2.4,t,107.0,t,1.13,t,95.0,f,,other,-,840816003,Normal
+23.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.065,t,18.0,t,430.0,t,0.67,t,642.0,f,,other,A,860806114,Hyperthyroid
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.7,f,,f,,f,,f,,other,-,841130030,Normal
+52.0,,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.63,f,,t,111.0,t,0.99,t,113.0,f,,other,-,860401016,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.5,t,95.0,t,0.97,t,99.0,f,,other,-,841212020,Normal
+34.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.9,t,83.0,t,0.69,t,120.0,f,,SVI,-,840905032,Normal
+74.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.7,t,2.2,t,99.0,t,1.04,t,96.0,f,,other,-,851017034,Normal
+59.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,4.0,t,1.3,t,120.0,t,0.94,t,128.0,f,,other,-,850930073,Normal
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.7,t,92.0,f,,f,,f,,SVHC,-,851106005,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,2.3,t,84.0,t,0.92,t,92.0,f,,other,-,850509024,Normal
+31.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.2,t,103.0,t,1.05,t,98.0,f,,SVHC,-,850514017,Normal
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.2,t,3.5,t,172.0,t,0.99,t,173.0,f,,SVHC,R,850506003,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,104.0,t,1.21,t,87.0,f,,other,-,860630018,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.94,f,,t,94.0,t,0.95,t,99.0,f,,other,-,861127022,Normal
+36.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.8,f,,t,155.0,t,0.97,t,159.0,f,,other,L,860325051,Other / Related Diagnosis
+56.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,f,,t,101.0,t,0.79,t,128.0,f,,other,-,861001002,Normal
+40.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,1.5,t,135.0,t,1.06,t,127.0,f,,other,-,861120062,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,25.0,t,0.3,t,10.0,t,1.18,t,8.4,f,,other,F,850624026,Hypothyroid
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,114.0,t,1.01,t,113.0,f,,SVI,-,860318047,Normal
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,2.2,t,97.0,t,1.01,t,97.0,f,,other,-,850313071,Normal
+40.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.62,t,1.2,t,68.0,t,0.37,t,184.0,f,,other,R,860430010,Other / Related Diagnosis
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.6,t,173.0,t,0.9,t,192.0,f,,SVI,R,861023075,Other / Related Diagnosis
+51.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,95.0,t,0.77,t,123.0,f,,other,-,861215060,Normal
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,2.3,t,120.0,t,1.09,t,110.0,f,,other,-,860418054,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.6,t,81.0,t,1.1,t,74.0,f,,other,-,860414051,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,115.0,t,0.78,t,147.0,f,,other,-,841004032,Normal
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.6,t,3.1,t,61.0,t,0.93,t,66.0,f,,SVHC,-,860818018,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.4,t,101.0,t,1.18,t,86.0,f,,other,-,850515034,Normal
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.3,t,1.8,t,96.0,t,1.06,t,90.0,f,,SVHC,-,851223025,Normal
+55.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.1,t,2.3,t,88.0,t,0.91,t,97.0,f,,SVI,G,850529024,Hypothyroid
+49.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.7,t,2.0,t,91.0,t,0.85,t,107.0,f,,SVHD,-,861017077,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.3,t,99.0,f,,f,,f,,other,-,841127063,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.5,t,104.0,t,1.2,t,86.0,f,,STMW,-,850515012,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,22.0,other,-,850402066,Normal
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.9,t,73.0,t,0.78,t,94.0,f,,SVI,-,841219113,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,99.0,t,0.99,t,100.0,f,,other,-,851119061,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.3,t,84.0,t,0.63,t,133.0,f,,other,-,860819046,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,f,,other,-,870116037,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,0.6,t,86.0,t,0.87,t,100.0,f,,SVI,K,860206072,Other / Related Diagnosis
+25.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.7,f,,t,73.0,t,0.97,t,76.0,f,,SVHD,-,851211014,Normal
+59.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,t,2.1,t,98.0,t,0.9,t,108.0,f,,other,-,851127041,Normal
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005,t,1.9,t,107.0,t,0.74,t,144.0,f,,other,-,851212014,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,1.9,t,2.1,t,118.0,t,1.2,t,98.0,f,,other,-,850718092,Normal
+77.0,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,f,,t,1.8,t,111.0,t,0.96,t,115.0,f,,other,-,850702007,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.0,f,,t,77.0,t,0.98,t,78.0,f,,other,G,860415024,Hypothyroid
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,0.9,t,105.0,t,0.9,t,117.0,f,,SVI,K,841113061,Other / Related Diagnosis
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.4,t,120.0,t,1.07,t,112.0,f,,other,-,841004021,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.97,t,1.9,t,96.0,t,0.93,t,103.0,f,,SVHC,-,860905016,Normal
+30.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.3,t,2.0,t,154.0,t,1.0,t,154.0,f,,SVI,-,861209049,Normal
+74.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.0,t,2.2,t,109.0,t,0.91,t,119.0,f,,other,-,850917069,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,f,,t,125.0,t,1.09,t,114.0,f,,other,-,860414056,Normal
+40.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.7,t,127.0,t,0.93,t,136.0,f,,other,-,841106016,Normal
+82.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.0,t,126.0,t,1.09,t,116.0,f,,SVHC,-,860926077,Normal
+56.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.87,t,1.9,t,116.0,f,,f,,f,,other,-,850603100,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.0,t,2.2,t,84.0,t,0.84,t,100.0,f,,SVHC,-,850410015,Normal
+43.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.6,t,1.8,t,137.0,t,1.02,t,134.0,f,,other,-,850305043,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,121.0,t,1.03,t,117.0,f,,other,-,861117062,Normal
+46.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.06,t,2.4,t,103.0,t,1.06,t,97.0,f,,other,-,860701034,Normal
+47.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,1.7,t,66.0,t,0.75,t,88.0,f,,other,-,851202010,Normal
+46.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,14.4,t,1.2,t,153.0,t,0.34,t,450.0,f,,other,R,840920021,Other / Related Diagnosis
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,124.0,t,1.15,t,108.0,f,,other,-,851107052,Normal
+75.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,1.5,t,1.2,t,91.0,t,0.97,t,94.0,f,,other,-,861124005,Normal
+50.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.8,t,123.0,t,0.97,t,126.0,f,,other,-,850305044,Normal
+2.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,4.2,t,2.1,t,152.0,t,0.93,t,163.0,f,,STMW,R,851202005,Other / Related Diagnosis
+88.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.5,t,127.0,t,0.78,t,162.0,f,,SVI,R,841126036,Other / Related Diagnosis
+76.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.6,t,105.0,f,,f,,f,,other,-,860205018,Normal
+27.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.36,t,2.4,t,114.0,t,1.0,t,115.0,f,,STMW,-,860423002,Normal
+28.0,F,f,f,t,f,f,f,f,f,t,f,f,f,f,f,t,2.4,t,2.1,t,125.0,f,,f,,f,,other,-,850924043,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.2,t,86.0,t,0.75,t,116.0,f,,other,-,841121028,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,3.1,t,133.0,t,1.53,t,87.0,f,,STMW,I,850725013,Other / Related Diagnosis
+35.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.6,t,68.0,f,,f,,f,,other,-,840828042,Normal
+31.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.6,t,113.0,t,0.91,t,123.0,f,,other,-,850109001,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.9,t,124.0,t,1.28,t,97.0,f,,other,I,850102019,Other / Related Diagnosis
+68.0,F,t,f,f,f,f,f,t,f,t,f,f,f,f,f,t,2.6,t,2.0,t,152.0,t,1.41,t,108.0,f,,other,-,851009145,Normal
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,f,,t,97.0,t,0.96,t,101.0,f,,SVHC,-,861217001,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.2,t,76.0,t,0.98,t,78.0,f,,other,-,870105025,Normal
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,f,,t,85.0,t,0.85,t,100.0,f,,SVI,-,861212082,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.2,t,2.0,t,144.0,t,1.16,t,124.0,f,,SVHC,-,860911007,Normal
+24.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.4,t,2.3,t,73.0,t,1.09,t,67.0,f,,other,-,850827070,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,4.1,t,4.0,t,159.0,t,1.62,t,98.0,f,,STMW,I,850911050,Other / Related Diagnosis
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.43,f,,t,96.0,t,0.88,t,109.0,f,,other,-,851108040,Normal
+56.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,1.8,t,1.0,t,112.0,t,0.98,t,113.0,f,,SVHC,K,860221092,Other / Related Diagnosis
+74.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.2,t,92.0,t,1.0,t,92.0,f,,other,-,841018036,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,1.3,t,106.0,t,0.88,t,120.0,f,,SVI,-,860829063,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.9,t,70.0,t,0.94,t,96.0,f,,SVI,-,840928032,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,t,2.8,t,91.0,f,,f,,f,,other,-,850918085,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,4.9,other,-,860303036,Normal
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.18,t,1.5,t,90.0,t,0.79,t,115.0,f,,SVI,-,860206075,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,0.9,t,102.0,t,0.71,t,144.0,f,,SVI,K,861204070,Other / Related Diagnosis
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.3,t,2.1,t,77.0,t,0.99,t,78.0,f,,SVI,-,840918051,Normal
+59.0,F,t,f,f,f,f,f,t,f,f,f,f,f,f,f,t,6.8,t,2.5,t,94.0,t,1.4,t,68.0,f,,other,M,840816095,Other / Related Diagnosis
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.4,f,,t,75.0,t,0.82,t,91.0,f,,SVHC,-,861015047,Normal
+62.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,150.0,t,0.94,t,160.0,f,,other,-,840917012,Normal
+44.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.1,t,1.5,t,105.0,t,0.9,t,117.0,f,,SVI,-,840817010,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,1.4,t,1.3,t,117.0,t,1.16,t,101.0,f,,other,-,860307049,Normal
+97.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,0.5,t,101.0,t,0.64,t,158.0,f,,SVI,-,860815048,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.89,t,1.8,t,103.0,t,0.98,t,105.0,f,,SVI,-,851021049,Normal
+62.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.4,f,,t,104.0,t,1.12,t,93.0,f,,other,-,841031052,Normal
+45.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,,f,,t,131.0,t,1.04,t,126.0,f,,other,-,861113052,Normal
+26.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.9,t,94.0,t,1.15,t,82.0,f,,SVHC,-,851125016,Normal
+58.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,74.0,t,0.82,t,90.0,f,,other,-,850502019,Normal
+35.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.3,f,,t,127.0,t,1.11,t,114.0,f,,other,-,860730002,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,1.6,t,83.0,t,0.89,t,93.0,f,,SVI,-,850916029,Normal
+60.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.81,t,1.6,t,99.0,f,,f,,f,,SVHD,-,861105013,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.9,t,118.0,f,,f,,f,,other,-,850305015,Normal
+58.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.7,t,144.0,t,0.94,t,153.0,f,,other,-,850924001,Normal
+51.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.6,t,118.0,t,0.91,t,130.0,f,,SVHC,-,850730032,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.8,t,2.1,t,107.0,t,0.99,t,108.0,f,,other,-,851014002,Normal
+55.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,2.4,t,133.0,t,1.0,t,132.0,f,,other,-,850328045,Normal
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,1.8,t,76.0,t,1.02,t,75.0,f,,SVI,-,850612027,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,0.7,t,71.0,t,0.78,t,91.0,f,,other,K,840917053,Other / Related Diagnosis
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.1,t,1.7,t,98.0,f,,f,,f,,other,-,861223007,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.9,t,87.0,t,1.12,t,78.0,f,,other,-,860924042,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,f,,t,139.0,t,1.07,t,130.0,f,,other,-,861210031,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.5,t,93.0,t,0.97,t,95.0,f,,SVHC,-,860317084,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,f,,t,116.0,t,0.98,t,118.0,f,,other,-,860214007,Normal
+71.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.4,t,122.0,t,1.12,t,109.0,f,,other,-,850930011,Normal
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.6,f,,t,93.0,t,0.84,t,110.0,f,,other,-,851028020,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.69,f,,t,123.0,t,0.97,t,128.0,f,,other,-,860415056,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,t,1.0,t,99.0,t,0.92,t,108.0,f,,other,GK,861111058,Hypothyroid
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.2,t,138.0,t,1.24,t,111.0,f,,other,-,850328041,Normal
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.4,t,109.0,t,1.12,t,97.0,f,,other,-,840817060,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,850605087,Other / Related Diagnosis
+43.0,F,f,f,f,f,f,f,t,f,t,f,f,f,f,f,t,3.5,t,1.7,t,99.0,t,1.14,t,87.0,f,,other,-,850418066,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,18.0,other,-,850826065,Normal
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.1,t,90.0,t,0.89,t,101.0,f,,SVI,-,860708057,Normal
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.6,t,2.6,t,136.0,t,1.19,t,114.0,f,,SVHC,-,850103042,Normal
+29.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.4,t,1.7,t,94.0,t,0.97,t,97.0,f,,other,-,850624004,Normal
+69.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,135.0,t,1.1,t,123.0,f,,other,-,850521037,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.15,f,,t,107.0,t,0.93,t,116.0,f,,other,-,841219055,Normal
+23.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.3,t,119.0,t,0.94,t,126.0,f,,SVI,-,841102008,Normal
+75.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.78,t,2.1,t,165.0,t,1.0,t,165.0,f,,other,L,860828028,Other / Related Diagnosis
+46.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.2,t,2.2,t,68.0,f,,f,,f,,other,-,850906049,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.2,f,,t,65.0,t,1.07,t,61.0,f,,SVI,-,861210036,Normal
+57.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,11.0,t,2.1,t,134.0,f,,f,,f,,other,G,860424029,Hypothyroid
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.3,t,111.0,t,1.14,t,97.0,f,,SVI,-,850617004,Normal
+46.0,F,f,f,f,f,f,f,f,f,t,t,f,f,f,f,t,1.7,t,1.1,t,94.0,t,0.91,t,103.0,f,,SVI,K,850628022,Other / Related Diagnosis
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,2.2,t,122.0,t,1.13,t,108.0,f,,SVI,-,841206076,Normal
+24.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.5,t,111.0,f,,f,,f,,SVI,-,840827060,Normal
+36.0,F,f,f,f,t,f,f,f,f,t,f,f,f,f,f,t,2.9,t,2.0,t,96.0,t,0.91,t,106.0,f,,other,-,860724020,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.1,t,62.0,t,0.7,t,89.0,f,,SVI,K,851104059,Other / Related Diagnosis
+38.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.8,t,99.0,f,,f,,f,,SVHC,-,860310002,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.7,f,,t,132.0,t,1.26,t,105.0,f,,SVI,I,860325013,Other / Related Diagnosis
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,f,,t,104.0,t,0.94,t,112.0,f,,STMW,-,851218021,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,64.0,t,0.78,t,82.0,f,,other,-,850501096,Normal
+75.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.76,f,,t,138.0,t,0.96,t,143.0,f,,other,-,851220002,Normal
+25.0,,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,1.1,t,2.6,t,212.0,t,1.75,t,121.0,f,,STMW,-,851004026,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,2.9,t,122.0,t,1.11,t,110.0,f,,SVI,-,860227065,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,24.0,t,0.56,t,43.0,f,,other,K,860922060,Other / Related Diagnosis
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.3,t,1.1,t,56.0,t,0.86,t,65.0,f,,SVI,GK,850306054,Hypothyroid
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,0.8,t,103.0,t,0.73,t,141.0,f,,SVI,K,850521057,Other / Related Diagnosis
+86.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.0,t,65.0,t,0.95,t,69.0,f,,SVI,K,841112045,Other / Related Diagnosis
+44.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,154.0,t,1.06,t,146.0,f,,WEST,-,841214020,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.3,t,2.2,t,120.0,t,0.96,t,126.0,f,,SVHC,-,850923059,Normal
+28.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,3.1,t,107.0,t,1.05,t,103.0,f,,SVHC,-,850426010,Normal
+14.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,100.0,t,1.09,t,91.0,f,,other,-,850711092,Normal
+42.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,123.0,t,0.91,t,135.0,f,,other,-,860801097,Normal
+60.0,M,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,4.0,t,68.0,t,1.0,t,67.0,f,,other,B,850507040,Hyperthyroid
+50.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,122.0,t,0.75,t,162.0,f,,other,-,841116027,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,3.8,t,180.0,t,1.57,t,115.0,f,,STMW,I,860707010,Other / Related Diagnosis
+27.0,F,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,,f,,t,110.0,t,1.1,t,100.0,f,,other,-,860206025,Normal
+54.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.03,t,2.7,t,112.0,t,1.0,t,112.0,f,,other,-,860902012,Normal
+57.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,2.1,t,2.5,t,134.0,t,0.94,t,142.0,f,,SVI,-,860805021,Normal
+51.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.065,t,2.2,t,164.0,t,1.09,t,151.0,f,,other,-,850530020,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.1,t,2.9,t,133.0,t,1.0,t,133.0,f,,SVI,-,860818063,Normal
+69.0,F,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,29.0,other,-,850502053,Normal
+63.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.4,t,2.2,t,113.0,f,,f,,f,,other,-,860404087,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,117.0,t,0.98,t,119.0,f,,SVI,-,860925066,Normal
+68.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.6,f,,t,96.0,t,0.96,t,100.0,f,,SVI,-,860418004,Normal
+56.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.5,f,,t,115.0,t,1.31,t,88.0,f,,other,M,850719080,Other / Related Diagnosis
+47.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.04,t,2.0,t,104.0,t,0.87,t,120.0,f,,other,-,851205033,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.0,t,82.0,t,0.73,t,112.0,f,,SVI,K,841211044,Other / Related Diagnosis
+21.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,t,3.7,t,162.0,t,1.47,t,110.0,f,,other,-,850515063,Normal
+7.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.94,t,2.0,t,93.0,t,0.84,t,110.0,f,,other,-,851022004,Normal
+73.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,f,,t,138.0,t,0.94,t,146.0,f,,other,-,860915053,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.7,t,107.0,t,0.94,t,113.0,f,,other,-,850401002,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.3,t,105.0,t,0.96,t,110.0,f,,other,-,841107021,Normal
+59.0,M,f,f,f,t,f,f,f,f,f,t,f,f,f,t,t,4.2,t,2.5,t,90.0,t,1.02,t,88.0,f,,SVHC,-,861210048,Normal
+70.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.9,f,,t,70.0,t,0.8,t,87.0,f,,other,-,850304029,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.7,t,137.0,t,1.0,t,137.0,f,,SVI,-,840919023,Normal
+78.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.015,t,2.1,t,214.0,t,0.87,t,245.0,f,,other,N,851204045,Other / Related Diagnosis
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,1.3,t,80.0,t,0.88,t,91.0,f,,other,-,850716054,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,30.0,other,-,841109067,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.1,t,96.0,t,1.01,t,95.0,f,,SVI,-,850402011,Normal
+60.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.6,t,104.0,t,0.99,t,105.0,f,,SVI,-,860428057,Normal
+59.0,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.3,t,1.6,t,112.0,t,0.75,t,148.0,f,,other,-,850410023,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.3,t,133.0,f,,f,,f,,other,-,840810016,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,2.4,t,104.0,f,,f,,f,,other,-,840829015,Normal
+60.0,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,2.1,t,1.6,t,136.0,f,,f,,f,,SVI,-,860327002,Normal
+68.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,6.7,t,1.4,t,101.0,f,,f,,f,,SVI,G,851101046,Hypothyroid
+34.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.98,t,1.9,t,133.0,t,1.0,t,133.0,f,,SVHC,-,860227003,Normal
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.85,t,1.6,t,122.0,t,0.79,t,154.0,f,,other,-,860729074,Normal
+59.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,t,3.1,t,198.0,t,0.59,t,334.0,f,,other,A,841217030,Hyperthyroid
+42.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,1.7,t,105.0,t,0.91,t,115.0,f,,other,-,861113029,Normal
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.3,t,108.0,t,0.79,t,137.0,f,,SVI,-,850103048,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.45,f,,t,113.0,t,1.05,t,107.0,f,,other,-,860320026,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.2,t,2.0,t,83.0,t,1.0,t,83.0,f,,STMW,-,841126011,Normal
+62.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.16,t,2.1,t,77.0,t,0.9,t,86.0,f,,other,-,861003002,Normal
+46.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.7,t,0.5,t,37.0,t,0.72,t,51.0,f,,SVI,FK,850521020,Hypothyroid
+38.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,f,,f,,f,,f,,other,-,851129077,Normal
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.4,t,106.0,t,0.99,t,107.0,f,,SVI,-,841105061,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.4,f,,f,,f,,f,,other,-,851011017,Normal
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,2.1,t,149.0,t,1.02,t,147.0,f,,other,-,850912085,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,2.0,t,107.0,t,1.08,t,99.0,f,,SVHC,-,841224002,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.66,f,,t,160.0,t,1.78,t,90.0,f,,STMW,I,860210011,Other / Related Diagnosis
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.87,t,2.1,t,122.0,t,0.97,t,126.0,f,,SVI,-,870106020,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.0,t,126.0,t,0.85,t,148.0,f,,other,-,861202024,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,f,,t,106.0,t,1.08,t,98.0,f,,other,-,851223017,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,2.4,t,115.0,t,1.21,t,95.0,f,,SVI,-,860225040,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.96,f,,t,95.0,t,0.82,t,116.0,f,,STMW,-,861007029,Normal
+38.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,f,,other,-,870109006,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.27,t,1.6,t,104.0,t,0.78,t,134.0,f,,SVHC,-,851211012,Normal
+36.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.2,t,81.0,t,0.82,t,98.0,f,,SVI,-,841115043,Normal
+58.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,18.0,t,2.1,t,68.0,t,1.08,t,63.0,f,,other,F,850606051,Hypothyroid
+67.0,F,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,2.3,t,2.7,t,124.0,t,1.01,t,123.0,f,,other,-,860807005,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,1.9,t,102.0,t,1.0,t,102.0,f,,SVI,-,860923070,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.0,f,,t,64.0,t,0.97,t,66.0,f,,other,G,861126042,Hypothyroid
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.9,t,1.8,f,,f,,t,79.0,f,,other,-,860825045,Normal
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.4,t,107.0,t,1.06,t,101.0,f,,other,-,850402018,Normal
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,31.0,other,S,841108100,Other / Related Diagnosis
+75.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,0.9,t,94.0,t,0.74,t,127.0,f,,other,K,860825031,Other / Related Diagnosis
+55.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.0,t,1.7,t,115.0,t,1.06,t,105.0,f,,SVI,-,850806103,Normal
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.8,t,109.0,t,0.97,t,113.0,f,,other,-,841108055,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.2,t,2.4,t,122.0,t,1.04,t,117.0,f,,SVHC,-,860930006,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.5,t,3.1,t,109.0,t,1.09,t,100.0,f,,other,-,860910017,Normal
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.015,t,1.9,t,115.0,t,0.77,t,149.0,f,,other,-,851205008,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.8,t,94.0,t,0.93,t,101.0,f,,SVI,-,841116056,Normal
+39.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,4.3,t,2.4,t,135.0,t,1.51,t,89.0,f,,other,-,851210083,Normal
+75.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,f,,t,147.0,t,0.8,t,183.0,f,,other,-,850731024,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.1,t,85.0,f,,f,,f,,other,-,850809063,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,f,,t,138.0,t,1.24,t,111.0,f,,SVI,-,860303032,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.5,t,151.0,t,1.21,t,125.0,f,,other,-,850325008,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.5,t,147.0,t,0.89,t,165.0,f,,SVI,R,861112043,Other / Related Diagnosis
+56.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,136.0,t,0.88,t,155.0,f,,other,-,860424076,Normal
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,1.5,t,1.9,t,138.0,t,0.98,t,141.0,f,,other,-,860829011,Normal
+56.0,F,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,1.1,t,2.2,t,103.0,t,0.9,t,114.0,f,,other,-,851017079,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.7,t,94.0,t,0.98,t,96.0,f,,STMW,-,841112001,Normal
+54.0,,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,16.0,other,-,841214060,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.5,t,121.0,t,1.29,t,94.0,f,,SVHC,-,851022006,Normal
+54.0,F,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,0.86,t,1.7,t,98.0,t,0.96,t,102.0,f,,SVI,-,850715053,Normal
+23.0,M,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.4,t,2.3,t,98.0,t,1.04,t,94.0,f,,SVI,-,840921040,Normal
+62.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,4.6,f,,t,135.0,t,1.02,t,132.0,f,,other,-,841113052,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,2.4,t,110.0,t,0.85,t,129.0,f,,SVHC,-,860825023,Normal
+85.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.15,t,1.4,t,114.0,t,0.76,t,149.0,f,,SVHC,-,841204002,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.9,t,2.3,t,180.0,t,1.04,t,173.0,f,,SVHC,R,860811006,Other / Related Diagnosis
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,4.0,t,1.9,t,78.0,t,0.91,t,86.0,f,,SVHC,-,841116051,Normal
+57.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.3,t,93.0,t,0.78,t,118.0,f,,SVI,-,841121050,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.6,t,137.0,t,0.95,t,144.0,f,,other,-,850307033,Normal
+43.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.1,t,2.3,t,140.0,t,1.2,t,116.0,f,,other,-,850813020,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,48.0,f,,t,7.6,t,1.02,t,7.5,f,,other,F,840910023,Hypothyroid
+43.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,8.299999,t,1.9,t,95.0,t,1.17,t,81.0,f,,other,G,860211012,Hypothyroid
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.99,t,2.3,t,130.0,t,1.01,t,129.0,f,,SVHC,-,860918009,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,1.6,t,80.0,t,0.99,t,81.0,f,,SVHC,-,860905019,Normal
+49.0,M,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,3.0,t,2.2,t,91.0,t,0.86,t,105.0,f,,SVI,-,860721051,Normal
+67.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.3,t,134.0,t,0.93,t,144.0,f,,STMW,-,840917018,Normal
+64.0,,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.56,t,1.8,t,90.0,t,0.79,t,114.0,f,,other,-,861201026,Normal
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,f,,t,193.0,t,1.05,t,184.0,f,,other,A,860327084,Hyperthyroid
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.62,f,,t,86.0,t,0.58,t,148.0,f,,other,-,870109041,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,22.0,other,-,850509094,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.7,t,101.0,f,,f,,f,,other,-,851125052,Normal
+87.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.2,t,3.4,t,164.0,t,0.82,t,200.0,f,,other,A,850516056,Hyperthyroid
+49.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,3.1,t,139.0,t,1.14,t,122.0,f,,other,-,861010058,Normal
+65.0,F,f,f,f,t,f,f,f,f,t,f,f,f,f,f,t,0.025,t,3.9,t,133.0,t,1.23,t,108.0,f,,other,B,850801020,Hyperthyroid
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,20.0,other,-,850103052,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.0,t,119.0,t,1.11,t,107.0,f,,SVI,-,860214010,Normal
+55.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.5,t,109.0,t,0.75,t,145.0,f,,SVHC,-,850415061,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,26.0,t,2.0,t,69.0,t,0.97,t,71.0,f,,other,G,850426014,Hypothyroid
+54.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.035,t,1.9,t,100.0,t,1.11,t,90.0,f,,other,-,850620047,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.8,t,133.0,t,1.16,t,115.0,f,,SVI,-,850322038,Normal
+55.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.4,t,95.0,t,1.05,t,90.0,f,,SVI,-,850903041,Normal
+59.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.9,f,,t,133.0,t,0.97,t,137.0,f,,SVI,-,860305070,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.2,t,90.0,t,1.04,t,87.0,f,,SVHC,-,850718014,Normal
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,196.0,t,0.94,t,208.0,f,,other,N,841029020,Other / Related Diagnosis
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.85,t,3.0,t,121.0,t,1.25,t,97.0,f,,STMW,I,850819030,Other / Related Diagnosis
+18.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.98,f,,t,158.0,t,1.31,t,120.0,f,,other,-,851211055,Normal
+41.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.4,f,,t,101.0,t,1.01,t,100.0,f,,SVHC,-,861118074,Normal
+68.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.1,f,,t,100.0,t,1.04,t,96.0,f,,other,-,860311026,Normal
+62.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,21.0,t,1.4,t,88.0,t,0.77,t,115.0,f,,other,G,860415041,Hypothyroid
+58.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.8,f,,t,63.0,t,0.86,t,73.0,f,,other,-,851213017,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.1,t,93.0,t,1.03,t,90.0,f,,SVI,-,841009002,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.15,t,2.3,t,139.0,t,1.06,t,131.0,f,,other,-,850508067,Normal
+65.0,F,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.015,t,1.9,t,88.0,t,0.81,t,109.0,f,,other,-,850917076,Normal
+30.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.24,t,1.8,t,188.0,f,,f,,f,,other,L,860424067,Other / Related Diagnosis
+34.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.9,t,2.9,t,202.0,t,1.51,t,134.0,f,,STMW,I,841023019,Other / Related Diagnosis
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.4,t,83.0,t,0.93,t,89.0,f,,SVHC,-,840920004,Normal
+39.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,4.3,t,1.8,t,92.0,f,,f,,f,,other,-,861020033,Normal
+28.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.0,t,2.3,t,116.0,t,1.13,t,103.0,f,,other,-,850418042,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,28.0,other,-,851009036,Normal
+42.0,F,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,1.9,t,2.2,t,126.0,t,0.97,t,130.0,f,,other,-,860710015,Normal
+85.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,0.9,t,111.0,t,1.04,t,107.0,f,,SVI,K,850723015,Other / Related Diagnosis
+33.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,8.799999,t,2.0,t,91.0,t,0.82,t,111.0,f,,other,Q,860422027,Other / Related Diagnosis
+74.0,M,t,t,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,f,,t,123.0,t,0.76,t,162.0,f,,other,L,841217039,Other / Related Diagnosis
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,170.0,t,1.5,t,113.0,f,,STMW,I,861218015,Other / Related Diagnosis
+31.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,f,,t,113.0,t,0.76,t,149.0,f,,other,-,861030013,Normal
+41.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,3.9,t,1.6,t,79.0,t,1.11,t,79.0,f,,other,-,841026047,Normal
+24.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.7,t,95.0,t,0.8,t,119.0,f,,SVI,-,841126052,Normal
+29.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.68,f,,t,164.0,t,1.1,t,149.0,f,,other,-,860808097,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,25.0,other,-,850508073,Normal
+83.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,1.2,t,99.0,t,0.88,t,112.0,f,,other,-,850809070,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.0,t,68.0,t,0.93,t,73.0,f,,other,-,861209001,Normal
+26.0,M,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,1.6,f,,t,136.0,t,1.07,t,128.0,f,,SVI,-,861020009,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.4,t,54.0,t,0.85,t,63.0,f,,other,R,860306066,Other / Related Diagnosis
+78.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,f,,t,84.0,t,0.89,t,95.0,f,,other,-,841120026,Normal
+84.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.5,t,137.0,t,1.1,t,125.0,f,,other,-,860709068,Normal
+62.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.005,t,2.1,t,130.0,t,0.99,t,131.0,f,,other,-,851003031,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,116.0,t,1.07,t,108.0,f,,other,-,841123066,Normal
+57.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.1,t,174.0,t,0.75,t,232.0,f,,other,AK,841012061,Hyperthyroid
+63.0,F,t,f,f,f,f,f,t,t,f,f,f,f,f,f,t,0.1,t,1.5,t,152.0,t,1.2,t,127.0,f,,other,-,841115028,Normal
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.2,t,123.0,t,0.92,t,134.0,f,,SVI,-,841009065,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.7,t,92.0,t,0.98,t,94.0,f,,other,-,850627019,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.3,t,104.0,t,1.04,t,100.0,f,,SVI,-,850318035,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,1.6,t,140.0,t,0.95,t,148.0,f,,SVI,-,850703036,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.58,t,2.5,t,89.0,t,0.99,t,89.0,f,,other,-,851004007,Normal
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,f,,t,102.0,t,0.8,t,128.0,f,,other,-,861205003,Normal
+40.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.63,f,,t,74.0,t,0.99,t,75.0,f,,other,-,860210058,Normal
+60.0,M,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,30.5,t,1.0,t,32.0,t,0.63,t,51.0,f,,other,F,851024021,Hypothyroid
+66.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.16,f,,t,140.0,t,0.74,t,189.0,f,,other,L,860421042,Other / Related Diagnosis
+64.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,115.0,t,0.81,t,142.0,f,,other,-,841220090,Normal
+63.0,M,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.005,t,1.3,t,96.0,t,0.92,t,104.0,f,,other,-,861127039,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.9,t,116.0,t,0.89,t,130.0,f,,other,-,850314015,Normal
+74.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,4.3,t,1.2,t,27.0,t,1.03,t,26.0,f,,other,O,861002019,Other / Related Diagnosis
+81.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.65,t,1.3,t,91.0,t,0.87,t,104.0,f,,SVI,-,850528054,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,1.9,t,110.0,t,1.02,t,108.0,f,,SVI,-,850613083,Normal
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.9,t,112.0,t,1.02,t,109.0,f,,other,-,841113063,Normal
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.6,t,172.0,t,1.34,t,129.0,f,,other,I,841204045,Other / Related Diagnosis
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,1.4,t,63.0,f,,f,,f,,other,-,861215055,Normal
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.3,t,104.0,t,1.06,t,99.0,f,,SVI,-,850724048,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.97,t,2.3,t,125.0,t,1.06,t,117.0,f,,other,-,850912016,Normal
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.51,t,1.3,t,121.0,t,0.78,t,155.0,f,,SVI,-,850718087,Normal
+29.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,1.6,t,135.0,t,0.86,t,157.0,f,,other,R,850506082,Other / Related Diagnosis
+42.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.1,t,2.1,t,134.0,t,1.0,t,135.0,f,,SVHC,-,850809007,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,78.0,t,0.8,t,98.0,f,,other,-,860826082,Normal
+42.0,F,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.12,t,1.3,t,93.0,t,0.67,t,139.0,f,,other,-,860721076,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.5,t,102.0,t,1.16,t,87.0,f,,other,-,850822068,Normal
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,1.5,t,107.0,t,0.72,t,147.0,f,,SVI,-,841217035,Normal
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,5.3,t,272.0,t,0.97,t,281.0,f,,other,A,851121021,Hyperthyroid
+88.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.5,t,1.4,t,96.0,t,0.86,t,112.0,f,,SVI,-,841009064,Normal
+80.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,0.8,t,105.0,t,0.88,t,120.0,f,,SVI,K,850627015,Other / Related Diagnosis
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,66.0,f,,t,28.0,t,1.07,t,26.0,f,,SVI,F,860805019,Hypothyroid
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,1.6,t,70.0,t,0.87,t,80.0,f,,SVI,-,841011067,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.4,t,113.0,t,1.03,t,110.0,f,,SVI,-,850703041,Normal
+59.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.9,t,3.6,t,112.0,t,1.18,t,96.0,f,,other,-,850522046,Normal
+72.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.97,t,2.0,t,164.0,f,,f,,f,,other,L,850827003,Other / Related Diagnosis
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,1.9,t,76.0,t,0.88,t,86.0,f,,SVI,-,850503045,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,60.0,t,0.3,t,13.0,t,0.99,t,13.0,f,,other,F,851209043,Hypothyroid
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.3,t,113.0,t,0.85,t,133.0,f,,other,-,840905002,Normal
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.1,t,128.0,t,0.94,t,136.0,f,,other,-,850725041,Normal
+70.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.3,t,112.0,t,0.89,t,125.0,f,,other,-,841122060,Normal
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.5,t,120.0,f,,f,,f,,SVHC,-,840817012,Normal
+77.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.8,t,114.0,t,0.81,t,141.0,f,,other,-,860801086,Normal
+70.0,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,2.3,t,2.8,t,90.0,t,1.1,t,82.0,f,,other,-,860403019,Normal
+73.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.5,t,2.0,t,134.0,t,1.17,t,115.0,f,,SVHD,-,851113046,Normal
+73.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.5,t,115.0,t,1.08,t,106.0,f,,other,-,841019096,Normal
+78.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.57,f,,t,138.0,t,0.76,t,182.0,f,,SVI,-,861002034,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.0,t,2.0,t,136.0,t,1.18,t,115.0,f,,SVHC,-,841016041,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.2,f,,t,234.0,t,0.7,t,334.0,f,,other,R,861216005,Other / Related Diagnosis
+47.0,M,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,1.1,t,2.1,t,61.0,t,0.89,t,69.0,f,,SVHC,-,860820007,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,67.0,t,0.71,t,95.0,f,,other,-,851209040,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.8,t,148.0,t,1.25,t,118.0,f,,other,-,861023079,Normal
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.2,t,91.0,t,0.76,t,120.0,f,,other,-,861212025,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.9,t,95.0,f,,f,,f,,other,-,841115044,Normal
+24.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.92,t,2.5,t,99.0,t,0.97,t,102.0,f,,SVHC,-,861113026,Normal
+50.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.17,f,,t,152.0,t,1.3,t,117.0,f,,other,-,861113037,Normal
+71.0,F,t,f,f,f,f,f,t,t,t,f,f,f,f,f,t,2.4,t,1.9,t,133.0,t,1.09,t,123.0,f,,other,-,851219053,Normal
+47.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,2.4,t,150.0,t,1.1,t,136.0,f,,other,-,860819068,Normal
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.1,t,2.2,t,136.0,t,1.24,t,110.0,f,,other,G,851120028,Hypothyroid
+39.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.5,f,,t,93.0,t,0.75,t,125.0,f,,SVHC,-,851128010,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,98.0,t,1.04,t,94.0,f,,other,-,860213091,Normal
+57.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.5,t,1.6,t,62.0,t,0.32,t,192.0,f,,other,R,841211059,Other / Related Diagnosis
+78.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.5,f,,t,105.0,t,0.62,t,169.0,f,,SVI,-,860917016,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,24.0,other,-,850418073,Normal
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,t,1.9,t,86.0,f,,f,,f,,other,-,851121066,Normal
+62.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,260.0,t,0.05,t,4.0,t,1.27,t,3.0,f,,SVI,F,841016036,Hypothyroid
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,f,,t,103.0,t,0.99,t,104.0,f,,other,-,860317039,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,74.0,t,0.69,t,107.0,f,,other,-,860811051,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,0.7,t,74.0,t,0.74,t,100.0,f,,other,K,841109001,Other / Related Diagnosis
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.4,t,91.0,t,0.95,t,96.0,f,,other,-,870112001,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.53,t,2.5,t,105.0,t,1.01,t,104.0,f,,other,-,850924035,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,84.0,t,0.78,t,108.0,f,,other,-,860722027,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,3.3,t,200.0,t,1.0,t,200.0,f,,SVI,A,851122058,Hyperthyroid
+70.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,t,0.4,t,48.0,t,0.51,t,94.0,f,,other,J,860811060,Other / Related Diagnosis
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.6,t,2.2,t,99.0,t,1.16,t,85.0,f,,other,G,850904081,Hypothyroid
+41.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,f,,f,,f,,f,,t,11.0,other,-,840801042,Normal
+72.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.4,t,189.0,t,1.06,t,179.0,f,,other,L,860424044,Other / Related Diagnosis
+41.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.2,t,1.7,t,76.0,t,0.78,t,97.0,f,,other,-,860814059,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,3.1,f,,f,,f,,f,,other,-,841127042,Normal
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.7,t,81.0,f,,f,,f,,other,-,870106031,Normal
+55.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.2,t,95.0,t,0.98,t,96.0,f,,SVI,-,851115010,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.4,t,124.0,t,1.23,t,101.0,f,,other,-,840919026,Normal
+58.0,F,t,t,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.2,t,157.0,t,0.92,t,171.0,f,,other,N,841011026,Other / Related Diagnosis
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,0.9,t,90.0,t,0.88,t,102.0,f,,SVI,K,841207020,Other / Related Diagnosis
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,850412021,Other / Related Diagnosis
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,20.0,t,1.0,t,51.0,t,0.84,t,61.0,f,,SVI,F,850328053,Hypothyroid
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,0.3,t,32.0,t,0.53,t,60.0,f,,SVI,K,850321018,Other / Related Diagnosis
+59.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,f,,t,139.0,t,0.98,t,141.0,f,,other,-,841206042,Normal
+63.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,161.0,t,1.07,t,151.0,f,,other,-,850523044,Normal
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,f,,t,101.0,t,0.88,t,115.0,f,,other,-,840927035,Normal
+81.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,8.2,t,0.9,t,128.0,t,0.91,t,141.0,f,,other,GK,861117006,Hypothyroid
+56.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.9,t,107.0,t,0.93,t,115.0,f,,SVHC,-,860729011,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.6,t,100.0,t,0.96,t,104.0,f,,SVI,-,840904048,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.3,t,101.0,t,0.89,t,114.0,f,,SVI,-,841109058,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.4,t,0.3,t,13.0,t,0.94,t,14.0,f,,SVI,FK,861027005,Hypothyroid
+67.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.81,f,,t,84.0,t,0.83,t,101.0,f,,other,-,850726006,Normal
+79.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,2.1,t,124.0,t,0.62,t,200.0,f,,other,R,841002007,Other / Related Diagnosis
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,2.4,t,116.0,t,0.8,t,145.0,t,22.0,SVI,-,860808041,Normal
+27.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.3,t,155.0,t,0.89,t,174.0,f,,other,AK,841105057,Hyperthyroid
+53.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.4,t,3.7,t,172.0,t,1.67,t,103.0,f,,other,I,851121083,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,0.3,t,73.0,t,0.78,t,94.0,f,,other,-,850515015,Normal
+72.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,1.7,t,98.0,t,0.96,t,102.0,f,,other,-,840924044,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.8,t,130.0,t,1.11,t,117.0,f,,SVHC,-,841130067,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,72.0,t,0.92,t,78.0,f,,other,-,850822037,Normal
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,29.0,other,-,850604061,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.3,t,87.0,t,0.96,t,90.0,f,,SVI,-,850726054,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,30.0,other,-,840926063,Normal
+24.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.11,t,3.8,t,96.0,t,0.81,t,119.0,f,,other,-,860912072,Normal
+28.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.7,t,120.0,t,0.91,t,132.0,f,,other,-,861104011,Normal
+75.0,F,f,f,f,t,f,f,f,f,t,f,f,f,f,f,t,0.7,f,,t,146.0,t,0.96,t,152.0,f,,other,-,861127013,Normal
+34.0,F,f,f,t,f,t,f,f,f,f,f,f,f,f,f,t,0.02,t,3.7,t,182.0,t,1.75,t,104.0,f,,STMW,I,850729003,Other / Related Diagnosis
+48.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,2.9,f,,t,109.0,t,0.99,t,110.0,f,,other,-,861205060,Normal
+31.0,F,t,f,f,f,t,f,f,f,t,f,f,f,f,f,t,0.44,t,1.5,t,75.0,t,0.92,t,81.0,f,,STMW,-,851114023,Normal
+80.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.37,t,0.7,t,134.0,t,1.12,t,120.0,f,,SVI,K,850624010,Other / Related Diagnosis
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.4,t,103.0,t,1.14,t,90.0,f,,other,-,850403046,Normal
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,14.799999,t,1.5,t,61.0,t,0.85,t,72.0,f,,SVI,G,850314047,Hypothyroid
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,2.0,t,73.0,t,1.04,t,70.0,f,,other,-,850320070,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,8.2,t,2.1,t,80.0,t,1.02,t,78.0,f,,other,G,850502064,Hypothyroid
+57.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.8,f,,t,116.0,t,1.2,t,97.0,f,,SVI,-,861124007,Normal
+47.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.4,t,102.0,t,1.31,t,78.0,f,,SVHC,-,850102006,Normal
+15.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.9,t,101.0,t,0.96,t,106.0,f,,SVI,-,860421003,Normal
+56.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,10.0,f,,t,72.0,t,1.1,t,66.0,f,,other,M,841122061,Other / Related Diagnosis
+39.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,106.0,t,0.91,t,117.0,f,,other,-,860407045,Normal
+58.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.7,t,116.0,t,1.13,t,103.0,f,,SVHC,-,861030057,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,1.8,t,95.0,t,0.9,t,106.0,f,,other,-,851001018,Normal
+49.0,M,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.015,f,,t,126.0,t,0.83,t,152.0,f,,other,-,850917002,Normal
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.035,t,2.2,t,88.0,t,0.9,t,98.0,f,,other,-,850919027,Normal
+36.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.1,t,1.7,t,83.0,t,0.58,t,143.0,f,,SVI,-,860805023,Normal
+54.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.4,f,,t,98.0,t,1.01,t,97.0,f,,other,-,851216047,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,1.9,f,,f,,f,,f,,other,-,860904047,Normal
+65.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,8.2,t,1.6,t,96.0,f,,f,,f,,other,G,860307048,Hypothyroid
+20.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,5.4,t,148.0,t,1.48,t,100.0,f,,STMW,I,851016024,Other / Related Diagnosis
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.0,t,101.0,t,1.2,t,84.0,f,,SVHC,-,850321001,Normal
+58.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.7,t,123.0,t,0.96,t,129.0,f,,other,-,850801048,Normal
+40.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.9,t,2.1,t,88.0,t,0.84,t,105.0,f,,other,-,840816002,Normal
+59.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,2.7,t,74.0,t,1.12,t,66.0,f,,other,-,861017001,Normal
+70.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.05,t,2.6,t,132.0,t,1.07,t,123.0,f,,other,-,840816077,Normal
+24.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.09,f,,t,126.0,t,0.86,t,146.0,f,,other,-,851114014,Normal
+15.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.3,t,183.0,t,0.89,t,205.0,f,,other,N,850401019,Other / Related Diagnosis
+16.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,2.6,t,94.0,t,0.94,t,100.0,f,,other,-,851101021,Normal
+90.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.8,t,98.0,t,0.94,t,104.0,f,,other,-,860819048,Normal
+56.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.025,t,1.5,t,114.0,t,0.7,t,163.0,f,,other,L,861119047,Other / Related Diagnosis
+88.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,0.4,t,98.0,t,0.73,t,134.0,f,,other,K,840821016,Other / Related Diagnosis
+17.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,78.0,t,0.76,t,103.0,f,,other,-,860710064,Normal
+68.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.5,t,74.0,t,0.72,t,103.0,f,,SVI,-,850329071,Normal
+80.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,5.3,t,2.0,t,86.0,t,1.02,t,83.0,f,,other,-,851111050,Normal
+46.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,t,1.2,t,122.0,t,0.94,t,131.0,f,,SVI,-,850718062,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.28,f,,t,179.0,t,0.79,t,227.0,f,,other,R,860701026,Other / Related Diagnosis
+38.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.045,t,1.6,t,149.0,t,0.97,t,154.0,f,,other,-,860313030,Normal
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.7,t,96.0,t,0.8,t,120.0,f,,SVI,-,840926045,Normal
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.9,t,59.0,t,0.62,t,96.0,f,,SVI,-,841221013,Normal
+71.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.6,t,122.0,t,0.81,t,152.0,f,,other,-,850305020,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,140.0,f,,t,33.0,t,1.07,t,31.0,f,,other,F,840816061,Hypothyroid
+20.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.015,t,4.8,t,22.0,f,,f,,f,,SVI,A,850916005,Hyperthyroid
+40.0,F,f,f,f,f,f,f,f,t,t,f,f,t,f,f,f,,f,,f,,f,,f,,t,27.0,other,-,841212063,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.0,t,135.0,t,1.21,t,111.0,f,,other,-,850531043,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,0.3,t,73.0,t,0.9,t,81.0,f,,other,K,850902003,Other / Related Diagnosis
+82.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,0.8,t,102.0,t,0.73,t,138.0,f,,SVI,K,841121063,Other / Related Diagnosis
+82.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.4,t,139.0,t,1.15,t,121.0,f,,SVI,-,851022009,Normal
+59.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,47.0,t,1.9,t,79.0,t,1.13,t,70.0,f,,other,G,840919069,Hypothyroid
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,191.0,t,0.8,t,5.0,t,1.03,t,4.85,f,,other,F,860922046,Hypothyroid
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.5,t,88.0,t,0.87,t,101.0,f,,SVI,-,850521059,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,31.0,other,S,850509071,Other / Related Diagnosis
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,f,,t,133.0,t,1.07,t,124.0,f,,other,-,861218069,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,100.0,t,0.83,t,121.0,f,,other,-,851202030,Normal
+63.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,6.5,t,0.7,t,86.0,t,0.72,t,120.0,f,,SVI,GK,851127064,Hypothyroid
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.1,t,2.2,t,115.0,t,0.96,t,120.0,f,,SVI,-,840917045,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,2.1,t,87.0,t,0.93,t,94.0,f,,SVI,-,850103043,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.0,t,67.0,t,0.96,t,70.0,f,,SVI,K,860305066,Other / Related Diagnosis
+82.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,0.83,t,104.0,t,0.77,t,135.0,f,,SVI,K,861106004,Other / Related Diagnosis
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,0.2,t,115.0,t,0.92,t,126.0,f,,SVI,K,850709012,Other / Related Diagnosis
+51.0,F,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.4,t,1.6,t,88.0,t,1.05,t,85.0,f,,other,-,841025080,Normal
+26.0,F,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,,t,3.0,t,189.0,t,1.21,t,156.0,f,,other,-,861212024,Normal
+45.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,101.0,t,0.95,t,106.0,f,,other,-,851211090,Normal
+35.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.5,t,97.0,t,0.85,t,114.0,t,30.0,SVI,-,860729023,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.099999,f,,t,82.0,t,0.84,t,98.0,f,,SVI,G,861215047,Hypothyroid
+29.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.3,t,4.3,t,209.0,t,1.64,t,128.0,f,,STMW,I,841203012,Other / Related Diagnosis
+21.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.4,t,1.6,t,95.0,t,0.93,t,102.0,f,,SVHC,-,850802008,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.9,t,1.6,t,85.0,t,0.87,t,98.0,f,,SVI,-,850718055,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.4,t,91.0,f,,f,,f,,other,-,841010028,Normal
+20.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,41.0,other,S,841108102,Other / Related Diagnosis
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,t,1.9,t,99.0,t,1.02,t,97.0,f,,SVI,-,840925042,Normal
+66.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.5,t,142.0,t,1.25,t,113.0,f,,other,-,850307031,Normal
+66.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.045,t,0.3,t,72.0,t,0.61,t,119.0,f,,SVI,K,851202024,Other / Related Diagnosis
+47.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.4,t,90.0,t,0.97,t,92.0,f,,SVI,-,851105002,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.8,t,1.5,t,111.0,t,0.73,t,152.0,f,,other,-,860429081,Normal
+39.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,6.0,f,,t,135.0,t,0.96,t,141.0,f,,SVHC,-,861212005,Normal
+78.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.21,f,,t,214.0,t,1.23,t,174.0,f,,other,L,861201052,Other / Related Diagnosis
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,54.0,other,S,851205005,Other / Related Diagnosis
+38.0,F,t,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.135,f,,t,146.0,t,1.41,t,104.0,f,,other,I,860422045,Other / Related Diagnosis
+22.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.56,t,2.7,t,179.0,t,1.25,t,143.0,f,,other,-,850823054,Normal
+56.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.9,f,,t,83.0,t,0.86,t,97.0,f,,other,-,861009002,Normal
+45.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.025,t,4.2,t,183.0,t,0.78,t,235.0,f,,other,A,860320027,Hyperthyroid
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.0,t,169.0,f,,f,,f,,SVI,R,860814053,Other / Related Diagnosis
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,t,2.2,t,118.0,t,1.01,t,117.0,f,,SVI,-,850716048,Normal
+36.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,2.4,t,179.0,t,1.36,t,131.0,f,,other,-,850305016,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,0.8,t,115.0,t,0.91,t,126.0,f,,SVI,K,841022042,Other / Related Diagnosis
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.9,t,125.0,t,0.95,t,132.0,f,,other,-,840903085,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,1.5,t,95.0,t,0.86,t,110.0,f,,SVHC,-,840927071,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,2.1,t,109.0,t,1.1,t,99.0,f,,SVI,-,841119033,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,145.0,t,0.2,t,16.0,t,0.94,t,17.0,f,,SVI,F,840906064,Hypothyroid
+36.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.1,t,131.0,t,0.93,t,141.0,f,,SVI,K,841105020,Other / Related Diagnosis
+26.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.5,t,90.0,t,0.9,t,100.0,f,,SVHC,-,850318024,Normal
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.7,t,107.0,t,0.86,t,125.0,f,,SVI,-,850523003,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,80.0,t,0.88,t,91.0,f,,other,-,861125006,Normal
+63.0,M,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.78,t,1.9,t,85.0,t,1.1,t,77.0,f,,SVI,-,850918062,Normal
+26.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.5,t,132.0,t,1.24,t,107.0,f,,other,-,850313057,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.1,t,116.0,t,1.06,t,109.0,f,,other,-,850516090,Normal
+52.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.0,t,98.0,t,1.15,t,85.0,f,,other,-,841107089,Normal
+54.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.6,f,,t,107.0,t,1.01,t,106.0,f,,other,-,841128019,Normal
+93.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.0,t,0.9,t,92.0,t,0.81,t,112.0,f,,SVI,K,850724053,Other / Related Diagnosis
+19.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,1.3,t,4.4,t,174.0,t,1.76,t,99.0,f,,SVI,I,841214057,Other / Related Diagnosis
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,110.0,t,0.81,t,137.0,f,,SVI,-,860410060,Normal
+36.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.6,t,2.8,t,131.0,t,1.05,t,125.0,f,,SVHC,-,860801019,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.1,t,100.0,t,0.77,t,130.0,f,,SVHC,-,860417004,Normal
+20.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.15,t,1.6,t,80.0,t,0.79,t,101.0,f,,SVHC,-,841122068,Normal
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,1.3,t,108.0,t,0.83,t,130.0,f,,SVI,-,850628025,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,1.5,t,123.0,f,,f,,f,,other,-,840907053,Normal
+66.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.1,t,0.6,t,121.0,t,0.85,t,143.0,f,,SVI,K,850325051,Other / Related Diagnosis
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.045,t,2.1,t,159.0,t,1.01,t,157.0,f,,SVI,R,851217022,Other / Related Diagnosis
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.1,t,1.9,t,94.0,t,0.97,t,97.0,f,,SVHC,-,840914014,Normal
+39.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.015,t,1.5,t,84.0,t,0.99,t,85.0,f,,other,-,851205021,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,1.9,t,106.0,t,1.06,t,100.0,f,,SVI,-,850426048,Normal
+43.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.6,t,87.0,t,1.13,t,78.0,f,,other,-,851125029,Normal
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.1,t,0.7,t,131.0,t,0.74,t,177.0,f,,other,-,860724061,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,27.0,t,1.2,t,139.0,t,1.09,t,128.0,t,21.0,SVI,G,860912032,Hypothyroid
+78.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,f,,t,68.0,t,1.0,t,68.0,f,,other,-,861104012,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,2.4,t,122.0,f,,f,,f,,SVI,-,861016078,Normal
+50.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.54,t,1.8,t,160.0,t,1.1,t,146.0,f,,other,-,850912036,Normal
+46.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.0,t,2.2,t,92.0,t,0.71,t,130.0,f,,other,-,860711082,Normal
+70.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,9.299999,other,-,860326023,Normal
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.8,t,2.6,t,144.0,t,1.43,t,101.0,f,,SVI,-,860225038,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.025,t,2.3,t,122.0,t,0.86,t,142.0,f,,other,-,850730043,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,1.6,t,77.0,t,0.85,t,90.0,f,,other,-,860408071,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.7,t,1.4,t,120.0,t,0.85,t,141.0,f,,SVHC,-,860211013,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,0.9,t,50.0,t,0.62,t,81.0,f,,other,-,860818066,Normal
+35.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,31.0,t,2.6,f,,f,,f,,f,,other,-,841220082,Normal
+86.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.8,t,89.0,t,0.89,t,100.0,f,,SVI,-,850507054,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,26.0,other,-,840803046,Normal
+17.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,3.0,t,89.0,t,0.99,t,90.0,f,,other,-,870107031,Normal
+76.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.005,f,,t,143.0,t,0.76,t,189.0,f,,other,A,851210054,Hyperthyroid
+74.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.99,t,1.9,t,121.0,t,1.09,t,111.0,f,,SVI,-,861218007,Normal
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,2.0,t,75.0,t,0.82,t,92.0,t,21.0,SVI,-,860805027,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,0.9,t,72.0,t,0.77,t,94.0,f,,SVI,K,850417077,Other / Related Diagnosis
+38.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.5,t,95.0,t,0.91,t,104.0,f,,SVI,-,851126034,Normal
+69.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,24.0,f,,t,75.0,t,0.84,t,89.0,f,,SVI,G,861118069,Hypothyroid
+36.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.6,t,79.0,t,0.9,t,88.0,f,,SVI,-,841105019,Normal
+53.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,129.0,t,1.08,t,119.0,f,,other,-,850104043,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.59,t,1.5,t,116.0,t,0.93,t,124.0,f,,other,-,851204024,Normal
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,2.0,t,101.0,t,1.09,t,92.0,f,,SVI,-,850501037,Normal
+34.0,F,f,f,t,f,f,f,f,f,t,f,f,f,f,f,t,2.5,t,2.3,t,113.0,t,1.06,t,107.0,f,,other,-,861110021,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,97.0,t,0.66,t,147.0,f,,other,-,861208021,Normal
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,1.0,t,92.0,t,0.88,t,105.0,f,,SVI,K,841029006,Other / Related Diagnosis
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.0,t,92.0,t,0.95,t,97.0,f,,other,-,850808005,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.4,f,,t,127.0,t,1.09,t,117.0,f,,SVHC,-,861118010,Normal
+56.0,M,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.04,f,,t,134.0,t,0.66,t,204.0,f,,SVI,L,860318048,Other / Related Diagnosis
+46.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.07,t,3.8,t,148.0,f,,f,,f,,other,-,860409027,Normal
+21.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,3.1,t,164.0,t,0.81,t,201.0,f,,other,I,851202017,Other / Related Diagnosis
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.34,t,1.4,t,100.0,t,0.8,t,124.0,f,,SVHC,-,851128076,Normal
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.76,t,1.9,t,99.0,t,1.19,t,83.0,f,,SVHC,-,860317052,Normal
+29.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,f,,t,89.0,t,0.74,t,121.0,f,,other,-,860307013,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,1.9,f,,t,93.0,t,0.86,t,108.0,f,,SVHC,-,851218014,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,2.4,t,117.0,t,1.08,t,109.0,f,,SVI,-,841219051,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.1,t,113.0,t,1.09,t,115.0,f,,SVI,-,850806100,Normal
+75.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.5,t,63.0,t,0.68,t,92.0,f,,other,-,850515019,Normal
+72.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.5,t,0.9,t,83.0,t,0.92,t,90.0,f,,SVI,K,840925003,Other / Related Diagnosis
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,4.4,f,,t,136.0,t,1.0,t,136.0,f,,SVI,-,860410007,Normal
+58.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.6,t,103.0,t,0.9,t,114.0,f,,other,-,850419064,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.2,t,152.0,t,0.78,t,196.0,f,,SVI,AK,850617031,Hyperthyroid
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.1,t,109.0,t,0.97,t,112.0,f,,SVI,-,860825068,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.3,t,86.0,t,0.88,t,99.0,f,,SVI,-,851003054,Normal
+57.0,F,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,4.8,t,2.1,t,85.0,t,0.97,t,87.0,f,,other,-,860312058,Normal
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,74.0,t,0.87,t,85.0,f,,other,-,861002013,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,3.7,t,46.0,t,0.92,t,51.0,f,,other,I,860213038,Other / Related Diagnosis
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,2.2,t,83.0,f,,f,,f,,other,-,851011007,Normal
+27.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.0,t,2.5,t,90.0,t,1.06,t,85.0,f,,STMW,-,850506021,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.5,t,103.0,t,1.07,t,96.0,f,,SVI,-,850820049,Normal
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.7,t,102.0,t,0.9,t,113.0,f,,other,-,861204010,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.5,f,,t,76.0,t,0.95,t,80.0,f,,other,G,860403006,Hypothyroid
+46.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,f,,t,161.0,t,0.99,t,163.0,f,,other,L,861111032,Other / Related Diagnosis
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,2.0,t,90.0,t,0.9,t,100.0,f,,other,-,860815006,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,3.2,t,2.5,t,88.0,t,1.02,t,86.0,f,,SVHC,-,860709075,Normal
+77.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,3.6,t,1.8,t,134.0,t,1.02,t,131.0,f,,other,-,861215046,Normal
+79.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,10.0,f,,t,125.0,t,0.99,t,127.0,f,,SVI,M,860303034,Other / Related Diagnosis
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.31,t,0.3,t,80.0,t,0.72,t,111.0,f,,other,-,860908033,Normal
+85.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,0.1,t,47.0,t,0.68,t,69.0,f,,SVI,-,840816011,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.1,t,139.0,f,,f,,f,,other,-,841116017,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.5,t,117.0,t,0.86,t,136.0,f,,SVI,-,851120042,Normal
+23.0,,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,4.1,t,1.9,t,66.0,t,0.85,t,77.0,f,,SVHD,-,851003010,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.7,t,113.0,t,1.06,t,107.0,f,,SVHC,-,841017011,Normal
+48.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,f,,t,115.0,t,1.0,t,115.0,f,,other,-,840906034,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,f,,t,102.0,t,1.03,t,93.0,f,,other,-,850507039,Normal
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,f,,t,97.0,t,0.79,t,123.0,f,,SVI,-,861029060,Normal
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,23.0,other,-,860917056,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.1,t,2.8,t,111.0,t,1.31,t,85.0,f,,other,G,860102036,Hypothyroid
+47.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.9,t,99.0,t,0.79,t,125.0,f,,SVHC,-,850404005,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.65,f,,t,96.0,t,0.79,t,122.0,f,,SVHC,-,861230029,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,f,,t,127.0,t,0.84,t,151.0,f,,SVI,-,860304060,Normal
+36.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.2,t,1.7,t,115.0,t,0.98,t,118.0,f,,SVHC,-,851018019,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.4,t,133.0,t,1.09,t,122.0,f,,other,-,860411050,Normal
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.68,f,,t,76.0,t,1.0,t,76.0,f,,SVI,-,860912031,Normal
+41.0,F,f,f,f,f,t,f,f,f,f,f,t,f,f,f,t,3.1,t,1.2,t,144.0,t,1.03,t,139.0,f,,other,-,860220032,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,f,,t,114.0,t,0.98,t,117.0,f,,other,-,851025087,Normal
+79.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.6,t,82.0,t,0.8,t,104.0,f,,other,-,850327044,Normal
+37.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.91,t,2.0,t,85.0,t,1.05,t,81.0,f,,other,-,860401027,Normal
+33.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.015,t,2.4,t,139.0,t,0.96,t,145.0,f,,other,-,861120054,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.2,t,1.9,t,122.0,t,0.56,t,218.0,f,,SVHC,R,860723007,Other / Related Diagnosis
+74.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.9,t,1.5,t,96.0,t,0.84,t,114.0,f,,SVI,-,860214059,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.299999,t,2.4,t,117.0,t,1.07,t,108.0,f,,other,G,860915072,Hypothyroid
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.71,t,2.2,t,91.0,t,0.94,t,96.0,f,,other,-,860319004,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.5,t,2.1,t,79.0,t,0.99,t,80.0,f,,other,-,861231010,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,110.0,t,0.96,t,114.0,f,,other,-,851011060,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,f,,t,72.0,t,0.75,t,96.0,f,,other,-,860313006,Normal
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,110.0,t,1.08,t,102.0,f,,other,-,860407052,Normal
+17.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,92.0,t,0.96,t,96.0,f,,other,-,841109075,Normal
+73.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.4,t,1.3,t,43.0,t,0.9,t,48.0,f,,other,O,860415053,Other / Related Diagnosis
+56.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,8.2,t,2.0,t,66.0,t,0.94,t,70.0,f,,other,G,850108077,Hypothyroid
+42.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.92,t,1.6,t,89.0,t,0.82,t,108.0,f,,other,-,860207002,Normal
+24.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.15,t,2.8,t,159.0,t,1.39,t,114.0,f,,STMW,-,841112002,Normal
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,2.4,t,150.0,t,0.96,t,155.0,f,,SVHC,-,860206020,Normal
+32.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,t,1.8,t,69.0,t,0.9,t,77.0,f,,other,G,841212082,Hypothyroid
+57.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,16.799999,t,1.7,t,34.0,t,0.97,t,35.0,f,,other,O,861205015,Other / Related Diagnosis
+78.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.2,t,102.0,t,1.01,t,100.0,f,,other,-,841126006,Normal
+60.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,f,,t,128.0,t,0.9,t,109.0,f,,other,-,841009022,Normal
+18.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,61.0,t,0.77,t,79.0,f,,other,-,861010054,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.9,t,99.0,t,1.03,t,97.0,f,,SVI,-,850410039,Normal
+72.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,30.0,t,0.6,t,15.0,t,1.48,t,10.0,f,,SVI,F,840903007,Hypothyroid
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,3.0,t,125.0,t,0.74,t,169.0,f,,SVI,-,850513011,Normal
+90.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.6,t,102.0,t,0.99,t,103.0,f,,SVI,-,840827002,Normal
+62.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.4,t,1.3,t,92.0,t,0.89,t,104.0,f,,other,-,850708066,Normal
+51.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,f,,f,,f,,f,,f,,other,-,840813060,Normal
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.1,t,2.3,t,90.0,t,0.98,t,92.0,f,,SVHC,G,860714006,Hypothyroid
+76.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.4,t,111.0,t,0.78,t,142.0,f,,SVI,-,851106057,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.035,t,3.1,t,142.0,t,1.47,t,97.0,f,,other,I,850619074,Other / Related Diagnosis
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.3,t,90.0,t,0.88,t,102.0,f,,other,-,850321014,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,0.8,t,80.0,t,0.77,t,104.0,f,,SVI,K,850503041,Other / Related Diagnosis
+59.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.0,t,95.0,t,0.85,t,111.0,f,,SVHC,-,850923032,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.0,t,77.0,t,0.86,t,90.0,f,,other,-,851209039,Normal
+27.0,F,t,f,f,f,f,f,f,t,t,f,f,f,f,f,f,,t,1.9,f,,f,,f,,f,,other,-,851107020,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,1.8,t,126.0,t,1.02,t,124.0,f,,SVI,-,840911037,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,25.0,other,-,841029022,Normal
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.44,f,,t,145.0,t,1.08,t,135.0,f,,other,-,850822072,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,92.0,t,0.83,t,111.0,f,,SVI,-,860924032,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,97.0,t,1.05,t,92.0,f,,other,-,861009007,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.1,t,178.0,t,1.0,t,178.0,f,,SVI,R,841205019,Other / Related Diagnosis
+64.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.2,t,119.0,t,0.98,t,121.0,f,,other,-,850430081,Normal
+43.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.9,t,1.5,t,58.0,t,0.59,t,99.0,f,,SVHC,J,851128014,Other / Related Diagnosis
+51.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.065,f,,t,248.0,t,1.43,t,173.0,f,,other,N,860415058,Other / Related Diagnosis
+44.0,M,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,1.6,t,2.4,t,130.0,t,1.08,t,120.0,f,,SVHC,-,860806029,Normal
+24.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.0,t,121.0,t,0.81,t,149.0,f,,SVI,-,850808059,Normal
+37.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.0,t,111.0,t,0.91,t,123.0,f,,SVHC,-,850704001,Normal
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,0.4,t,99.0,t,0.8,t,124.0,f,,other,-,861113008,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.3,t,108.0,t,1.09,t,99.0,f,,other,-,840918059,Normal
+55.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,60.0,t,0.7,t,14.0,t,1.11,t,13.0,f,,other,F,851014015,Hypothyroid
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.8,t,119.0,t,0.98,t,120.0,f,,other,-,850104014,Normal
+81.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.02,t,2.2,t,153.0,t,1.09,t,140.0,f,,other,-,861201018,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,3.2,t,123.0,t,1.29,t,96.0,f,,SVI,I,850515037,Other / Related Diagnosis
+36.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.9,t,2.8,t,126.0,t,1.29,t,98.0,f,,other,-,850516074,Normal
+72.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.3,t,2.5,t,88.0,t,1.33,t,66.0,f,,SVI,-,841227019,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.035,t,2.6,t,128.0,t,1.03,t,124.0,f,,SVI,-,850619060,Normal
+53.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,22.0,f,,t,96.0,t,0.83,t,116.0,f,,other,M,860812061,Other / Related Diagnosis
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,102.0,t,1.07,t,95.0,f,,other,-,860918033,Normal
+62.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.025,f,,t,174.0,t,0.98,t,177.0,f,,other,N,860227053,Other / Related Diagnosis
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,f,,t,94.0,t,0.92,t,102.0,f,,other,-,860922050,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.6,t,103.0,t,1.07,t,96.0,f,,SVI,-,841121053,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.3,t,0.9,t,80.0,t,0.56,t,144.0,f,,SVHC,K,841121059,Other / Related Diagnosis
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.2,t,103.0,t,0.79,t,131.0,f,,SVI,-,850524034,Normal
+58.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,88.0,t,0.81,t,109.0,f,,other,-,851104017,Normal
+46.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.3,t,90.0,t,0.87,t,103.0,f,,other,-,860919010,Normal
+22.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.7,t,104.0,t,0.89,t,117.0,f,,SVI,-,870105027,Normal
+69.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.5,t,1.5,t,82.0,t,0.66,t,124.0,f,,SVI,-,850620051,Normal
+64.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,2.2,t,2.3,t,113.0,t,0.69,t,164.0,f,,other,R,860710010,Other / Related Diagnosis
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,f,,t,188.0,t,0.83,t,226.0,f,,other,N,861016043,Other / Related Diagnosis
+65.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,12.0,t,1.2,t,118.0,t,0.9,t,130.0,f,,other,M,851205048,Other / Related Diagnosis
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.07,t,2.1,t,182.0,t,1.03,t,177.0,f,,other,AK,860701008,Hyperthyroid
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.7,f,,t,118.0,t,0.99,t,119.0,f,,SVHC,-,861009009,Normal
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,86.0,t,0.86,t,100.0,f,,SVHC,-,861103036,Normal
+,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.0,t,118.0,t,1.13,t,104.0,f,,SVI,-,850530001,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,f,,t,141.0,t,1.2,t,118.0,f,,SVHC,-,841017013,Normal
+43.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,2.1,t,86.0,t,0.84,t,103.0,f,,other,-,841121082,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,57.0,t,0.85,t,65.0,f,,SVI,-,851203071,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.4,t,101.0,t,1.17,t,87.0,f,,other,-,850322041,Normal
+51.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.58,t,1.6,t,115.0,f,,f,,f,,other,-,850730034,Normal
+51.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.0,t,2.1,t,82.0,t,1.06,t,77.0,f,,other,M,861211017,Other / Related Diagnosis
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.055,t,2.2,t,164.0,t,1.35,t,122.0,f,,other,I,860904035,Other / Related Diagnosis
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,1.4,t,96.0,t,0.88,t,109.0,f,,other,-,850806059,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.0,t,192.0,t,1.02,t,188.0,f,,SVI,AK,850311041,Hyperthyroid
+31.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,t,3.0,t,169.0,t,0.96,t,176.0,f,,other,A,841213021,Hyperthyroid
+22.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,114.0,t,0.88,t,130.0,f,,other,-,860901045,Normal
+82.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,27.0,other,-,850523017,Normal
+61.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,17.0,t,1.6,t,89.0,t,0.69,t,129.0,t,18.0,other,G,860728044,Hypothyroid
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.8,t,2.4,t,164.0,t,1.12,t,146.0,f,,SVI,-,861219029,Normal
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,0.1,t,37.0,t,0.52,t,71.0,f,,SVI,J,860709071,Other / Related Diagnosis
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,27.0,other,-,850327067,Normal
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.6,t,1.5,t,100.0,t,0.88,t,113.0,f,,SVHC,-,841119032,Normal
+43.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.02,t,2.9,t,130.0,t,0.8,t,163.0,f,,other,A,861204041,Hyperthyroid
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,t,2.6,t,214.0,t,0.99,t,216.0,f,,SVI,AK,860423015,Hyperthyroid
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,1.1,t,2.8,t,107.0,t,1.09,t,99.0,f,,other,-,851113029,Normal
+67.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,24.0,other,-,850418057,Normal
+66.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.2,t,2.1,t,139.0,t,1.1,t,126.0,f,,other,-,840906027,Normal
+41.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,2.3,t,190.0,t,1.07,t,177.0,f,,other,N,860311051,Other / Related Diagnosis
+60.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.025,t,3.9,t,123.0,t,0.98,t,126.0,f,,other,B,850801046,Hyperthyroid
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,78.0,t,0.7,t,111.0,f,,other,-,870114038,Normal
+52.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.7,t,107.0,t,1.01,t,106.0,f,,SVI,-,860821048,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.8,t,135.0,t,0.94,t,145.0,f,,other,-,860220036,Normal
+54.0,,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.01,t,3.6,t,142.0,t,1.23,t,115.0,f,,other,B,850827046,Hyperthyroid
+56.0,M,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,,f,,t,87.0,t,1.3,t,67.0,f,,other,I,840821042,Other / Related Diagnosis
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.6,f,,t,138.0,t,1.21,t,114.0,f,,SVI,-,860218004,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,1.8,t,105.0,f,,f,,f,,other,-,840813022,Normal
+45.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,t,t,3.5,f,,t,107.0,t,0.98,t,109.0,f,,other,-,861031013,Normal
+67.0,F,f,f,t,f,f,f,t,f,t,f,f,f,f,f,t,0.035,t,2.4,t,137.0,t,0.85,t,161.0,f,,other,R,861113017,Other / Related Diagnosis
+58.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,20.0,f,,t,60.0,t,0.95,t,63.0,f,,SVI,F,860704069,Hypothyroid
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,f,,t,63.0,t,0.89,t,71.0,f,,SVI,-,860417044,Normal
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,26.4,t,2.3,t,73.0,t,1.09,t,67.0,f,,other,G,851108093,Hypothyroid
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.5,t,80.0,t,1.12,t,71.0,f,,SVI,-,850724047,Normal
+40.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.9,t,142.0,t,0.91,t,156.0,f,,other,-,850912039,Normal
+23.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.8,t,122.0,t,1.1,t,111.0,f,,other,-,851120085,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,3.4,t,165.0,t,1.52,t,108.0,f,,STMW,I,851011010,Other / Related Diagnosis
+21.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,135.0,other,S,850620067,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,24.0,t,1.9,t,65.0,f,,f,,f,,other,G,850416014,Hypothyroid
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,64.0,t,0.89,t,72.0,f,,other,-,861204073,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,134.0,t,1.01,t,133.0,f,,other,-,861205020,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,28.0,t,0.2,t,33.0,t,0.7,t,47.0,f,,SVI,F,850819053,Hypothyroid
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,1.8,t,129.0,t,0.98,t,132.0,f,,other,-,860814026,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.9,f,,t,80.0,t,0.75,t,107.0,f,,SVHC,-,861211007,Normal
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,1.5,t,91.0,t,0.81,t,113.0,f,,other,-,851111018,Normal
+29.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,27.0,other,-,850416039,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,t,1.3,t,121.0,t,0.8,t,152.0,f,,SVI,-,860408064,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.9,t,123.0,t,1.03,t,119.0,f,,SVI,-,860711098,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.9,t,100.0,t,1.06,t,93.0,f,,other,-,851101038,Normal
+30.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.0,t,163.0,t,0.96,t,170.0,f,,other,N,840822031,Other / Related Diagnosis
+54.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.06,t,1.4,t,108.0,t,0.97,t,111.0,f,,other,-,861126013,Normal
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.66,f,,t,117.0,t,1.09,t,107.0,f,,other,-,860303006,Normal
+79.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,0.7,t,116.0,t,0.85,t,137.0,f,,SVI,K,850703039,Other / Related Diagnosis
+25.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,2.1,t,107.0,t,0.95,t,113.0,f,,other,-,860206013,Normal
+71.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,4.3,t,1.3,t,55.0,t,0.83,t,66.0,f,,SVI,-,860711099,Normal
+34.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.6,t,83.0,t,0.7,t,118.0,f,,other,-,850930016,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.4,t,1.4,t,108.0,t,1.08,t,100.0,f,,SVI,G,850508053,Hypothyroid
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.3,t,2.0,t,125.0,t,1.01,t,124.0,f,,SVI,-,850926040,Normal
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.8,t,90.0,t,0.71,t,126.0,f,,other,-,850103011,Normal
+73.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,0.7,t,63.0,t,0.88,t,72.0,f,,other,K,851212064,Other / Related Diagnosis
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.72,t,1.5,t,151.0,f,,f,,f,,other,R,860409038,Other / Related Diagnosis
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.9,t,80.0,t,0.85,t,94.0,f,,SVHC,-,850508006,Normal
+66.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.81,f,,t,126.0,t,0.96,t,131.0,f,,other,-,860226074,Normal
+28.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.1,t,1.8,t,85.0,t,0.78,t,109.0,f,,other,-,850107032,Normal
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,3.8,t,177.0,t,1.75,t,101.0,f,,STMW,I,860829033,Other / Related Diagnosis
+76.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.1,t,98.0,t,1.01,t,97.0,f,,other,-,850103025,Normal
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,0.3,t,64.0,t,0.66,t,96.0,f,,SVI,K,850705001,Other / Related Diagnosis
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,t,2.5,t,123.0,t,1.15,t,107.0,f,,SVI,-,850524033,Normal
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,2.3,t,76.0,t,0.86,t,88.0,f,,other,-,860709003,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,0.8,t,68.0,t,0.73,t,93.0,f,,SVI,K,841018079,Other / Related Diagnosis
+42.0,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,f,,t,1.9,f,,f,,f,,f,,other,-,861103050,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,36.0,other,S,840914072,Other / Related Diagnosis
+24.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.7,t,106.0,t,1.0,t,106.0,f,,SVHC,-,850911040,Normal
+34.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,t,1.8,t,135.0,t,1.0,t,134.0,f,,SVI,-,851113034,Normal
+57.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.01,t,2.9,t,98.0,t,0.87,t,113.0,f,,other,-,850612058,Normal
+72.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.3,t,65.0,t,0.87,t,75.0,t,25.0,other,-,861020020,Normal
+35.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.46,f,,t,77.0,t,0.67,t,115.0,f,,other,-,851202021,Normal
+35.0,M,t,f,f,f,f,f,f,f,f,t,f,f,f,t,t,1.7,f,,t,83.0,t,1.12,t,74.0,f,,SVI,-,861110065,Normal
+41.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.06,f,,t,159.0,t,0.94,t,169.0,f,,other,L,860221104,Other / Related Diagnosis
+63.0,F,t,f,f,f,f,f,t,f,f,f,f,f,f,f,t,4.1,t,1.8,t,100.0,t,1.21,t,83.0,f,,other,-,860410097,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.2,f,,f,,f,,f,,other,-,851119093,Normal
+46.0,M,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,4.0,t,2.2,t,123.0,t,0.9,t,137.0,f,,other,-,861218093,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.1,t,116.0,t,1.05,t,110.0,f,,STMW,-,851202004,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,2.4,t,90.0,t,0.92,t,98.0,f,,other,-,850523032,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.3,t,86.0,t,0.93,t,92.0,f,,SVI,-,841009005,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.8,t,106.0,t,1.17,t,91.0,f,,SVHC,-,850822005,Normal
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,91.0,t,0.81,t,112.0,f,,other,-,860916095,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,31.0,t,2.3,t,236.0,t,1.02,t,231.0,f,,other,R,860728014,Other / Related Diagnosis
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.4,t,2.5,t,134.0,t,1.12,t,120.0,f,,SVHC,-,851028017,Normal
+76.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.3,t,93.0,t,0.82,t,113.0,f,,SVI,-,860728006,Normal
+67.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.5,t,1.4,t,139.0,t,1.06,t,131.0,f,,SVI,-,841127048,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,f,,t,86.0,t,1.01,t,85.0,f,,other,-,861106054,Normal
+29.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,2.6,t,157.0,t,1.31,t,120.0,f,,other,-,860828035,Normal
+34.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.095,t,6.1,t,182.0,t,1.0,t,182.0,f,,other,N,860725016,Other / Related Diagnosis
+24.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.77,t,2.8,t,110.0,t,0.91,t,121.0,f,,SVHC,-,850917039,Normal
+21.0,M,t,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,107.0,t,0.82,t,130.0,f,,other,-,841002054,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,0.4,t,80.0,t,0.57,t,140.0,f,,SVI,K,860717032,Other / Related Diagnosis
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,10.0,t,2.0,t,69.0,t,0.96,t,71.0,f,,SVI,G,850322014,Hypothyroid
+58.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,,f,,t,106.0,t,1.13,t,94.0,f,,other,-,860212069,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.8,t,1.4,t,96.0,t,0.99,t,97.0,f,,other,-,860701016,Normal
+49.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.8,t,109.0,t,1.04,t,104.0,f,,SVI,-,851107053,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.7,t,87.0,t,0.85,t,102.0,f,,other,-,850606020,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.2,t,140.0,t,1.14,t,123.0,f,,SVI,-,850417080,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,0.7,t,82.0,t,0.95,t,86.0,f,,SVI,K,860429078,Other / Related Diagnosis
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.8,t,81.0,t,1.16,t,70.0,f,,other,-,850812068,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.9,t,90.0,t,1.0,t,90.0,f,,SVI,-,850515036,Normal
+38.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,308.0,t,0.87,t,354.0,f,,other,A,840821049,Hyperthyroid
+30.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.0,t,3.5,t,120.0,t,1.18,t,102.0,f,,SVHC,-,860714004,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.0,t,91.0,t,0.95,t,96.0,f,,SVI,-,850318031,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.5,t,91.0,t,1.17,t,78.0,f,,SVI,-,850514052,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.3,t,79.0,t,0.96,t,82.0,f,,SVHC,-,841004004,Normal
+20.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.5,t,93.0,t,1.0,t,93.0,f,,other,-,850426057,Normal
+62.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,0.9,t,121.0,t,0.96,t,126.0,f,,other,-,860925046,Normal
+58.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.4,t,1.6,t,105.0,f,,f,,f,,other,-,850624038,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,2.2,t,129.0,t,0.97,t,133.0,f,,SVI,-,851204044,Normal
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.75,t,2.1,t,129.0,t,1.06,t,122.0,f,,other,-,860224046,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.1,t,2.5,t,149.0,t,1.09,t,137.0,f,,SVHC,-,850906013,Normal
+68.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.3,t,64.0,t,0.7,t,97.0,f,,other,-,840820052,Normal
+24.0,F,f,f,f,f,t,f,f,f,f,f,f,t,f,f,t,0.3,t,2.6,t,151.0,t,1.53,t,99.0,f,,STMW,-,840912005,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,1.8,t,96.0,t,0.69,t,140.0,f,,SVI,-,841214005,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005,f,,t,127.0,t,0.92,t,138.0,f,,SVI,-,851105064,Normal
+66.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.115,t,2.6,t,118.0,t,0.93,t,127.0,f,,other,-,860710061,Normal
+56.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,33.0,t,0.2,t,165.0,f,,other,LJ,840906077,Other / Related Diagnosis
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,2.2,t,138.0,t,0.97,t,143.0,f,,other,-,850502018,Normal
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.05,f,,t,117.0,t,0.78,t,150.0,f,,other,-,861203006,Normal
+39.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.5,t,125.0,t,0.98,t,128.0,f,,other,-,841115006,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.5,t,91.0,t,0.79,t,115.0,f,,SVHD,-,850328036,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.01,t,1.4,t,69.0,t,0.94,t,73.0,f,,other,-,870108062,Normal
+62.0,F,t,f,f,f,f,f,f,f,t,f,f,t,f,f,f,,f,,f,,f,,f,,t,36.0,other,S,840829052,Other / Related Diagnosis
+87.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,10.0,t,0.2,t,43.0,t,0.63,t,68.0,f,,SVI,-,861022045,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.09,t,2.1,t,116.0,t,0.98,t,118.0,f,,other,-,861211066,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.9,t,1.9,t,122.0,t,0.95,t,129.0,f,,SVI,-,850715032,Normal
+63.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,f,,t,156.0,t,1.01,t,154.0,f,,other,-,841122018,Normal
+14.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,2.7,t,80.0,t,0.83,t,97.0,f,,other,-,851017080,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.2,t,107.0,t,1.12,t,96.0,f,,other,-,850108015,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.52,t,2.4,t,158.0,t,1.18,t,134.0,f,,SVHC,-,850816002,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.2,t,98.0,t,0.93,t,105.0,f,,SVI,-,841219090,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,f,,t,77.0,t,0.63,t,122.0,f,,other,-,860722059,Normal
+35.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.14,t,1.9,t,73.0,t,1.16,t,63.0,t,37.0,other,-,851128040,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,f,,t,125.0,t,1.13,t,110.0,f,,other,-,850801069,Normal
+58.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.1,f,,t,101.0,t,0.98,t,103.0,f,,other,-,840921037,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.8,t,1.6,t,106.0,t,0.88,t,120.0,f,,other,-,850611014,Normal
+28.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,2.4,t,150.0,t,1.18,t,127.0,f,,other,-,860717056,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,2.2,t,128.0,t,1.29,t,99.0,f,,other,-,841015038,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,82.0,t,0.93,t,88.0,f,,other,-,850411019,Normal
+47.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.1,f,,t,117.0,t,1.09,t,107.0,f,,other,-,851205001,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,97.0,t,0.87,t,112.0,f,,SVI,-,870114023,Normal
+20.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,f,,t,145.0,t,1.51,t,96.0,f,,other,I,860320052,Other / Related Diagnosis
+54.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.2,t,1.7,t,168.0,t,1.14,t,147.0,f,,SVI,-,860715068,Normal
+30.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.5,f,,t,126.0,t,0.87,t,145.0,f,,SVHC,-,870109068,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.2,t,2.2,t,104.0,t,1.11,t,93.0,f,,other,-,850905037,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.6,t,95.0,t,0.99,t,96.0,f,,SVHC,-,850301010,Normal
+72.0,M,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.28,t,0.9,t,79.0,t,0.7,t,112.0,f,,SVI,K,850624009,Other / Related Diagnosis
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.63,t,2.5,t,111.0,t,0.97,t,114.0,f,,STMW,-,860901018,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.21,t,0.9,t,93.0,t,0.87,t,107.0,f,,SVI,K,860704064,Other / Related Diagnosis
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,1.4,t,140.0,t,1.13,t,124.0,f,,SVI,-,850628065,Normal
+54.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,14.0,t,2.0,t,62.0,t,0.9,t,69.0,f,,other,G,860909062,Hypothyroid
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.85,t,1.3,t,102.0,t,0.91,t,113.0,f,,SVHC,-,861016077,Normal
+71.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.7,t,1.7,t,93.0,t,0.98,t,94.0,f,,other,-,850912030,Normal
+89.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.4,f,,f,,f,,f,,other,-,841030005,Normal
+50.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.7,f,,t,90.0,t,0.92,t,98.0,f,,other,-,851024063,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.7,f,,f,,f,,f,,other,-,840913043,Normal
+1.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.5,t,100.0,t,0.93,t,107.0,f,,SVI,-,841109060,Normal
+29.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.27,t,2.1,t,92.0,t,1.04,t,88.0,f,,other,-,860717098,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.3,t,0.7,t,76.0,t,0.72,t,105.0,f,,SVHC,K,851105066,Other / Related Diagnosis
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.0,t,1.4,t,106.0,t,1.13,t,94.0,f,,other,-,841115033,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,4.5,t,2.1,t,83.0,t,0.95,t,87.0,f,,SVHC,-,861014003,Normal
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,8.099999,t,2.5,t,90.0,t,0.95,t,95.0,f,,SVHC,G,850926006,Hypothyroid
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.8,t,103.0,t,0.91,t,113.0,f,,SVHC,-,850104057,Normal
+34.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.25,t,6.7,t,230.0,t,1.73,t,133.0,f,,STMW,I,850419021,Other / Related Diagnosis
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.52,t,2.6,t,119.0,t,1.04,t,114.0,f,,other,-,860221050,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,12.0,t,1.7,t,67.0,t,0.87,t,77.0,f,,other,G,850501030,Hypothyroid
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.7,t,3.0,t,68.0,t,0.85,t,80.0,f,,SVI,I,850905047,Other / Related Diagnosis
+85.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,2.3,t,120.0,t,0.96,t,126.0,f,,SVI,-,851028062,Normal
+45.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,22.0,f,,t,65.0,t,1.15,t,57.0,f,,other,F,860711100,Hypothyroid
+32.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.1,t,92.0,t,1.05,t,88.0,f,,other,-,841108116,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,0.8,t,108.0,t,0.82,t,132.0,f,,other,K,860829021,Other / Related Diagnosis
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,t,1.4,t,130.0,t,0.85,t,153.0,f,,SVI,-,860403074,Normal
+71.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,2.3,t,1.8,t,111.0,t,1.03,t,108.0,f,,other,-,841119053,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,2.7,t,2.3,t,94.0,t,0.94,t,100.0,f,,other,-,860828030,Normal
+39.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.6,t,1.2,t,95.0,t,0.93,t,102.0,f,,SVHC,-,851216023,Normal
+29.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,2.4,t,102.0,t,1.01,t,101.0,f,,SVI,-,840816070,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,0.8,t,90.0,t,0.77,t,117.0,f,,SVI,K,850416058,Other / Related Diagnosis
+68.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.1,t,128.0,t,0.68,t,188.0,f,,other,-,851219059,Normal
+43.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.7,t,1.7,t,103.0,t,1.1,t,94.0,f,,other,-,841004076,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.1,t,0.2,t,59.0,t,0.73,t,82.0,f,,SVI,K,850606059,Other / Related Diagnosis
+42.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.7,t,84.0,t,0.63,t,133.0,f,,other,-,850716011,Normal
+74.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,28.0,f,,t,74.0,t,1.03,t,72.0,f,,other,M,850612057,Other / Related Diagnosis
+66.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,3.7,t,0.3,t,88.0,t,0.83,t,106.0,f,,SVI,K,841011070,Other / Related Diagnosis
+74.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.4,f,,t,123.0,t,1.57,t,79.0,f,,other,I,851126020,Other / Related Diagnosis
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,56.0,t,0.6,t,23.0,t,1.01,t,22.0,f,,other,F,841022007,Hypothyroid
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,2.5,t,123.0,t,1.0,t,123.0,f,,SVI,-,860422042,Normal
+54.0,F,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,0.94,t,1.3,t,78.0,t,1.12,t,70.0,f,,SVHC,-,850709018,Normal
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,f,,t,136.0,t,0.75,t,181.0,f,,SVI,-,861022041,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.7,t,112.0,t,1.01,t,111.0,f,,SVI,-,841219110,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.5,t,75.0,f,,f,,f,,other,-,860819031,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,132.0,t,1.12,t,118.0,f,,other,-,860317010,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,1.3,t,2.1,t,81.0,t,0.9,t,90.0,f,,other,-,851128068,Normal
+22.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,2.2,t,93.0,t,1.08,t,87.0,f,,other,-,850509090,Normal
+83.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.83,f,,t,125.0,t,0.94,t,133.0,f,,other,-,861031068,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.6,t,1.6,t,97.0,t,1.12,t,87.0,f,,SVHC,-,850618024,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,530.0,t,2.0,t,10.0,t,1.12,t,8.5,f,,other,F,850606023,Hypothyroid
+51.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,5.3,t,116.0,t,0.97,t,119.0,f,,other,-,860415065,Normal
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,2.5,t,84.0,t,1.06,t,79.0,f,,other,-,850515017,Normal
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.84,t,0.8,t,94.0,t,0.86,t,109.0,f,,other,K,850802054,Other / Related Diagnosis
+72.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.3,f,,t,96.0,t,0.98,t,99.0,f,,other,-,841102003,Normal
+48.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,98.0,t,1.9,t,29.0,t,1.11,t,26.0,f,,other,F,850409005,Hypothyroid
+54.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.04,t,3.1,t,231.0,t,0.96,t,241.0,f,,other,-,860918017,Normal
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,t,1.9,t,99.0,t,0.72,t,139.0,f,,SVHC,-,850523005,Normal
+39.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,5.7,f,,t,163.0,t,1.23,t,133.0,f,,other,L,860715076,Other / Related Diagnosis
+31.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,108.0,t,0.94,t,115.0,f,,other,-,861030012,Normal
+55.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.9,t,1.8,t,97.0,t,0.91,t,106.0,f,,other,-,850807079,Normal
+42.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.0,t,113.0,t,0.9,t,125.0,f,,other,-,841119036,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,1.5,t,2.9,t,89.0,t,1.0,t,89.0,f,,other,-,860805013,Normal
+76.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,,f,,t,98.0,t,1.12,t,87.0,f,,other,-,860207058,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.6,t,2.4,t,105.0,t,0.99,t,106.0,f,,SVHC,-,861020045,Normal
+70.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.9,t,87.0,t,0.87,t,100.0,f,,SVI,-,850509023,Normal
+34.0,F,f,f,f,f,t,f,f,f,t,f,f,f,f,f,t,0.005,t,3.5,t,198.0,t,1.79,t,111.0,f,,STMW,I,850816018,Other / Related Diagnosis
+66.0,F,t,f,f,f,f,f,t,t,f,f,f,f,f,f,t,2.4,f,,t,174.0,t,1.16,t,150.0,f,,other,-,860717084,Normal
+31.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.3,t,150.0,t,1.42,t,106.0,f,,SVHC,-,850426012,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,58.0,t,2.4,t,25.0,t,1.21,t,20.0,f,,SVI,F,850808009,Hypothyroid
+13.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,f,,t,102.0,t,0.8,t,128.0,f,,other,-,861204003,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,164.0,t,1.34,t,122.0,f,,other,I,861030010,Other / Related Diagnosis
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.9,t,78.0,t,0.95,t,82.0,f,,other,-,841003037,Normal
+35.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,f,,t,129.0,t,1.01,t,128.0,f,,other,-,850808092,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,f,,t,104.0,t,0.9,t,116.0,f,,other,-,850521033,Normal
+69.0,M,t,f,f,f,f,f,t,f,t,f,f,f,f,f,t,0.3,t,2.6,t,89.0,t,1.1,t,81.0,f,,other,-,850328024,Normal
+30.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.97,t,1.7,t,51.0,t,0.56,t,91.0,f,,other,J,861212010,Other / Related Diagnosis
+47.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.9,t,113.0,t,1.13,t,100.0,f,,other,-,850404004,Normal
+43.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.5,t,0.4,t,47.0,t,0.88,t,53.0,f,,other,HK,861013005,Hypothyroid
+62.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,11.0,t,0.8,t,73.0,t,0.74,t,98.0,f,,SVI,GK,850102020,Hypothyroid
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,f,,t,115.0,t,0.9,t,128.0,f,,SVI,-,850321050,Normal
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,1.4,t,103.0,t,1.1,t,94.0,f,,other,-,850725072,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,85.0,t,0.79,t,108.0,f,,other,-,851211054,Normal
+22.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.055,t,6.2,t,386.0,t,1.02,t,378.0,f,,other,A,860411024,Hyperthyroid
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.3,t,96.0,t,0.78,t,123.0,f,,SVHC,-,860818047,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.085,t,2.1,t,173.0,t,0.93,t,186.0,f,,other,-,860429108,Normal
+73.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.2,t,1.5,t,69.0,t,0.8,t,86.0,f,,SVI,-,850911064,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.3,t,92.0,t,0.95,t,97.0,f,,SVI,-,850529021,Normal
+14.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.5,t,119.0,t,0.73,t,163.0,f,,other,L,861204098,Other / Related Diagnosis
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.5,t,114.0,t,0.99,t,115.0,f,,SVI,-,850521055,Normal
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.8,t,82.0,t,0.92,t,89.0,f,,other,-,860409073,Normal
+53.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,t,2.2,t,83.0,f,,f,,f,,other,-,860820049,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.15,t,2.0,t,102.0,t,0.99,t,103.0,f,,SVHC,-,840925034,Normal
+49.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,t,1.2,t,144.0,t,0.88,t,164.0,f,,SVI,-,861104045,Normal
+22.0,M,f,f,t,f,f,f,f,f,t,f,f,f,f,f,t,1.5,t,1.3,t,85.0,t,1.02,t,82.0,f,,other,-,841015056,Normal
+56.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,1.7,t,86.0,t,0.91,t,95.0,f,,other,-,850628028,Normal
+41.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.7,t,115.0,t,0.87,t,132.0,f,,other,-,861211041,Normal
+20.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.2,t,1.5,t,63.0,t,0.71,t,89.0,f,,STMW,-,840824015,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.33,t,1.8,t,134.0,t,0.97,t,138.0,f,,other,-,850828013,Normal
+59.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,7.8,f,,t,89.0,t,0.85,t,105.0,f,,other,G,860724062,Hypothyroid
+57.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.0,t,1.6,t,73.0,t,0.97,t,75.0,f,,SVI,-,850308047,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,28.0,other,-,861029028,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,,t,2.1,t,79.0,t,0.63,t,125.0,f,,other,-,841004013,Normal
+57.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.02,t,2.1,t,193.0,f,,f,,f,,other,L,861217039,Other / Related Diagnosis
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.2,t,134.0,t,1.18,t,114.0,f,,other,-,851017074,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.2,t,81.0,t,0.94,t,86.0,f,,SVI,-,850522005,Normal
+42.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.12,f,,t,149.0,t,1.05,t,143.0,f,,other,-,850528051,Normal
+45.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.2,t,2.1,t,101.0,t,0.84,t,121.0,f,,SVI,-,850318036,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.8,t,2.4,t,96.0,t,1.06,t,90.0,f,,other,G,850606047,Hypothyroid
+48.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.63,f,,t,132.0,t,1.07,t,123.0,f,,other,-,861016060,Normal
+49.0,M,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.015,f,,t,137.0,t,0.8,t,170.0,f,,other,-,850917070,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.5,t,111.0,t,1.3,t,85.0,f,,other,-,860904034,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.3,t,2.1,t,92.0,t,1.05,t,88.0,f,,other,-,851101032,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.0,t,2.6,t,140.0,t,1.32,t,106.0,f,,other,-,840824043,Normal
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.9,t,1.8,t,131.0,t,0.98,t,133.0,f,,SVI,-,850918060,Normal
+35.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.54,t,2.3,t,99.0,t,1.08,t,92.0,f,,other,-,860228067,Normal
+75.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.0,t,84.0,t,0.9,t,93.0,f,,SVI,-,850313081,Normal
+61.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005,t,2.5,t,114.0,t,0.93,t,122.0,f,,other,-,850613066,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.94,t,2.4,t,80.0,t,1.06,t,76.0,f,,other,-,851126003,Normal
+16.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,252.0,t,1.7,t,5.0,t,1.08,t,5.0,f,,other,F,860821040,Hypothyroid
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.0,t,98.0,t,1.03,t,95.0,f,,other,-,840913019,Normal
+59.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.1,t,77.0,t,0.72,t,107.0,f,,SVI,-,850312037,Normal
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,f,,t,77.0,t,0.74,t,104.0,f,,other,-,851029002,Normal
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,18.0,t,2.0,t,76.0,t,1.08,t,70.0,f,,SVI,G,861201055,Hypothyroid
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,129.0,t,1.08,t,120.0,f,,SVI,-,860312044,Normal
+34.0,F,f,f,f,f,t,f,f,f,t,f,f,t,f,f,t,0.25,t,3.9,t,139.0,t,1.27,t,110.0,f,,other,CI,850506079,Hyperthyroid
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.7,t,2.3,t,136.0,t,1.07,t,127.0,f,,SVHC,-,850911032,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,86.0,t,0.98,t,88.0,f,,other,-,850517051,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.6,t,86.0,t,0.93,t,92.0,f,,SVI,-,850503011,Normal
+53.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.24,f,,t,153.0,t,0.95,t,161.0,f,,other,L,861027017,Other / Related Diagnosis
+76.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.97,f,,t,63.0,t,0.88,t,72.0,f,,other,-,860708055,Normal
+28.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.8,t,78.0,t,1.01,t,77.0,f,,other,-,840904034,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.7,t,107.0,f,,f,,f,,STMW,-,841011015,Normal
+55.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.98,f,,t,107.0,t,0.99,t,107.0,f,,other,-,851205082,Normal
+31.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,49.0,f,,t,87.0,t,1.35,t,64.0,f,,other,F,861203010,Hypothyroid
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.015,t,2.7,t,122.0,t,0.83,t,147.0,f,,other,-,850912017,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.8,t,176.0,t,1.29,t,136.0,f,,SVI,I,841002012,Other / Related Diagnosis
+61.0,F,t,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.7,t,2.2,t,118.0,f,,f,,f,,other,-,860203058,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.9,t,89.0,t,1.0,t,89.0,f,,SVI,-,841221046,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,93.0,t,0.91,t,102.0,f,,other,-,860207011,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.4,t,79.0,t,0.72,t,110.0,f,,SVI,-,840903072,Normal
+42.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.2,f,,t,51.0,t,0.78,t,65.0,f,,other,-,840823087,Normal
+66.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,81.0,t,1.29,t,63.0,f,,other,I,840821022,Other / Related Diagnosis
+21.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,7.0,t,2.4,t,45.0,t,1.11,t,41.0,f,,other,O,860918027,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,26.0,other,-,850329040,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,2.6,t,86.0,t,0.88,t,98.0,f,,SVHC,-,850527023,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,2.0,t,96.0,t,1.1,t,88.0,f,,other,-,850813013,Normal
+35.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,f,,f,,f,,t,143.0,f,,other,-,861023091,Normal
+66.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.05,t,1.1,t,69.0,t,0.78,t,88.0,f,,other,-,860318004,Normal
+83.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,0.9,t,56.0,t,0.67,t,84.0,f,,SVHC,K,851128077,Other / Related Diagnosis
+81.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.7,t,71.0,t,0.92,t,77.0,f,,other,-,851112051,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.45,t,1.6,t,101.0,t,0.89,t,114.0,f,,other,-,850820002,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.9,t,159.0,t,1.04,t,153.0,f,,other,-,850509015,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,t,f,f,f,t,t,1.2,t,1.3,t,95.0,t,1.02,t,93.0,f,,SVHC,-,860925070,Normal
+48.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.3,t,8.9,t,212.0,t,0.88,t,240.0,f,,other,A,841220058,Hyperthyroid
+22.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,2.0,t,75.0,f,,f,,f,,SVHC,-,860717031,Normal
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,136.0,t,1.5,t,90.0,f,,STMW,I,860305041,Other / Related Diagnosis
+44.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.8,t,134.0,t,1.13,t,113.0,f,,other,-,840816063,Normal
+36.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,95.0,t,0.76,t,125.0,f,,other,-,850308071,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,t,2.1,t,87.0,t,0.75,t,115.0,f,,other,-,851015044,Normal
+62.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.62,f,,t,154.0,t,1.75,t,88.0,f,,SVHC,I,861217046,Other / Related Diagnosis
+57.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,f,,t,79.0,t,0.81,t,98.0,f,,other,-,860814048,Normal
+56.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.1,f,,t,130.0,t,1.12,t,116.0,f,,SVI,-,861229013,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.6,t,99.0,t,0.71,t,140.0,f,,SVHC,-,860422005,Normal
+49.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.8,t,98.0,t,1.13,t,87.0,f,,other,-,860818023,Normal
+76.0,,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.4,t,2.4,t,118.0,t,0.91,t,130.0,f,,other,-,851017058,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,0.9,t,91.0,t,0.54,t,169.0,f,,SVI,KJ,860918028,Other / Related Diagnosis
+1.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.6,t,110.0,t,0.77,t,143.0,f,,SVI,-,841119049,Normal
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.1,t,97.0,t,0.8,t,121.0,f,,other,K,840822008,Other / Related Diagnosis
+63.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.7,t,1.9,t,89.0,t,1.04,t,85.0,f,,SVI,G,850724041,Hypothyroid
+23.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.2,t,0.8,t,66.0,t,0.98,t,67.0,f,,SVI,GK,840921041,Hypothyroid
+55.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,2.8,t,189.0,t,1.66,t,114.0,f,,other,-,850107044,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,1.2,t,92.0,t,0.69,t,133.0,f,,SVI,-,861128026,Normal
+59.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.2,t,70.0,t,0.71,t,99.0,f,,other,-,850410010,Normal
+18.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.48,t,1.5,t,87.0,t,0.87,t,100.0,f,,SVHC,-,860421050,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,3.1,t,144.0,t,1.79,t,80.0,f,,other,I,840903010,Other / Related Diagnosis
+32.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.3,t,157.0,t,1.05,t,150.0,f,,other,-,860417065,Normal
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.78,f,,t,106.0,t,0.88,t,121.0,f,,SVI,-,851219041,Normal
+80.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.2,t,1.8,t,111.0,t,0.97,t,114.0,f,,SVI,-,850513045,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.9,t,2.3,t,135.0,t,1.07,t,126.0,f,,SVHC,-,850919012,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,t,2.9,f,,f,,f,,f,,other,-,840814014,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,1.8,t,99.0,f,,f,,f,,other,-,851018016,Normal
+62.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,,t,0.6,f,,f,,f,,f,,other,-,861024068,Normal
+20.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.5,t,2.9,t,138.0,t,1.32,t,105.0,f,,SVHC,-,841219116,Normal
+28.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.7,t,2.4,t,107.0,t,0.96,t,112.0,f,,SVHC,-,861016088,Normal
+71.0,F,f,f,f,t,f,f,f,f,t,f,f,f,f,f,t,0.03,t,3.8,t,171.0,t,1.13,t,151.0,f,,other,-,850710045,Normal
+40.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,134.0,t,1.2,t,112.0,f,,other,-,850725056,Normal
+73.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.01,t,1.8,t,95.0,f,,f,,f,,SVHC,-,860303005,Normal
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,f,,t,123.0,t,0.89,t,139.0,f,,SVI,-,860211045,Normal
+59.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,157.0,t,0.96,t,164.0,f,,other,L,840828046,Other / Related Diagnosis
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,101.0,t,1.11,t,93.0,f,,other,-,840927037,Normal
+64.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,36.0,other,S,850604065,Other / Related Diagnosis
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,106.0,t,1.16,t,91.0,f,,other,-,841018084,Normal
+27.0,F,t,f,f,f,f,f,f,t,t,f,f,f,f,f,t,1.0,f,,t,138.0,t,0.91,t,152.0,f,,other,-,860228076,Normal
+50.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,108.0,t,0.88,t,123.0,f,,other,-,861127014,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.67,f,,t,118.0,t,1.22,t,97.0,f,,other,-,861124020,Normal
+39.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,3.2,t,108.0,t,1.07,t,100.0,f,,STMW,I,850925067,Other / Related Diagnosis
+21.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.4,t,97.0,t,0.85,t,114.0,f,,other,-,841008047,Normal
+57.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,f,,f,,f,,f,,t,23.0,other,-,850329036,Normal
+30.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.9,t,120.0,t,0.98,t,122.0,f,,other,-,840821011,Normal
+58.0,M,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.8,t,2.2,t,97.0,t,1.1,t,88.0,f,,other,-,851101068,Normal
+41.0,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,0.15,t,1.8,t,94.0,t,1.03,t,91.0,f,,other,-,841101013,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.7,t,166.0,t,1.49,t,111.0,f,,other,I,860826072,Other / Related Diagnosis
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.7,t,153.0,t,1.06,t,144.0,f,,SVI,-,850830050,Normal
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.2,t,81.0,t,0.99,t,82.0,f,,SVI,-,850422033,Normal
+29.0,F,f,t,f,f,f,f,f,t,f,f,f,f,f,f,t,20.0,f,,t,79.0,t,1.16,t,68.0,f,,other,G,860219080,Hypothyroid
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,f,,t,95.0,t,0.87,t,109.0,f,,SVI,-,860902026,Normal
+33.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.1,t,3.9,t,115.0,t,1.04,t,110.0,f,,other,-,860422055,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,2.4,t,98.0,t,0.93,t,105.0,f,,SVI,-,861007017,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.6,t,1.9,t,115.0,t,0.98,t,118.0,f,,other,-,851003046,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.2,t,2.2,t,72.0,t,1.08,t,66.0,f,,other,G,851031064,Hypothyroid
+65.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.8,t,2.7,t,105.0,t,1.16,t,91.0,f,,other,-,860822002,Normal
+76.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.4,t,91.0,t,0.85,t,108.0,f,,SVI,-,851025051,Normal
+47.0,M,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,1.2,t,2.1,t,105.0,t,0.89,t,118.0,f,,SVHC,-,860820003,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.6,f,,t,107.0,t,1.02,t,105.0,f,,other,G,861106005,Hypothyroid
+29.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.0,f,,t,98.0,t,0.85,t,114.0,f,,other,M,851009029,Other / Related Diagnosis
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.0,t,93.0,t,0.91,t,102.0,f,,SVI,-,851004001,Normal
+17.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,95.0,t,1.02,t,93.0,f,,other,-,841019024,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.6,t,150.0,t,1.25,t,120.0,f,,SVI,-,841123070,Normal
+33.0,,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.015,t,5.0,t,244.0,t,0.67,t,362.0,f,,other,A,851205046,Hyperthyroid
+84.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.6,t,70.0,t,0.93,t,75.0,f,,SVI,-,850429041,Normal
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.1,t,140.0,t,0.9,t,156.0,f,,SVHC,-,860327001,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.015,t,2.6,t,166.0,t,0.8,t,207.0,f,,SVI,AK,850718065,Hyperthyroid
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,1.14,f,,t,92.0,t,0.93,t,99.0,f,,other,-,860922005,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.5,t,125.0,t,1.14,t,109.0,f,,SVHC,-,851219039,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.02,t,2.3,t,122.0,t,1.66,t,73.0,f,,STMW,-,850614015,Normal
+59.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,9.7,f,,t,81.0,t,0.96,t,84.0,f,,other,G,851009028,Hypothyroid
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.05,t,3.6,t,94.0,t,1.02,t,92.0,f,,SVI,C,850108010,Hyperthyroid
+71.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.01,f,,t,146.0,t,0.93,t,156.0,f,,other,-,851212085,Normal
+61.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,17.0,t,2.2,t,131.0,t,1.22,t,108.0,f,,SVI,M,850730037,Other / Related Diagnosis
+19.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,18.4,t,2.0,t,105.0,f,,f,,f,,other,G,850429006,Hypothyroid
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.61,t,1.7,t,108.0,t,0.8,t,135.0,f,,SVHC,-,860409010,Normal
+65.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,23.0,f,,t,78.0,t,0.92,t,85.0,f,,other,G,861113005,Hypothyroid
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,100.0,t,1.15,t,87.0,f,,other,-,850816016,Normal
+49.0,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,f,,t,3.9,t,240.0,t,1.25,t,192.0,f,,other,A,861117027,Hyperthyroid
+59.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,2.8,t,87.0,t,1.0,t,87.0,f,,SVI,-,850514057,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.6,t,75.0,t,0.66,t,114.0,f,,SVI,-,841002048,Normal
+69.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,f,,t,130.0,t,1.07,t,122.0,f,,other,-,861024035,Normal
+89.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,20.0,other,-,850329073,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,1.6,t,129.0,t,1.22,t,106.0,f,,SVI,-,850626020,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.9,t,88.0,t,0.84,t,105.0,f,,STMW,-,840926013,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.09,t,3.7,t,201.0,t,0.97,t,207.0,f,,other,-,860717121,Normal
+88.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,7.9,t,1.9,t,47.0,t,1.07,t,44.0,f,,other,F,840910006,Hypothyroid
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,f,,t,119.0,t,0.94,t,128.0,f,,SVI,-,860326087,Normal
+67.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,t,1.9,t,91.0,t,0.79,t,115.0,f,,SVI,-,850808058,Normal
+30.0,F,t,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.4,t,2.9,t,217.0,t,1.62,t,133.0,f,,STMW,I,841116020,Other / Related Diagnosis
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,45.0,t,1.4,t,39.0,t,1.16,t,33.0,f,,SVI,F,850909011,Hypothyroid
+34.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,7.9,f,,t,88.0,t,0.83,t,106.0,f,,other,-,861127038,Normal
+67.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,44.0,f,,t,31.0,t,1.04,t,29.0,f,,other,F,860407061,Hypothyroid
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,22.0,other,-,850819041,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.1,f,,t,73.0,t,0.81,t,90.0,f,,other,-,840914043,Normal
+41.0,M,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,8.4,f,,t,94.0,t,0.84,t,112.0,f,,SVHC,G,860730010,Hypothyroid
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.5,t,4.1,t,139.0,t,1.65,t,84.0,f,,SVI,GI,850506051,Hypothyroid
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.1,t,183.0,t,0.93,t,197.0,f,,SVI,AK,841011004,Hyperthyroid
+59.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.9,t,144.0,t,0.93,t,156.0,f,,other,L,850410009,Other / Related Diagnosis
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,106.0,t,1.28,t,84.0,f,,other,I,850506071,Other / Related Diagnosis
+43.0,F,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.02,t,2.0,t,183.0,t,1.05,t,174.0,f,,other,N,861204069,Other / Related Diagnosis
+28.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,3.7,t,2.8,t,100.0,f,,f,,f,,other,-,850521036,Normal
+72.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,1.1,t,108.0,t,0.66,t,165.0,f,,SVI,-,850327056,Normal
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.3,t,98.0,t,0.93,t,105.0,f,,other,-,861023056,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.08,t,2.8,t,109.0,t,0.9,t,121.0,f,,other,-,851003064,Normal
+54.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,t,2.0,t,110.0,t,0.99,t,111.0,f,,other,-,850725052,Normal
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,13.0,other,-,851004030,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.2,t,3.6,t,139.0,t,1.53,t,91.0,f,,other,I,850823003,Other / Related Diagnosis
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.4,t,123.0,t,0.99,t,124.0,f,,SVI,-,841121079,Normal
+59.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.0,t,152.0,t,0.91,t,167.0,f,,other,L,840907001,Other / Related Diagnosis
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,2.4,t,117.0,t,1.02,t,115.0,f,,other,-,850410050,Normal
+28.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.0,t,105.0,t,0.9,t,116.0,f,,SVHC,-,850604029,Normal
+72.0,F,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,6.0,t,2.4,t,118.0,t,1.26,t,94.0,f,,SVI,-,850826033,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.0,t,124.0,t,0.96,t,130.0,f,,other,-,851010012,Normal
+31.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.6,t,124.0,t,0.96,t,129.0,f,,other,-,861218038,Normal
+51.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.7,t,2.6,t,126.0,t,1.03,t,122.0,f,,other,-,840822027,Normal
+59.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.9,t,96.0,t,0.94,t,101.0,f,,SVHC,-,841221033,Normal
+29.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.2,t,2.3,t,99.0,t,0.96,t,104.0,f,,other,-,860327015,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,4.4,t,2.7,t,131.0,t,1.73,t,76.0,f,,SVHC,-,850708019,Normal
+25.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.47,t,2.0,t,78.0,f,,f,,f,,other,-,860811059,Normal
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,f,,t,148.0,t,1.07,t,138.0,f,,other,-,841203024,Normal
+17.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.6,t,2.6,t,102.0,t,0.97,t,106.0,f,,other,-,850404061,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,103.0,t,1.15,t,90.0,f,,SVI,-,861031035,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.3,t,1.4,t,95.0,t,0.96,t,98.0,f,,SVI,G,841210031,Hypothyroid
+47.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,8.0,t,1.6,t,58.0,t,0.36,t,161.0,f,,other,-,841017055,Normal
+60.0,F,t,f,f,f,f,f,t,f,t,f,f,f,f,f,t,7.4,t,1.9,t,125.0,t,0.99,t,126.0,f,,other,M,840823077,Other / Related Diagnosis
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.8,t,122.0,t,1.12,t,109.0,f,,other,-,860204006,Normal
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,2.9,t,107.0,t,0.87,t,123.0,f,,SVHC,-,860903005,Normal
+41.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.39,t,1.9,t,120.0,t,1.03,t,117.0,f,,SVI,-,851105062,Normal
+37.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.4,t,106.0,t,0.97,t,109.0,f,,SVHC,-,850911041,Normal
+18.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.9,t,83.0,t,1.08,t,77.0,f,,STMW,-,851011009,Normal
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,3.3,t,82.0,t,0.89,t,92.0,f,,SVHC,R,860722002,Other / Related Diagnosis
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.9,t,125.0,t,1.01,t,124.0,f,,SVI,-,850902001,Normal
+27.0,F,f,f,t,f,f,f,f,f,t,f,f,f,f,f,t,2.3,t,2.5,t,70.0,t,1.02,t,68.0,f,,other,-,841115029,Normal
+43.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,126.0,t,1.03,t,122.0,f,,other,-,860930071,Normal
+74.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,7.2,t,1.3,t,96.0,t,0.99,t,97.0,f,,other,M,860327075,Other / Related Diagnosis
+62.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.94,t,1.8,t,83.0,t,0.82,t,101.0,f,,other,-,861218028,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,24.0,t,1.1,t,85.0,t,0.73,t,116.0,f,,SVI,GK,840928028,Hypothyroid
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,3.2,t,146.0,t,1.2,t,122.0,f,,other,I,860728073,Other / Related Diagnosis
+73.0,M,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.1,t,1.0,t,104.0,t,0.76,t,137.0,f,,other,K,841009050,Other / Related Diagnosis
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,34.0,t,1.5,t,88.0,t,1.06,t,83.0,f,,other,G,850902033,Hypothyroid
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,90.0,t,0.87,t,103.0,f,,other,-,861127001,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.5,t,107.0,t,1.0,t,105.0,f,,other,-,861021031,Normal
+20.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.4,f,,t,148.0,t,1.2,t,123.0,f,,other,-,841018012,Normal
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,75.0,t,0.87,t,86.0,f,,other,-,850715049,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,118.0,t,1.02,t,115.0,f,,other,-,851024071,Normal
+74.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.37,f,,t,131.0,t,0.84,t,156.0,f,,other,-,861113018,Normal
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.0,t,1.1,t,110.0,t,0.84,t,131.0,f,,SVI,GK,860717106,Hypothyroid
+57.0,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.25,t,1.1,t,65.0,t,0.83,t,78.0,f,,other,P,841025054,Other / Related Diagnosis
+66.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,f,,t,134.0,t,0.98,t,137.0,f,,SVI,-,851127025,Normal
+85.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,2.5,t,194.0,t,1.08,t,180.0,f,,SVI,R,860829061,Other / Related Diagnosis
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.9,t,128.0,f,,f,,f,,other,-,840801014,Normal
+7.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,2.3,t,54.0,t,0.86,t,63.0,f,,other,R,850613035,Other / Related Diagnosis
+70.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.1,t,2.1,t,69.0,t,1.14,t,61.0,f,,SVHC,-,841129094,Normal
+50.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.2,t,98.0,t,1.03,t,95.0,f,,SVI,-,841129084,Normal
+66.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,2.7,t,1.0,t,67.0,t,0.83,t,80.0,f,,other,P,860325038,Other / Related Diagnosis
+41.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.0,f,,t,78.0,t,0.75,t,104.0,f,,SVHC,-,861118007,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.5,t,111.0,t,0.98,t,114.0,f,,SVI,-,851004054,Normal
+86.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.4,t,94.0,t,1.01,t,93.0,f,,SVI,-,840823001,Normal
+84.0,M,f,f,f,f,f,f,f,f,t,f,f,t,f,f,t,0.54,f,,t,72.0,t,0.7,t,103.0,f,,SVI,-,870112012,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.7,t,81.0,t,0.95,t,86.0,f,,SVHC,-,860404088,Normal
+63.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,t,2.1,t,157.0,t,1.16,t,135.0,f,,SVI,-,850617043,Normal
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.3,t,104.0,t,0.92,t,113.0,f,,SVHC,-,860228007,Normal
+39.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.6,t,3.0,t,125.0,t,1.13,t,111.0,f,,SVHC,-,850724009,Normal
+60.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.18,t,2.1,t,132.0,t,1.1,t,120.0,f,,other,-,850815054,Normal
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,105.0,t,0.94,t,112.0,f,,other,-,860321010,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,100.0,t,0.9,t,62.0,t,0.94,t,66.0,f,,SVI,GK,840921008,Hypothyroid
+68.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,186.0,t,1.1,t,169.0,f,,other,L,841115010,Other / Related Diagnosis
+58.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.1,t,115.0,t,0.95,t,121.0,f,,other,-,841123009,Normal
+47.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,139.0,t,1.04,t,134.0,f,,other,-,860213079,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,f,,t,99.0,t,0.99,t,99.0,f,,other,-,860304032,Normal
+74.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.6,t,111.0,t,0.96,t,116.0,f,,other,-,841129068,Normal
+74.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,3.6,t,2.0,t,84.0,t,0.78,t,108.0,f,,SVI,-,861223028,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.5,t,139.0,t,1.03,t,135.0,f,,other,-,850820053,Normal
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.5,t,110.0,t,1.0,t,110.0,f,,other,-,850104012,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.5,t,116.0,t,0.88,t,132.0,f,,SVI,-,860205054,Normal
+79.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.8,t,1.5,t,105.0,t,1.05,t,100.0,f,,other,-,851224016,Normal
+36.0,F,f,f,f,f,f,f,f,t,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,27.0,other,-,841108103,Normal
+62.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.1,t,116.0,t,1.12,t,103.0,f,,SVHD,-,860409054,Normal
+75.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.12,t,1.5,t,117.0,t,0.94,t,125.0,f,,SVI,-,850613032,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.8,f,,t,84.0,t,1.04,t,80.0,f,,SVI,-,860218003,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.3,t,103.0,t,1.08,t,95.0,f,,SVI,-,850423030,Normal
+19.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.3,t,7.6,t,221.0,t,0.86,t,256.0,f,,other,A,841220047,Hyperthyroid
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,144.0,t,1.7,t,85.0,f,,other,I,861014069,Other / Related Diagnosis
+82.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,6.6,t,1.6,t,92.0,t,1.0,t,91.0,f,,SVHC,G,851217008,Hypothyroid
+45.0,F,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.1,t,2.3,t,206.0,t,1.05,t,196.0,f,,other,N,840921025,Other / Related Diagnosis
+78.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.05,t,1.7,t,106.0,t,1.03,t,99.0,f,,SVI,-,841018058,Normal
+72.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,180.0,t,0.9,t,200.0,f,,other,N,840917039,Other / Related Diagnosis
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.0,t,84.0,f,,f,,f,,other,-,851011004,Normal
+64.0,M,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,3.3,f,,t,89.0,t,0.65,t,137.0,f,,other,-,870113003,Normal
+41.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.7,t,83.0,t,0.79,t,105.0,f,,other,-,861103041,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.6,t,84.0,t,0.87,t,97.0,f,,SVI,-,850307060,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,t,1.5,t,89.0,t,1.12,t,79.0,f,,SVI,G,850430083,Hypothyroid
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,1.9,t,108.0,t,0.93,t,116.0,f,,SVI,-,851016061,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,62.0,t,0.9,t,69.0,f,,SVI,-,870113028,Normal
+43.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.8,f,,t,117.0,t,0.77,t,151.0,f,,other,-,860221009,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,3.9,t,97.0,t,0.84,t,115.0,f,,other,R,850108054,Other / Related Diagnosis
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.099999,t,1.3,t,88.0,t,1.06,t,83.0,f,,other,G,850718041,Hypothyroid
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.2,t,1.0,t,133.0,t,0.79,t,168.0,f,,SVHC,-,841009099,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.93,f,,t,114.0,t,1.02,t,112.0,f,,SVI,-,861008063,Normal
+45.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.8,t,94.0,t,0.84,t,111.0,f,,SVHC,-,850514019,Normal
+27.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,2.7,t,116.0,t,0.87,t,134.0,f,,SVHC,-,860305010,Normal
+43.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.1,t,94.0,t,1.0,t,94.0,f,,SVI,-,841120045,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,157.0,t,1.06,t,148.0,f,,SVI,-,860410041,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.2,t,75.0,t,0.95,t,79.0,f,,SVI,-,841123060,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,90.0,t,0.89,t,101.0,f,,other,-,851009003,Normal
+87.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.1,t,118.0,t,0.75,t,157.0,f,,SVI,-,860226078,Normal
+76.0,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.07,t,3.3,t,183.0,t,1.0,t,183.0,f,,other,A,860807069,Hyperthyroid
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,861029070,Other / Related Diagnosis
+64.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,1.8,t,2.1,t,97.0,t,1.04,t,93.0,f,,other,-,861113014,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,2.5,t,131.0,t,0.91,t,144.0,f,,SVI,-,850506052,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,2.3,t,2.0,t,78.0,t,1.04,t,75.0,f,,other,-,850502036,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,53.0,other,S,841019084,Other / Related Diagnosis
+22.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,1.8,t,145.0,t,0.92,t,158.0,f,,other,R,861209026,Other / Related Diagnosis
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,1.3,t,118.0,t,0.74,t,159.0,f,,other,R,841002008,Other / Related Diagnosis
+42.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,2.0,t,91.0,t,0.91,t,100.0,f,,SVI,-,840816010,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,f,,t,114.0,t,0.89,t,129.0,f,,other,-,851206046,Normal
+29.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.1,t,1.5,t,93.0,t,0.75,t,124.0,f,,other,-,850815012,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,t,1.9,t,108.0,t,1.04,t,103.0,f,,SVHC,-,850911038,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,14.0,t,0.2,t,4.0,t,0.98,t,4.0,f,,other,F,840924016,Hypothyroid
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.2,t,87.0,t,1.28,t,68.0,f,,SVI,-,841011063,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.055,f,,t,148.0,t,0.95,t,156.0,f,,SVI,A,860930050,Hyperthyroid
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,27.0,t,1.8,t,65.0,t,0.99,t,66.0,f,,SVI,G,850802069,Hypothyroid
+32.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.7,t,85.0,t,0.84,t,101.0,f,,other,-,850516009,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.0,t,83.0,t,1.31,t,63.0,f,,SVI,I,851025041,Other / Related Diagnosis
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,2.4,t,86.0,t,0.79,t,109.0,f,,other,-,870109027,Normal
+57.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.6,t,0.7,t,115.0,f,,f,,f,,SVI,K,851209044,Other / Related Diagnosis
+48.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,119.0,t,0.82,t,145.0,f,,other,-,840927006,Normal
+61.0,M,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.2,t,2.3,t,96.0,t,0.72,t,133.0,f,,other,-,860821041,Normal
+38.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.55,t,2.2,t,145.0,t,1.01,t,144.0,f,,other,-,861218019,Normal
+25.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,16.0,other,-,861015039,Normal
+60.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.0,t,1.4,t,57.0,t,0.62,t,92.0,f,,other,M,851219018,Other / Related Diagnosis
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.59,f,,t,115.0,t,1.2,t,96.0,f,,other,-,850905052,Normal
+68.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.6,t,99.0,t,0.94,t,104.0,f,,other,-,841129102,Normal
+48.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,103.0,t,1.05,t,99.0,f,,other,-,841122044,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.1,t,74.0,t,1.11,t,67.0,f,,SVI,-,841113062,Normal
+78.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.0,t,123.0,t,0.91,t,135.0,f,,SVHC,-,851024081,Normal
+66.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,1.8,f,,t,105.0,t,1.08,t,97.0,f,,other,-,860925006,Normal
+58.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.3,f,,t,120.0,t,0.95,t,126.0,f,,SVI,-,861120039,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,25.0,other,-,851023037,Normal
+70.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.03,t,2.1,t,204.0,t,0.93,t,219.0,f,,other,L,861029083,Other / Related Diagnosis
+82.0,F,t,f,f,t,f,f,f,f,f,f,f,f,f,f,t,4.7,t,1.4,t,98.0,t,0.91,t,108.0,f,,other,-,861105051,Normal
+79.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,f,,t,127.0,t,0.93,t,137.0,f,,other,M,860411061,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,f,,t,100.0,t,1.1,t,91.0,f,,other,-,861209023,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,f,,t,100.0,t,1.0,t,100.0,f,,other,-,841109006,Normal
+21.0,M,f,f,f,f,f,t,t,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,18.0,other,-,840906089,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,151.0,t,1.4,t,42.0,t,1.06,t,39.0,f,,other,F,850925061,Hypothyroid
+70.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.46,t,1.5,t,118.0,t,0.75,t,157.0,f,,other,R,860915073,Other / Related Diagnosis
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.7,t,1.4,t,81.0,t,1.14,t,71.0,f,,other,-,841024017,Normal
+46.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.87,t,2.6,t,129.0,t,1.42,t,91.0,f,,SVI,-,860715007,Normal
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,14.0,t,2.7,t,63.0,t,1.17,t,54.0,f,,other,-,850819029,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.61,t,1.3,t,107.0,f,,f,,f,,SVI,-,860925067,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,112.0,t,1.01,t,111.0,f,,other,-,860304025,Normal
+57.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.1,f,,t,76.0,t,1.0,t,75.0,f,,other,-,851216015,Normal
+74.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.5,f,,t,112.0,t,0.96,t,116.0,f,,SVI,-,860410062,Normal
+41.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,8.4,t,1.5,t,123.0,t,0.96,t,129.0,f,,other,M,850808032,Other / Related Diagnosis
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.4,t,124.0,t,1.16,t,107.0,f,,SVHC,-,841205041,Normal
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.5,t,39.0,t,0.85,t,46.0,f,,SVHC,R,860210003,Other / Related Diagnosis
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.1,t,2.0,t,139.0,t,1.04,t,134.0,f,,SVHC,-,850812057,Normal
+21.0,,f,f,f,f,t,f,f,f,f,f,f,t,f,f,t,2.4,t,3.5,t,171.0,t,1.49,t,115.0,f,,STMW,CI,850918018,Hyperthyroid
+33.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.025,f,,t,138.0,t,0.64,t,217.0,f,,other,L,860812001,Other / Related Diagnosis
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.75,t,1.6,t,100.0,t,0.93,t,107.0,f,,other,-,850712031,Normal
+40.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,71.0,t,1.01,t,70.0,f,,other,-,860207013,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,142.0,t,1.2,t,118.0,f,,other,-,860421022,Normal
+19.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.2,t,2.8,t,112.0,t,1.12,t,99.0,f,,SVHC,-,860226075,Normal
+67.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.4,t,1.6,t,83.0,t,0.89,t,95.0,f,,SVI,-,841123059,Normal
+70.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.8,t,159.0,t,1.0,t,159.0,f,,other,L,841220048,Other / Related Diagnosis
+28.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,9.4,t,2.6,t,89.0,t,1.02,t,87.0,f,,other,G,850809017,Hypothyroid
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,2.3,t,98.0,t,0.97,t,101.0,f,,SVI,-,850523055,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,2.1,t,90.0,t,0.96,t,94.0,f,,other,-,840911060,Normal
+18.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,113.0,t,1.02,t,105.0,f,,other,-,840927080,Normal
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,85.0,t,0.82,t,104.0,f,,other,-,860307009,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,97.0,t,0.83,t,117.0,f,,other,-,861208018,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,1.4,t,92.0,t,0.92,t,101.0,f,,SVI,-,850502076,Normal
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.08,t,1.3,t,105.0,t,1.05,t,101.0,f,,SVI,-,850701019,Normal
+73.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.5,t,1.6,t,143.0,t,1.06,t,134.0,f,,other,-,850516036,Normal
+49.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.4,t,1.9,t,101.0,t,0.83,t,122.0,f,,SVHD,M,860901001,Other / Related Diagnosis
+55.0,M,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,10.0,t,2.1,t,65.0,f,,f,,f,,other,G,850415053,Hypothyroid
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.2,f,,f,,f,,f,,other,-,851108062,Normal
+16.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,f,,t,128.0,t,1.06,t,121.0,f,,other,-,840911045,Normal
+72.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,79.0,t,0.96,t,82.0,f,,other,-,860818004,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,2.4,t,96.0,t,0.98,t,99.0,f,,other,-,850528048,Normal
+71.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,f,,t,178.0,t,1.13,t,158.0,f,,SVI,A,860915038,Hyperthyroid
+58.0,F,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,0.5,t,2.3,t,115.0,t,1.0,t,115.0,f,,other,-,850322013,Normal
+62.0,M,t,f,f,f,f,f,f,t,t,f,f,f,f,f,t,13.0,t,1.1,t,87.0,t,0.81,t,107.0,f,,SVHC,MK,850903037,Other / Related Diagnosis
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,f,,t,189.0,t,1.47,t,128.0,f,,STMW,I,860314026,Other / Related Diagnosis
+39.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,43.0,t,1.6,t,63.0,t,0.84,t,75.0,f,,other,G,850829055,Hypothyroid
+47.0,,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.02,t,1.9,t,111.0,t,0.93,t,119.0,f,,other,-,851003056,Normal
+15.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,145.0,t,1.7,t,19.0,t,1.13,t,17.0,f,,other,F,850808027,Hypothyroid
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,t,0.8,t,60.0,t,1.04,t,58.0,f,,SVI,F,851224014,Hypothyroid
+69.0,M,t,t,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,t,1.4,t,163.0,t,0.82,t,199.0,f,,other,N,861016073,Other / Related Diagnosis
+46.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.4,t,93.0,t,0.77,t,121.0,f,,other,-,860708064,Normal
+27.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,13.0,f,,t,87.0,t,0.85,t,103.0,f,,SVI,G,851217003,Hypothyroid
+4.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.22,f,,t,162.0,t,1.18,t,137.0,f,,other,I,860922021,Other / Related Diagnosis
+41.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.4,f,,t,91.0,t,0.96,t,95.0,f,,other,-,850327020,Normal
+30.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.0,t,80.0,t,0.72,t,110.0,f,,SVI,-,850529053,Normal
+74.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.0,t,1.3,t,96.0,t,1.01,t,95.0,f,,other,-,861121055,Normal
+75.0,M,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,5.2,f,,t,96.0,t,0.89,t,108.0,f,,other,-,860204071,Normal
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,147.0,t,0.92,t,160.0,f,,SVI,-,870107012,Normal
+83.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.79,t,1.3,t,108.0,t,0.76,t,141.0,f,,SVI,-,860411066,Normal
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.2,t,119.0,t,0.96,t,124.0,f,,SVI,-,840828035,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,1.2,t,107.0,t,0.95,t,112.0,f,,SVI,-,860814056,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,860827051,Other / Related Diagnosis
+79.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.4,t,1.6,t,110.0,t,0.85,t,129.0,f,,SVHC,-,851126082,Normal
+56.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,2.2,t,108.0,t,0.88,t,122.0,f,,SVI,-,850404055,Normal
+50.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.67,t,2.6,t,85.0,t,0.89,t,96.0,f,,SVHC,-,851209007,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,500.0,t,0.5,t,5.0,t,1.19,t,4.0,f,,other,F,861215009,Hypothyroid
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.8,t,144.0,t,1.17,t,123.0,f,,other,-,851028010,Normal
+86.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.0,f,,t,106.0,t,0.83,t,128.0,f,,other,-,861015053,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.2,t,103.0,t,1.35,t,76.0,f,,other,-,850705066,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,f,,t,82.0,t,0.99,t,83.0,f,,SVHC,-,851212076,Normal
+40.0,F,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,841129020,Other / Related Diagnosis
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,2.3,t,124.0,t,1.04,t,118.0,f,,SVI,-,850108058,Normal
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,2.3,t,147.0,t,1.09,t,135.0,f,,SVI,-,850508050,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,f,,t,90.0,t,0.84,t,107.0,f,,other,-,861110063,Normal
+49.0,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,20.0,f,,t,5.0,t,1.0,t,5.0,f,,other,F,860818022,Hypothyroid
+72.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,1.6,t,2.1,t,114.0,t,1.14,t,100.0,f,,other,-,860314010,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.2,t,1.8,t,104.0,t,1.11,t,94.0,f,,SVI,-,850514051,Normal
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,2.7,t,150.0,t,1.22,t,124.0,f,,SVHC,-,851028016,Normal
+37.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,133.0,t,0.98,t,136.0,f,,other,-,850419062,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.5,t,1.2,t,151.0,t,1.14,t,132.0,f,,SVI,-,861009069,Normal
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,f,,t,66.0,t,0.77,t,86.0,f,,other,-,861219005,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,t,2.3,t,92.0,t,0.96,t,96.0,f,,SVI,-,841122052,Normal
+77.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,1.7,t,92.0,t,0.96,t,96.0,f,,other,-,850819020,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,t,0.8,t,61.0,t,0.98,t,62.0,f,,SVI,-,860213007,Normal
+35.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,73.0,t,0.91,t,81.0,f,,other,-,850910066,Normal
+48.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.0,t,71.0,t,0.81,t,88.0,f,,SVHD,K,850726079,Other / Related Diagnosis
+77.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,6.7,f,,t,114.0,t,1.52,t,75.0,f,,other,G,840910069,Hypothyroid
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.9,t,115.0,t,1.19,t,97.0,f,,SVHC,-,860724063,Normal
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.73,f,,t,127.0,t,1.05,t,121.0,f,,other,-,860206062,Normal
+13.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.2,t,1.5,t,97.0,t,1.02,t,95.0,f,,SVI,-,841022041,Normal
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.8,t,96.0,t,0.91,t,106.0,f,,other,-,860702092,Normal
+48.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.9,t,1.9,t,101.0,f,,f,,f,,other,-,850613098,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.7,t,100.0,t,0.97,t,102.0,f,,other,-,841019071,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,67.0,t,0.9,t,75.0,f,,other,-,850603008,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.4,t,100.0,t,1.0,t,100.0,f,,SVI,-,850522002,Normal
+53.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,8.5,t,1.7,t,93.0,t,0.91,t,102.0,f,,other,G,841018026,Hypothyroid
+82.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.4,t,1.3,t,115.0,t,0.91,t,126.0,f,,SVI,-,840816072,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,98.0,t,0.89,t,110.0,f,,STMW,-,860910016,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,2.6,t,111.0,t,1.06,t,105.0,f,,other,-,850603028,Normal
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.5,t,126.0,t,1.26,t,100.0,f,,SVHC,-,851224018,Normal
+63.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,42.0,t,1.6,t,60.0,t,0.93,t,64.0,f,,other,F,851126026,Hypothyroid
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.8,t,2.0,t,99.0,t,1.03,t,95.0,f,,SVHC,-,860317043,Normal
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.4,t,111.0,t,1.52,t,73.0,f,,STMW,-,850725057,Normal
+43.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,2.6,t,95.0,t,1.06,t,90.0,f,,STMW,-,860819009,Normal
+43.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,f,,t,93.0,t,0.69,t,135.0,f,,SVI,-,860306054,Normal
+48.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.7,f,,t,161.0,t,1.62,t,99.0,f,,other,-,860822013,Normal
+74.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.0,t,1.2,t,96.0,t,0.93,t,103.0,f,,SVI,-,850325050,Normal
+51.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.8,t,85.0,t,0.78,t,109.0,f,,SVI,-,870107013,Normal
+52.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005,f,,t,160.0,t,0.82,t,195.0,f,,other,N,860204065,Other / Related Diagnosis
+69.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,135.0,t,0.69,t,196.0,f,,SVI,-,860220008,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,2.6,t,136.0,t,1.15,t,118.0,f,,SVHC,-,860722001,Normal
+46.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.15,t,5.3,t,233.0,t,0.92,t,253.0,f,,other,-,851031066,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,2.4,t,102.0,t,0.71,t,144.0,f,,SVI,-,860703047,Normal
+48.0,,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,t,1.4,t,129.0,t,0.9,t,143.0,f,,other,-,861024072,Normal
+51.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.9,t,101.0,t,1.08,t,94.0,f,,other,-,850418068,Normal
+76.0,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,1.5,f,,t,101.0,t,0.82,t,123.0,f,,other,-,861203045,Normal
+19.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.1,t,105.0,t,0.81,t,129.0,f,,SVHC,K,860415021,Other / Related Diagnosis
+64.0,F,t,f,f,t,f,f,f,t,f,f,f,f,f,f,t,0.2,t,1.8,t,146.0,t,1.38,t,106.0,f,,other,-,841108080,Normal
+48.0,F,f,f,f,f,f,f,f,f,t,f,f,t,f,f,t,0.42,t,2.5,t,93.0,t,1.14,t,82.0,f,,other,-,850913055,Normal
+21.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,22.0,t,1.5,t,107.0,t,0.91,t,118.0,f,,SVI,G,861007064,Hypothyroid
+36.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.3,t,2.2,t,163.0,t,1.06,t,153.0,f,,other,-,841127027,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,0.9,t,97.0,t,0.93,t,104.0,f,,SVI,K,860421056,Other / Related Diagnosis
+66.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,8.299999,t,1.1,t,82.0,t,0.98,t,84.0,f,,SVI,GK,841012041,Hypothyroid
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.5,f,,t,57.0,t,0.65,t,87.0,f,,SVI,-,860410061,Normal
+40.0,F,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0.15,t,3.5,t,126.0,t,0.78,t,162.0,f,,other,-,841122039,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,f,,t,91.0,t,0.83,t,110.0,f,,other,-,861128005,Normal
+56.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.7,f,,t,125.0,t,1.04,t,119.0,f,,other,-,860304006,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,0.8,t,99.0,t,0.79,t,126.0,f,,SVI,K,850918068,Other / Related Diagnosis
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,15.0,t,2.1,t,83.0,t,1.24,t,67.0,f,,STMW,G,850613048,Hypothyroid
+45.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.2,f,,f,,f,,f,,other,-,840823032,Normal
+40.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.26,f,,t,120.0,t,1.06,t,114.0,f,,other,-,850808089,Normal
+70.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,0.3,t,90.0,t,0.9,t,100.0,f,,other,-,841016005,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,1.6,t,162.0,t,0.94,t,173.0,f,,other,R,850606033,Other / Related Diagnosis
+45.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,12.0,f,,t,137.0,t,0.74,t,185.0,f,,other,-,860724029,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,f,,f,,f,,f,,t,20.0,other,-,861022031,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,110.0,t,0.99,t,111.0,f,,SVI,-,860923063,Normal
+46.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,1.7,t,132.0,t,1.02,t,130.0,f,,other,-,850912066,Normal
+71.0,F,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.0,t,103.0,t,0.99,t,104.0,f,,other,-,861016068,Normal
+36.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.9,t,62.0,t,0.77,t,81.0,f,,SVI,-,850501080,Normal
+30.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.69,f,,t,94.0,t,1.1,t,86.0,f,,other,-,860926002,Normal
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.7,t,128.0,t,0.93,t,138.0,f,,other,-,860908017,Normal
+29.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,f,,t,140.0,t,1.41,t,99.0,f,,other,I,851025025,Other / Related Diagnosis
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,131.0,t,0.94,t,138.0,f,,other,-,860210074,Normal
+62.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.6,t,69.0,t,0.82,t,83.0,f,,SVI,-,850724044,Normal
+84.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.3,t,101.0,t,0.81,t,125.0,f,,other,-,860709069,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,44.0,other,S,850617023,Other / Related Diagnosis
+25.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,1.0,t,3.2,t,117.0,t,1.11,t,105.0,f,,other,C,861030033,Hyperthyroid
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.0,f,,t,82.0,t,0.81,t,101.0,f,,SVHC,-,851106010,Normal
+40.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,f,,t,157.0,t,1.89,t,83.0,f,,STMW,I,860218012,Other / Related Diagnosis
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.7,f,,t,88.0,t,0.82,t,107.0,f,,other,-,850514045,Normal
+23.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,25.0,other,-,850523010,Normal
+50.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.5,t,133.0,t,1.08,t,123.0,f,,SVHC,-,850725008,Normal
+34.0,F,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.1,t,3.2,t,149.0,t,0.97,t,154.0,f,,STMW,CI,840924039,Hyperthyroid
+25.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,t,2.7,t,159.0,t,0.92,t,173.0,f,,other,L,860320097,Other / Related Diagnosis
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.5,t,2.2,t,99.0,t,1.04,t,96.0,f,,SVI,-,850910056,Normal
+38.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.73,t,2.4,t,135.0,t,1.05,t,129.0,f,,SVHC,-,850829008,Normal
+50.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,151.0,t,1.0,t,32.0,t,1.16,t,28.0,f,,other,F,850904024,Hypothyroid
+86.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.7,t,1.6,t,121.0,t,0.88,t,138.0,f,,other,G,861112056,Hypothyroid
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.73,t,2.3,t,122.0,t,0.8,t,152.0,f,,other,-,850912084,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.2,t,0.8,t,51.0,t,0.88,t,58.0,f,,SVI,FK,850923026,Hypothyroid
+62.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,108.0,t,0.95,t,113.0,f,,other,-,851224010,Normal
+64.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.49,t,1.6,t,97.0,t,0.79,t,123.0,f,,other,-,861119042,Normal
+20.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.2,t,3.0,t,135.0,t,1.29,t,105.0,f,,other,-,850423035,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,4.5,t,2.0,t,139.0,t,0.86,t,161.0,f,,SVHC,R,850828017,Other / Related Diagnosis
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,2.0,t,91.0,f,,f,,f,,other,-,840914050,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.73,t,1.8,t,109.0,t,1.05,t,104.0,f,,SVI,-,850715056,Normal
+61.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.3,t,2.0,t,93.0,t,0.99,t,93.0,f,,other,-,851024091,Normal
+36.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.6,t,1.3,t,153.0,t,1.0,t,152.0,f,,SVHC,-,851018014,Normal
+50.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,153.0,t,1.01,t,150.0,f,,other,-,841029032,Normal
+52.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,f,,t,119.0,t,0.92,t,129.0,f,,other,-,850314086,Normal
+87.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.6,f,,f,,f,,f,,other,-,860826086,Normal
+37.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.9,t,95.0,t,1.05,t,90.0,f,,SVI,-,850808056,Normal
+33.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.7,t,2.1,t,107.0,t,0.96,t,109.0,f,,other,-,841219138,Normal
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,86.0,t,0.94,t,91.0,f,,SVI,-,861229038,Normal
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.75,t,1.7,t,88.0,t,0.92,t,96.0,f,,other,-,860320032,Normal
+63.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.51,f,,t,74.0,t,0.63,t,116.0,f,,SVI,-,860304064,Normal
+53.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,15.299999,t,1.5,t,44.0,t,0.98,t,45.0,f,,other,F,840914045,Hypothyroid
+25.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.035,t,3.3,t,116.0,f,,f,,f,,other,-,850619013,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,,f,,t,153.0,t,1.47,t,104.0,f,,other,-,841108056,Normal
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,90.0,t,0.87,t,103.0,f,,other,-,860722025,Normal
+82.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.9,t,116.0,t,1.2,t,97.0,f,,SVHC,-,850802011,Normal
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.0,t,1.5,t,97.0,t,0.88,t,110.0,f,,other,-,850716036,Normal
+53.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.5,t,1.5,t,72.0,t,1.06,t,69.0,f,,SVHC,-,841123071,Normal
+39.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,127.0,t,1.07,t,119.0,f,,other,-,840823085,Normal
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,3.0,t,143.0,t,1.33,t,108.0,f,,SVHC,I,850102005,Other / Related Diagnosis
+17.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.6,f,,t,118.0,t,0.62,t,190.0,f,,other,-,860717054,Normal
+80.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.5,t,2.5,t,101.0,t,1.01,t,100.0,f,,other,-,841004059,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.81,t,2.3,t,103.0,t,1.02,t,100.0,f,,other,-,851009105,Normal
+37.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,98.0,t,0.83,t,119.0,f,,other,-,850905009,Normal
+76.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.8,t,1.1,t,94.0,t,0.93,t,101.0,f,,SVHD,K,850521052,Other / Related Diagnosis
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.3,t,102.0,t,0.95,t,108.0,f,,SVI,-,850711076,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.4,f,,t,99.0,t,0.97,t,102.0,f,,other,G,851029001,Hypothyroid
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.92,f,,t,128.0,t,1.02,t,125.0,f,,SVI,-,860327077,Normal
+20.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.9,f,,t,114.0,t,1.31,t,87.0,f,,other,I,860210064,Other / Related Diagnosis
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,1.9,t,89.0,t,0.85,t,104.0,f,,SVI,-,851002053,Normal
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.08,t,2.3,t,150.0,t,1.2,t,125.0,f,,SVHD,-,850605049,Normal
+70.0,M,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,,f,,f,,f,,f,,t,17.0,other,-,850614018,Normal
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,2.0,t,113.0,t,0.97,t,116.0,f,,SVI,-,850401003,Normal
+18.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,3.0,t,143.0,t,1.32,t,108.0,f,,other,I,850411006,Other / Related Diagnosis
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,f,,t,118.0,t,1.22,t,97.0,f,,other,-,851223008,Normal
+37.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,2.3,t,68.0,t,0.94,t,72.0,f,,other,-,851024066,Normal
+74.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.4,t,126.0,t,0.89,t,141.0,f,,SVHC,-,841227008,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,1.8,t,94.0,f,,f,,f,,other,-,840817001,Normal
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.3,t,96.0,t,0.92,t,104.0,f,,SVI,-,841213062,Normal
+67.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,2.9,t,133.0,t,1.18,t,113.0,f,,SVHC,-,850816005,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.8,t,125.0,t,0.74,t,169.0,f,,SVI,R,860702019,Other / Related Diagnosis
+57.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,1.1,t,100.0,t,0.64,t,156.0,f,,SVI,-,860812088,Normal
+39.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.38,t,1.3,t,84.0,t,0.91,t,97.0,f,,other,-,850826026,Normal
+21.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.4,t,3.4,t,189.0,t,1.35,t,140.0,f,,other,I,850321022,Other / Related Diagnosis
+76.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.4,t,4.2,t,112.0,t,0.99,t,113.0,f,,other,-,841207015,Normal
+74.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,53.0,t,1.0,t,49.0,t,1.25,t,39.0,f,,SVI,F,870115016,Hypothyroid
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,2.0,t,113.0,t,1.03,t,110.0,f,,other,-,851023082,Normal
+26.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,t,1.5,t,87.0,t,0.94,t,93.0,f,,other,-,850708075,Normal
+60.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1.5,f,,t,137.0,t,0.82,t,167.0,f,,other,-,860707020,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,2.5,t,91.0,t,1.02,t,90.0,f,,SVI,-,851024060,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,113.0,t,0.92,t,123.0,f,,other,-,860808017,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,76.0,t,0.66,t,115.0,f,,other,-,870119020,Normal
+61.0,F,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,0.025,f,,t,113.0,t,0.93,t,122.0,f,,other,-,860314009,Normal
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.4,t,1.0,t,92.0,t,0.99,t,93.0,f,,other,K,851114053,Other / Related Diagnosis
+24.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,103.0,t,1.09,t,95.0,f,,other,-,850729022,Normal
+28.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.1,t,1.9,t,95.0,t,1.01,t,94.0,f,,STMW,-,841108060,Normal
+31.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.1,f,,t,93.0,t,0.97,t,95.0,f,,other,-,850821078,Normal
+51.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.08,f,,t,146.0,t,0.82,t,178.0,f,,other,-,860818086,Normal
+54.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.7,t,2.0,t,95.0,t,0.99,t,96.0,f,,other,-,850628005,Normal
+76.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.8,t,101.0,t,1.17,t,86.0,f,,other,-,850624005,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,0.6,t,55.0,t,0.55,t,100.0,f,,other,J,841009070,Other / Related Diagnosis
+53.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.25,t,2.1,t,145.0,t,1.03,t,141.0,f,,other,-,850419012,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,161.0,t,0.9,t,180.0,f,,other,A,850905044,Hyperthyroid
+59.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.65,f,,t,126.0,t,1.31,t,96.0,f,,other,I,850611011,Other / Related Diagnosis
+63.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.43,t,2.9,t,118.0,t,1.42,t,83.0,f,,other,I,850904076,Other / Related Diagnosis
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.8,t,2.4,t,111.0,t,0.8,t,139.0,f,,SVHC,-,851015050,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.21,t,2.0,t,142.0,t,1.03,t,138.0,f,,other,-,860704070,Normal
+51.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.06,t,1.0,t,146.0,t,0.98,t,149.0,f,,other,-,861124003,Normal
+58.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,20.0,f,,t,39.0,t,1.0,t,39.0,f,,SVI,F,861215004,Hypothyroid
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,,f,,f,,f,,f,,t,21.0,other,-,841115085,Normal
+74.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,22.0,t,2.0,t,89.0,t,1.1,t,81.0,f,,other,G,860811007,Hypothyroid
+83.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.7,t,1.3,t,100.0,t,0.83,t,121.0,f,,SVI,-,860718064,Normal
+61.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,6.8,t,0.9,t,96.0,t,1.01,t,95.0,f,,other,MK,860407035,Other / Related Diagnosis
+34.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,f,,t,70.0,t,0.66,t,106.0,f,,other,-,860305011,Normal
+55.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.66,f,,t,131.0,t,1.06,t,124.0,f,,other,-,860226018,Normal
+63.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,f,,t,101.0,t,0.96,t,105.0,f,,other,-,861016006,Normal
+56.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,27.0,f,,t,74.0,t,1.01,t,74.0,f,,other,G,860204052,Hypothyroid
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,6.7,t,2.1,t,160.0,t,1.21,t,132.0,f,,other,I,851119095,Other / Related Diagnosis
+74.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,6.3,t,1.2,t,80.0,t,0.92,t,87.0,f,,other,M,850801058,Other / Related Diagnosis
+77.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.9,t,80.0,t,0.9,t,90.0,f,,SVHD,-,860417008,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.9,t,1.2,t,78.0,t,0.73,t,107.0,f,,other,-,860805024,Normal
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,109.0,t,0.2,t,3.0,t,1.02,t,3.0,f,,other,F,850506031,Hypothyroid
+44.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,199.0,t,0.6,t,10.0,t,1.03,t,10.0,f,,SVI,F,850729050,Hypothyroid
+61.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.04,f,,t,151.0,t,0.85,t,178.0,f,,other,N,870112011,Other / Related Diagnosis
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.3,t,143.0,t,1.02,t,141.0,f,,SVHC,-,851114004,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005,f,,t,103.0,t,0.65,t,158.0,f,,other,-,851210022,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.2,t,118.0,t,0.89,t,132.0,f,,SVHC,-,850911104,Normal
+54.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.065,t,1.7,t,148.0,t,0.95,t,155.0,f,,other,-,860416053,Normal
+56.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.95,t,0.9,t,116.0,t,0.45,t,258.0,f,,SVI,KJ,860723040,Other / Related Diagnosis
+41.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.5,t,123.0,f,,f,,f,,other,-,860312008,Normal
+72.0,F,f,t,f,f,f,f,f,t,f,f,f,f,f,f,t,4.2,t,1.1,t,74.0,t,0.81,t,91.0,f,,other,K,840913068,Other / Related Diagnosis
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.4,t,2.4,t,77.0,t,0.99,t,78.0,f,,SVI,-,850322039,Normal
+40.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,12.0,f,,t,97.0,t,1.01,t,97.0,f,,other,G,851223012,Hypothyroid
+75.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.035,t,1.2,t,98.0,t,0.83,t,118.0,f,,SVI,-,850829030,Normal
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,29.0,other,-,860806076,Normal
+68.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.8,t,1.8,t,69.0,t,0.85,t,82.0,f,,other,-,861105056,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,2.4,t,93.0,t,1.04,t,89.0,f,,other,-,850429009,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,0.05,t,106.0,t,1.14,t,93.0,f,,SVI,K,850510049,Other / Related Diagnosis
+38.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.8,t,84.0,t,0.95,t,89.0,f,,SVHC,-,841121056,Normal
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,f,,t,88.0,t,0.82,t,108.0,f,,SVI,-,860418025,Normal
+63.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,2.0,t,146.0,t,0.89,t,163.0,f,,other,L,841129057,Other / Related Diagnosis
+29.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,2.7,t,156.0,t,1.25,t,125.0,f,,SVHC,-,850625006,Normal
+72.0,F,t,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.4,f,,t,186.0,t,1.24,t,150.0,f,,other,-,850308074,Normal
+70.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,29.0,other,-,841122083,Normal
+74.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.33,t,2.3,t,99.0,t,0.98,t,101.0,f,,other,-,850912082,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,2.7,t,112.0,t,1.2,t,93.0,f,,other,-,840920041,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,9.7,t,1.1,t,77.0,t,0.79,t,97.0,f,,SVI,GK,850918071,Hypothyroid
+16.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,f,,t,65.0,t,0.73,t,90.0,f,,other,-,850912062,Normal
+20.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,17.0,other,-,850104031,Normal
+46.0,M,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,1.7,f,,t,139.0,t,1.1,t,127.0,f,,other,-,850906011,Normal
+43.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.68,t,2.0,t,54.0,t,0.93,t,58.0,f,,other,R,850802013,Other / Related Diagnosis
+79.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.03,t,4.1,t,160.0,t,0.78,t,204.0,f,,other,A,850715038,Hyperthyroid
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.65,t,2.1,t,87.0,t,0.83,t,105.0,f,,other,-,860704013,Normal
+76.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.3,t,1.5,t,93.0,t,0.71,t,132.0,f,,SVI,-,851017057,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.7,t,1.1,t,89.0,t,0.75,t,118.0,f,,SVI,K,850527065,Other / Related Diagnosis
+78.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.59,t,2.0,t,101.0,t,0.9,t,112.0,f,,SVI,-,860402022,Normal
+21.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,f,,t,140.0,t,1.37,t,102.0,f,,other,I,860204088,Other / Related Diagnosis
+93.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,137.0,t,1.05,t,131.0,f,,other,-,861003058,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.1,t,1.3,t,116.0,t,0.83,t,139.0,f,,SVHC,-,841030045,Normal
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,1.3,t,2.4,t,111.0,t,1.15,t,97.0,f,,SVHC,-,851216013,Normal
+48.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.1,f,,t,129.0,t,1.28,t,101.0,f,,SVHC,I,860918007,Other / Related Diagnosis
+27.0,F,f,f,f,f,t,t,f,f,f,f,f,f,f,f,t,6.0,t,3.8,t,149.0,t,1.73,t,86.0,f,,other,I,840903084,Other / Related Diagnosis
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.9,f,,t,100.0,f,,f,,f,,SVHC,-,861121059,Normal
+55.0,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.07,f,,t,92.0,t,0.58,t,157.0,f,,other,-,860325023,Normal
+44.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,27.0,other,-,850716089,Normal
+32.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.1,t,2.0,t,111.0,t,0.94,t,118.0,f,,SVHC,-,841207052,Normal
+55.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,84.0,t,0.95,t,88.0,f,,other,-,851216018,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,7.0,f,,t,96.0,t,0.93,t,103.0,f,,SVI,G,861112046,Hypothyroid
+59.0,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.74,t,2.2,t,95.0,t,0.84,t,113.0,f,,other,-,860424010,Normal
+33.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.96,t,2.8,t,118.0,t,1.17,t,101.0,f,,other,-,861224001,Normal
+61.0,F,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,1.8,t,1.9,t,102.0,t,1.06,t,97.0,f,,SVHD,-,850618021,Normal
+31.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,2.2,t,116.0,t,1.14,t,102.0,f,,SVHC,-,850716018,Normal
+79.0,M,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0.02,t,2.4,t,99.0,t,0.73,t,135.0,f,,other,-,851120069,Normal
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.11,f,,t,105.0,t,0.74,t,143.0,f,,other,-,860212055,Normal
+67.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,0.2,t,99.0,t,0.72,t,138.0,f,,SVI,K,851016002,Other / Related Diagnosis
+74.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.8,t,82.0,t,0.61,t,134.0,f,,SVI,-,840829040,Normal
+80.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.8,t,104.0,t,0.89,t,117.0,f,,other,-,841220070,Normal
+29.0,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.1,t,3.1,t,142.0,t,1.77,t,80.0,f,,STMW,I,850311010,Other / Related Diagnosis
+35.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,101.0,t,1.06,t,96.0,f,,other,-,841105021,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,t,1.4,t,129.0,t,1.08,t,129.0,f,,other,-,841026013,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.95,t,2.5,t,119.0,t,1.04,t,114.0,f,,other,-,850604039,Normal
+65.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.36,t,2.4,t,128.0,t,1.01,t,127.0,f,,SVI,-,851105005,Normal
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.05,t,1.3,t,132.0,t,0.88,t,150.0,f,,other,-,840827001,Normal
+68.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,1.6,t,86.0,t,0.94,t,92.0,f,,SVHC,-,860311016,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,f,,t,166.0,t,1.77,t,94.0,f,,other,I,861028013,Other / Related Diagnosis
+28.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,f,,t,115.0,t,0.97,t,119.0,f,,SVHC,-,861205045,Normal
+34.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.4,f,,t,109.0,t,0.91,t,120.0,f,,other,-,850502082,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.02,t,3.0,t,130.0,f,,f,,f,,other,-,850821082,Normal
+56.0,F,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,2.0,t,2.0,t,94.0,t,0.9,t,104.0,f,,other,-,861218090,Normal
+31.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.6,t,98.0,t,0.75,t,131.0,f,,other,-,841221070,Normal
+38.0,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,,f,,t,98.0,t,0.86,t,114.0,f,,other,-,840828031,Normal
+58.0,F,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,7.5,t,1.4,t,40.0,t,1.13,t,35.0,f,,other,O,840906049,Other / Related Diagnosis
+80.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.3,t,2.6,t,163.0,t,0.91,t,180.0,f,,other,AK,841203030,Hyperthyroid
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.1,f,,t,107.0,t,1.0,t,107.0,f,,other,-,861001068,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.065,t,5.1,t,138.0,t,1.13,t,122.0,f,,other,B,860731093,Hyperthyroid
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,0.9,t,109.0,t,0.95,t,115.0,f,,SVI,K,841017047,Other / Related Diagnosis
+18.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,136.0,t,0.98,t,138.0,f,,other,-,860305083,Normal
+30.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,3.5,f,,t,69.0,t,0.86,t,80.0,f,,SVHC,-,870112037,Normal
+65.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.8,t,1.8,t,70.0,t,0.74,t,95.0,f,,SVI,-,840911041,Normal
+34.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.24,t,2.7,t,117.0,t,1.08,t,108.0,f,,other,-,861009081,Normal
+41.0,,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.55,t,1.7,t,110.0,t,1.07,t,102.0,f,,other,-,860210019,Normal
+48.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.4,t,0.6,t,65.0,t,0.66,t,98.0,f,,SVI,K,860819057,Other / Related Diagnosis
+54.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.07,t,3.1,t,156.0,t,0.81,t,193.0,f,,other,-,860730030,Normal
+46.0,M,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,,t,1.4,t,82.0,t,0.7,t,117.0,f,,other,-,840816060,Normal
+33.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,160.0,t,0.3,t,9.5,f,,f,,f,,SVI,F,850527019,Hypothyroid
+42.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.4,f,,t,90.0,t,0.93,t,97.0,f,,other,-,861217004,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,t,2.0,t,106.0,t,1.05,t,101.0,f,,SVHC,-,850423011,Normal
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,1.7,t,138.0,t,1.15,t,125.0,f,,SVHC,-,860325008,Normal
+65.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.4,t,78.0,t,0.82,t,96.0,f,,SVI,-,850520010,Normal
+18.0,M,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,2.5,t,2.7,t,131.0,t,0.89,t,149.0,f,,other,-,841121022,Normal
+60.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,1.1,t,3.1,t,62.0,t,0.94,t,66.0,f,,other,-,860821076,Normal
+66.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,f,,t,103.0,t,1.17,t,88.0,f,,other,-,851024055,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,120.0,t,1.0,t,120.0,f,,SVI,-,860203050,Normal
+72.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.9,t,1.4,t,98.0,t,0.82,t,120.0,f,,SVI,-,840827003,Normal
+57.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,1.2,t,97.0,t,0.97,t,100.0,f,,other,-,860218066,Normal
+63.0,F,f,f,f,f,f,f,f,f,t,f,f,t,f,f,t,0.09,t,4.9,t,221.0,t,0.93,t,237.0,f,,other,-,860211044,Normal
+68.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.0,t,1.6,t,78.0,t,0.82,t,95.0,f,,SVI,-,840913015,Normal
+61.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,0.3,t,23.0,t,0.51,t,45.0,f,,other,HK,860826013,Hypothyroid
+76.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,0.5,t,57.0,f,,f,,f,,other,M,851122037,Other / Related Diagnosis
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.7,t,0.8,t,101.0,t,0.81,t,125.0,f,,SVI,K,850806096,Other / Related Diagnosis
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.1,f,,t,113.0,t,0.91,t,125.0,f,,other,-,851105068,Normal
+43.0,M,t,f,f,f,f,f,t,f,f,f,f,f,f,f,t,1.6,t,1.4,t,101.0,t,0.7,t,144.0,f,,other,-,841101031,Normal
+79.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.28,t,1.5,t,138.0,t,0.99,t,139.0,f,,SVI,-,861022042,Normal
+59.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,1.9,t,133.0,t,0.99,t,134.0,f,,SVHC,-,850625012,Normal
+83.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.9,t,1.2,t,55.0,t,0.74,t,74.0,f,,SVI,-,860818072,Normal
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.7,t,1.2,t,87.0,t,0.83,t,104.0,f,,SVI,-,841030048,Normal
+21.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,107.0,t,1.07,t,100.0,f,,other,-,850814050,Normal
+65.0,,t,f,f,f,f,f,t,t,f,f,f,f,f,f,t,0.03,t,1.9,t,151.0,t,0.89,t,169.0,f,,other,L,850710023,Other / Related Diagnosis
+54.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,22.0,t,1.5,t,52.0,t,0.84,t,62.0,f,,SVHD,F,861203018,Hypothyroid
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,t,1.9,t,112.0,t,0.87,t,129.0,f,,SVI,-,860805016,Normal
+69.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.66,f,,t,107.0,t,0.86,t,124.0,f,,SVI,-,860404084,Normal
+19.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,5.0,t,2.2,t,115.0,t,1.02,t,114.0,f,,other,-,851204005,Normal
+75.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.57,f,,t,135.0,t,0.88,t,153.0,f,,other,-,861017008,Normal
+56.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,f,,t,91.0,t,0.8,t,114.0,f,,other,-,861009005,Normal
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.0,t,1.4,t,159.0,t,0.95,t,166.0,f,,SVI,R,850626023,Other / Related Diagnosis
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.8,t,1.7,t,119.0,f,,f,,f,,SVI,-,850725003,Normal
+56.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.1,t,113.0,t,0.94,t,120.0,f,,other,-,850313039,Normal
+77.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,,t,2.3,t,149.0,t,0.97,t,153.0,f,,SVI,-,841219124,Normal
+66.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.6,t,153.0,t,0.86,t,176.0,f,,other,N,841129056,Other / Related Diagnosis
+71.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,2.4,t,2.5,t,93.0,t,1.07,t,87.0,f,,SVHC,-,861112009,Normal
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.6,t,1.4,t,137.0,t,0.81,t,169.0,f,,other,R,860723012,Other / Related Diagnosis
+64.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.44,t,2.5,t,89.0,t,0.97,t,92.0,f,,SVI,-,850918065,Normal
+86.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,2.2,t,84.0,t,0.77,t,110.0,f,,other,-,860408068,Normal
+45.0,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,0.025,f,,t,114.0,t,0.81,t,141.0,f,,other,-,861223049,Normal
+78.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.77,t,1.8,t,109.0,t,0.92,t,118.0,f,,SVI,-,850613026,Normal
+51.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.2,t,2.3,t,72.0,t,0.84,t,85.0,f,,SVI,-,850410014,Normal
+60.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.01,t,1.8,t,130.0,t,0.86,t,151.0,f,,other,-,861127065,Normal
+60.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,f,,t,90.0,t,1.07,t,84.0,f,,other,-,851108038,Normal
+32.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.3,t,3.6,t,154.0,t,1.75,t,88.0,f,,STMW,I,841010001,Other / Related Diagnosis
+64.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.8,t,1.8,t,97.0,t,0.85,t,114.0,f,,SVI,-,860721066,Normal
+16.0,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.21,t,2.4,t,126.0,t,0.93,t,135.0,f,,other,-,861016008,Normal
+61.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,29.0,t,1.5,t,61.0,t,0.96,t,64.0,f,,other,F,860206022,Hypothyroid
+76.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.7,f,,t,103.0,t,1.03,t,100.0,f,,other,-,860324043,Normal
+49.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,116.0,t,0.7,t,72.0,t,0.95,t,76.0,f,,other,MK,851217007,Other / Related Diagnosis
+36.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.5,t,2.7,t,163.0,t,1.04,t,156.0,f,,SVHC,R,860213071,Other / Related Diagnosis
+56.0,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,13.0,t,2.5,t,77.0,t,0.95,t,81.0,f,,other,G,860801003,Hypothyroid
+81.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.09,t,0.6,t,152.0,t,0.75,t,203.0,f,,other,R,860717035,Other / Related Diagnosis
+59.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,t,1.9,f,,f,,f,,f,,other,-,841019047,Normal
+46.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,2.0,t,0.9,t,102.0,t,0.94,t,109.0,f,,SVI,K,861024075,Other / Related Diagnosis
+68.0,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.3,t,117.0,t,1.04,t,113.0,f,,other,-,850829027,Normal
+11.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.1,f,,t,90.0,t,1.07,t,84.0,f,,other,-,840910037,Normal
+35.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.5,t,2.3,t,98.0,t,0.92,t,106.0,f,,other,-,850814011,Normal
+73.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,3.9,t,0.9,t,62.0,t,0.54,t,115.0,f,,SVI,K,850910051,Other / Related Diagnosis
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,110.0,other,S,860418066,Other / Related Diagnosis
+28.0,F,f,f,f,f,t,f,f,f,t,f,f,f,f,f,t,0.02,f,,t,106.0,t,1.23,t,86.0,f,,STMW,-,861110009,Normal
+59.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.15,t,1.9,t,143.0,t,1.0,t,143.0,f,,other,-,841106043,Normal
+53.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.4,t,2.6,t,151.0,t,1.16,t,130.0,f,,SVI,-,851002047,Normal
+22.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.3,t,1.8,t,89.0,t,0.82,t,109.0,f,,other,-,841220017,Normal
+60.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.1,t,1.4,t,89.0,t,0.99,t,90.0,f,,other,-,850426015,Normal
+28.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,103.0,t,2.1,t,65.0,t,1.16,t,56.0,f,,SVI,F,850712004,Hypothyroid
+47.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,11.0,t,2.6,t,91.0,f,,f,,f,,other,G,851002052,Hypothyroid
+45.0,F,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.21,f,,t,179.0,t,0.99,t,181.0,f,,other,L,861014039,Other / Related Diagnosis
+34.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.25,t,1.6,t,107.0,t,1.05,t,102.0,f,,SVHC,-,850508001,Normal
+15.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,,f,,t,92.0,t,1.06,t,87.0,f,,other,-,850603090,Normal
+46.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.6,f,,t,98.0,t,0.94,t,104.0,f,,other,-,851210053,Normal
+63.0,F,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,,f,,f,,f,,f,,t,33.0,other,S,860404049,Other / Related Diagnosis
+61.0,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,1.6,t,1.9,t,103.0,t,0.88,t,118.0,f,,other,-,850812053,Normal
+62.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.6,f,,t,96.0,t,1.01,t,95.0,f,,SVI,-,860210067,Normal
+23.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.6,t,7.0,t,141.0,t,1.77,t,80.0,f,,SVHC,I,850822006,Other / Related Diagnosis
+54.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,1.1,t,2.4,t,70.0,t,0.96,t,73.0,f,,other,-,841122016,Normal
+80.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,f,,t,111.0,t,0.92,t,121.0,f,,SVI,-,870116041,Normal
+43.0,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,19.0,f,,t,63.0,t,0.97,t,65.0,f,,other,M,850820042,Other / Related Diagnosis
+80.0,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.005,t,2.7,t,101.0,t,0.84,t,121.0,f,,other,-,850613020,Normal
+36.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,3.3,f,,t,81.0,t,1.01,t,80.0,f,,other,-,840831059,Normal
+61.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,65.0,f,,t,51.0,t,1.05,t,49.0,f,,other,F,860930073,Hypothyroid

@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Finder - TCMAPY2573</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="healthcare-page">
+
+<div class="healthcare-container">
+
+    <nav class="healthcare-topbar">
+        <a href="{{ url_for('home') }}">Prediction</a>
+        <a href="{{ url_for('history') }}">Prediction History</a>
+        <a href="{{ url_for('healthcare') }}">Healthcare Finder</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    
+    <a href="{{ url_for('thyroid_information') }}">Thyroid Information</a>
+    <a href="{{ url_for('prediction_explanation') }}">Prediction Explanation</a>
+    <a href="{{ url_for('consultation_preparation') }}">Consultation Preparation</a></nav>
+    <a href="{{ url_for('thyroid_faq') }}">Thyroid Health FAQs</a>
+
+    <p class="healthcare-user">
+        Logged in as: <strong>{{ session_username }}</strong>
+    </p>
+
+    <div class="healthcare-header">
+        <h1>Healthcare Finder</h1>
+        <p>
+            Find endocrinologists, thyroid centers, diagnostic laboratories,
+            hospitals, and directions for professional healthcare support.
+        </p>
+    </div>
+
+    <div class="healthcare-location-card">
+
+        <h2>Search Healthcare Near You</h2>
+
+        <p>
+            Enter a city, locality, or area to search for relevant healthcare
+            facilities using Google Maps.
+        </p>
+
+        <div class="healthcare-search-row">
+            <input
+                type="text"
+                id="healthcare-location"
+                placeholder="Example: Vijayawada, Andhra Pradesh"
+                autocomplete="off"
+            >
+
+            <button
+                type="button"
+                onclick="searchHealthcare()"
+            >
+                Search
+            </button>
+        </div>
+
+        <p class="healthcare-search-note">
+            You can enter your city or locality. The search opens Google Maps
+            so you can review available facilities, ratings, directions, and
+            contact information.
+        </p>
+
+    </div>
+
+
+    <div class="healthcare-grid">
+
+        <div class="healthcare-card" id="endocrinologist">
+            <div class="healthcare-card-icon">E</div>
+
+            <h2>Endocrinologist</h2>
+
+            <p>
+                Find endocrinologists and thyroid specialists who can evaluate
+                thyroid-related concerns.
+            </p>
+
+            <button
+                type="button"
+                class="healthcare-button"
+                onclick="searchCategory('endocrinologist')"
+            >
+                Find Endocrinologists
+            </button>
+        </div>
+
+
+        <div class="healthcare-card" id="thyroid-center">
+            <div class="healthcare-card-icon">T</div>
+
+            <h2>Thyroid & Endocrine Centers</h2>
+
+            <p>
+                Search for specialized thyroid clinics and endocrine care
+                centers.
+            </p>
+
+            <button
+                type="button"
+                class="healthcare-button"
+                onclick="searchCategory('thyroid endocrine center')"
+            >
+                Find Thyroid Centers
+            </button>
+        </div>
+
+
+        <div class="healthcare-card" id="diagnostic-lab">
+            <div class="healthcare-card-icon">L</div>
+
+            <h2>Diagnostic Laboratories</h2>
+
+            <p>
+                Find diagnostic laboratories that may provide relevant clinical
+                testing services.
+            </p>
+
+            <button
+                type="button"
+                class="healthcare-button"
+                onclick="searchCategory('diagnostic laboratory')"
+            >
+                Find Diagnostic Labs
+            </button>
+        </div>
+
+
+        <div class="healthcare-card" id="hospital">
+            <div class="healthcare-card-icon">H</div>
+
+            <h2>Hospitals</h2>
+
+            <p>
+                Search for hospitals and healthcare facilities for professional
+                medical evaluation.
+            </p>
+
+            <button
+                type="button"
+                class="healthcare-button"
+                onclick="searchCategory('hospital')"
+            >
+                Find Hospitals
+            </button>
+        </div>
+
+
+        <div class="healthcare-card">
+            <div class="healthcare-card-icon">M</div>
+
+            <h2>Map & Directions</h2>
+
+            <p>
+                Open Google Maps to search healthcare facilities and obtain
+                directions from your current location.
+            </p>
+
+            <button
+                type="button"
+                class="healthcare-button"
+                onclick="openMaps()"
+            >
+                Open Google Maps
+            </button>
+        </div>
+
+
+        <div class="healthcare-card">
+            <div class="healthcare-card-icon">C</div>
+
+            <h2>Consultation Preparation</h2>
+
+            <p>
+                Take your prediction result, report, and relevant medical
+                records when discussing your result with a qualified
+                healthcare professional.
+            </p>
+
+            <a
+                class="healthcare-button healthcare-link"
+                href="{{ url_for('home') }}"
+            >
+                Return to Prediction
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="healthcare-next-card">
+
+        <h2>Recommended Use of This Feature</h2>
+
+        <ul>
+            <li>Use the AI prediction as screening support only.</li>
+            <li>Consult a qualified healthcare professional for interpretation.</li>
+            <li>Carry your prediction report during consultation.</li>
+            <li>Follow clinical advice and testing recommended by your healthcare professional.</li>
+        </ul>
+
+    </div>
+
+
+    <div class="healthcare-disclaimer">
+
+        <strong>Healthcare Navigation Disclaimer</strong>
+
+        <p>
+            This feature provides healthcare-facility navigation support.
+            It does not diagnose disease, prescribe medication, recommend
+            treatment, or replace professional medical advice.
+        </p>
+
+    </div>
+
+<div style="margin:20px 0;padding:18px;background:#f0fdfa;border:1px solid #cfe5e2;border-radius:12px;">
+    <h3 style="color:#075e63;">Understand Your Prediction</h3>
+    <p>Learn about the hierarchical prediction process, probabilities, and SHAP explanations.</p>
+    <a href="{{ url_for('prediction_explanation') }}"
+       style="display:inline-block;padding:10px 16px;background:#0f766e;color:white;text-decoration:none;border-radius:8px;">
+        Prediction Explanation
+    </a>
+    <a href="{{ url_for('thyroid_information') }}"
+       style="display:inline-block;margin-left:8px;padding:10px 16px;background:#0f766e;color:white;text-decoration:none;border-radius:8px;">
+        Thyroid Information
+    </a>
+</div>
+<div style="margin:20px 0;padding:18px;background:#f0fdfa;border:1px solid #cfe5e2;border-radius:12px;">
+    <h3 style="color:#075e63;">Prepare for Your Consultation</h3>
+    <p>Organize your medical documents, prepare questions, and print a consultation checklist.</p>
+    <a href="{{ url_for('consultation_preparation') }}"
+       style="display:inline-block;padding:10px 16px;background:#0f766e;color:white;text-decoration:none;border-radius:8px;">
+        Open Consultation Preparation
+    </a>
+</div>
+</div>
+
+
+<script>
+
+function getLocation() {
+
+    const locationInput =
+        document.getElementById("healthcare-location");
+
+    const location =
+        locationInput.value.trim();
+
+    if (!location) {
+
+        alert(
+            "Please enter a city, locality, or area first."
+        );
+
+        locationInput.focus();
+
+        return null;
+    }
+
+    return location;
+}
+
+
+function searchCategory(category) {
+
+    const location =
+        getLocation();
+
+    if (!location) {
+        return;
+    }
+
+    const query =
+        category + " near " + location;
+
+    const url =
+        "https://www.google.com/maps/search/?api=1&query=" +
+        encodeURIComponent(query);
+
+    window.open(
+        url,
+        "_blank",
+        "noopener,noreferrer"
+    );
+}
+
+
+function searchHealthcare() {
+
+    const location =
+        getLocation();
+
+    if (!location) {
+        return;
+    }
+
+    const query =
+        "healthcare facilities near " + location;
+
+    const url =
+        "https://www.google.com/maps/search/?api=1&query=" +
+        encodeURIComponent(query);
+
+    window.open(
+        url,
+        "_blank",
+        "noopener,noreferrer"
+    );
+}
+
+
+function openMaps() {
+
+    const locationInput =
+        document.getElementById("healthcare-location");
+
+    const location =
+        locationInput.value.trim();
+
+    if (location) {
+
+        const url =
+            "https://www.google.com/maps/search/?api=1&query=" +
+            encodeURIComponent(location);
+
+        window.open(
+            url,
+            "_blank",
+            "noopener,noreferrer"
+        );
+
+        return;
+    }
+
+    window.open(
+        "https://www.google.com/maps/",
+        "_blank",
+        "noopener,noreferrer"
+    );
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+

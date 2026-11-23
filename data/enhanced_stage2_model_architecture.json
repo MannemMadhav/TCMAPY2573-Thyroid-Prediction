@@ -1,0 +1,35 @@
+{
+    "model_type": "StackingClassifier",
+    "base_learners": {
+        "random_forest": {
+            "wrapper": "CalibratedClassifierCV",
+            "calibration": "sigmoid",
+            "cv": 3
+        },
+        "xgboost": {
+            "wrapper": "CalibratedClassifierCV",
+            "calibration": "sigmoid",
+            "cv": 3
+        },
+        "svm": {
+            "wrapper": "CalibratedClassifierCV",
+            "calibration": "sigmoid",
+            "cv": 3
+        }
+    },
+    "meta_learner": {
+        "type": "LogisticRegression",
+        "max_iter": 2000
+    },
+    "stack_method": "predict_proba",
+    "stacking_cv": 3,
+    "number_of_features": 56,
+    "number_of_classes": 4,
+    "classes": {
+        "0": "Normal",
+        "1": "Hyperthyroid",
+        "2": "Hypothyroid",
+        "3": "Other / Related Diagnosis"
+    },
+    "training_rows": 8610
+}

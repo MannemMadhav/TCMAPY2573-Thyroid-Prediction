@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
-<body>
+<body class="prediction-page">
 
 <div class="container">
 
@@ -19,11 +19,11 @@
         <strong>{{ session_username }}</strong>
     </p>
 
-    <nav>
-        <a href="/">Prediction</a> |
-        <a href="/history">Prediction History</a> |
-        <a href="/logout">Logout</a>
-    </nav>
+    <nav class="prediction-topbar">
+    <a href="/">Prediction</a>
+    <a href="/history">Prediction History</a>
+    <a href="/logout">Logout</a>
+</nav>
 
     <hr>
 
@@ -38,7 +38,7 @@
 <br>
 {% endif %}
 
-    <form method="POST" action="/predict">
+    <form class="prediction-form" method="POST" action="/predict">
 
         <!-- Patient Information -->
         <div class="card">
@@ -319,6 +319,38 @@
     min="0"
     required
 >
+<br><br>
+
+<label>TBG Measured:</label>
+<select name="TBG_measured">
+    <option value="1">Yes</option>
+    <option value="0">No</option>
+</select>
+
+<br><br>
+
+<label for="TBG">TBG:</label>
+<input
+    type="number"
+    step="any"
+    id="TBG"
+    name="TBG"
+    min="0"
+>
+
+<br><br>
+
+<label for="referral_source">Referral Source:</label>
+<select id="referral_source" name="referral_source" required>
+    <option value="other">other</option>
+    <option value="STMW">STMW</option>
+    <option value="SVHC">SVHC</option>
+    <option value="SVHD">SVHD</option>
+    <option value="SVI">SVI</option>
+    <option value="WEST">WEST</option>
+</select>
+
+<br><br>
             <br><br>
 
             <button type="submit">

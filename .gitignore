@@ -1,6 +1,23 @@
+@'
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
 .env
+.env.*
+!.env.example
 *.db
-.ipynb_checkpoints/
+*.sqlite
+*.sqlite3
+.DS_Store
+.vscode/
+.pytest_cache/
+static/*.bak
+static/*before*.css
+'@ | Set-Content .gitignore
+# Backup and development copies
+*_backup.*
+app_before_*.py
+app_step*.py
+*before*.css
+*before*.html

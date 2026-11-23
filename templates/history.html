@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,59 +6,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Prediction History - TCMAPY2573</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
 
-<body>
-    <div class="container"></div>
+<body class="history-page">
 
-<nav>
-    <a href="/">Prediction</a> |
-    <a href="/history">Prediction History</a> |
-    <a href="/logout">Logout</a>
-</nav>
+<div class="container">
 
-<hr>
+    <nav>
+        <a href="/">Prediction</a> |
+        <a href="/history">Prediction History</a> |
+        <a href="/logout">Logout</a>
+    
+<a href="{{ url_for('healthcare') }}">Healthcare Finder</a>
+<a href="{{ url_for('thyroid_information') }}">Thyroid Information</a>
+<a href="{{ url_for('prediction_explanation') }}">Prediction Explanation</a>
+<a href="{{ url_for('consultation_preparation') }}">Consultation Preparation</a></nav>
 
-<p>
-    Logged in as:
-    <strong>{{ session_username }}</strong>
-</p>
+    <hr>
 
-<h1>Prediction History</h1>
+    <p>
+        Logged in as:
+        <strong>{{ session_username }}</strong>
+    </p>
 
-<table>
+    <h1>Prediction History</h1>
 
-    <tr>
-        <th>ID</th>
-        <th>Predicted Class</th>
-        <th>Stage 1 Normal Probability</th>
-<th>Stage 1 Dysfunction Probability</th>
-        <th>Date & Time</th>
-        <th>SHAP Summary</th>
-    </tr>
+    <div class="card">
 
-    {% for prediction in predictions %}
+        <div class="history-table-wrapper">
 
-    <tr>
-        <td>{{ prediction[0] }}</td>
-        <td>{{ prediction[1] }}</td>
-        <td>{{ prediction[2] }}%</td>
-        <td>{{ prediction[3] }}%</td>
-        <td>{{ prediction[4] }}</td>
-   <td>
-    {% if prediction[5] %}
-        <small>{{ prediction[5] }}</small>
-    {% else %}
-        <small>SHAP explanation not available for this older prediction.</small>
-    {% endif %}
-</td>
-    </tr>
+            <table>
 
-    {% endfor %}
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Predicted Class</th>
+                    <th>Stage 1 Class</th>
+                    <th>Stage 1 Confidence</th>
+                    <th>Routing Decision</th>
+                    <th>Stage 2 Used</th>
+                    <th>Negative Probability</th>
+            <th>Dysfunction Probability</th>
+            <th>Normal</th>
+                    <th>Hyperthyroid</th>
+                    <th>Hypothyroid</th>
+                    <th>Other / Related</th>
+                    <th>Date &amp; Time</th>
+                    <th>SHAP Summary</th>
+                </tr>
+            </thead>
 
-</table>
+            <tbody>
+
+            {% if predictions %}
+{% for prediction in predictions %}
+
+                <tr>
+
+                    <!-- ID -->
+                    <td>
+                        {{ prediction[0] }}
+                    </td>
+
+                    <!-- Final prediction -->
+                    <td>
+                        <strong>{{ prediction[1] }}</strong>
+                    </td>
+
+                    <!-- Stage 1 -->
+                    <td>
+                        {% if prediction[6] %}
+                            {{ prediction[6] }}
+                        {% else %}
+                            <small>Legacy record</small>
+                        {% endif %}
+                    </td>
+
+                    <!-- Stage 1 confidence -->
+                    <td>
+                        {% if prediction[7] is not none %}
+                            {{ "%.2f"|format(prediction[7] * 100) }}%
+                        {% else %}
+                            <small>Not available</small>
+                        {% endif %}
+                    </td>
+
+                    <!-- Routing -->
+                    <td>
+                        {% if prediction[8] %}
+                            {{ prediction[8] }}
+                        {% else %}
+                            <small>Legacy record</small>
+                        {% endif %}
+                    </td>
+
+                    <!-- Stage 2 -->
+                    <td>
+                        {% if prediction[9] == 1 %}
+                            Yes
+                        {% elif prediction[9] == 0 %}
+                            No
+                        {% else %}
+                            <small>Not available</small>
+                        {% endif %}
+                    </td>
+
+                    <!-- Main prediction probabilities -->
+        <td>
+            {% if prediction[2] is not none %}
+                {{ "%.2f"|format(prediction[2]) }}%
+            {% else %}
+                <small>Not available</small>
+            {% endif %}
+        </td>
+
+        <td>
+            {% if prediction[3] is not none %}
+                {{ "%.2f"|format(prediction[3]) }}%
+            {% else %}
+                <small>Not available</small>
+            {% endif %}
+        </td>
+
+        <!-- Stage 2 Normal -->
+                    <td>
+                        {% if prediction[10] is not none %}
+                            {{ "%.2f"|format(prediction[10]) }}%
+                        {% else %}
+                            â€”
+                        {% endif %}
+                    </td>
+
+                    <!-- Stage 2 Hyperthyroid -->
+                    <td>
+                        {% if prediction[11] is not none %}
+                            {{ "%.2f"|format(prediction[11]) }}%
+                        {% else %}
+                            â€”
+                        {% endif %}
+                    </td>
+
+                    <!-- Stage 2 Hypothyroid -->
+                    <td>
+                        {% if prediction[12] is not none %}
+                            {{ "%.2f"|format(prediction[12]) }}%
+                        {% else %}
+                            â€”
+                        {% endif %}
+                    </td>
+
+                    <!-- Stage 2 Other -->
+                    <td>
+                        {% if prediction[13] is not none %}
+                            {{ "%.2f"|format(prediction[13]) }}%
+                        {% else %}
+                            â€”
+                        {% endif %}
+                    </td>
+
+                    <!-- Date -->
+                    <td>
+                        {{ prediction[4] }}
+                    </td>
+
+                    <!-- SHAP -->
+                    <td>
+                        {% if prediction[5] %}
+                            <small>{{ prediction[5] }}</small>
+                        {% else %}
+                            <small>SHAP explanation unavailable.</small>
+                        {% endif %}
+                    </td>
+
+                </tr>
+
+            {% endfor %}
+{% else %}
+<tr>
+    <td colspan="12" class="history-empty-state">
+        <strong>No prediction history yet</strong>
+        <span>Your prediction results will appear here after you complete a prediction.</span>
+        <a href="/">Make a Prediction</a>
+    </td>
+</tr>
+{% endif %}
+
+            </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
 </div>
-</body>
 
+</body>
 </html>
+

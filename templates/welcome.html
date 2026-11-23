@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>TCMAPY2573 - Thyroid Prediction</title>
-
+    <title>THYROID AI - Welcome</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
-<body>
+<body class="welcome-page">
 
-<div class="container">
+    <main class="welcome-shell">
 
-    <div class="card">
+        <section class="welcome-card">
 
-        <h1>TCMAPY2573 Thyroid Disease Prediction System</h1>
+            <div class="welcome-brand">
+                <div class="welcome-brand-icon">T</div>
 
-        <p>
-            Explainable machine learning system for academic
-            thyroid disease prediction and analysis.
-        </p>
+                <div class="welcome-brand-text">
+                    <div class="welcome-brand-name">THYROID AI</div>
+                    <div class="welcome-brand-subtitle">
+                        Enhanced Thyroid Prediction System
+                    </div>
+                </div>
+            </div>
 
-        <br>
+            <div class="welcome-content">
 
-        <a href="/login">
-            <button type="button">Login</button>
-        </a>
+                <div class="welcome-badge">
+                    Explainable Machine Learning
+                </div>
 
-        <a href="/register">
-            <button type="button">Create an Account</button>
-        </a>
+                <h1>
+                    Thyroid Disease<br>
+                    Prediction & Analysis
+                </h1>
 
-    </div>
+                <p class="welcome-description">
+                    An academic decision-support prototype that combines
+                    confidence-guided screening, ensemble learning,
+                    calibrated probabilities, and explainable AI
+                    for thyroid prediction analysis.
+                </p>
 
-    <div class="disclaimer">
-        <strong>Academic decision-support prototype:</strong>
-        This system is not a medical diagnosis.
-        Consult a qualified healthcare professional for medical advice.
-    </div>
+                <div class="welcome-actions">
 
-</div>
+                    <a href="/login" class="welcome-primary-button">
+                        Login
+                    </a>
+
+                    <a href="/register" class="welcome-secondary-button">
+                        Create an Account
+                    </a>
+
+                </div>
+
+                <div class="welcome-highlights">
+
+                    <div class="welcome-highlight">
+                        <strong>Secure Access</strong>
+                        <span>Personal account and prediction history</span>
+                    </div>
+
+                    <div class="welcome-highlight">
+                        <strong>Confidence-Guided</strong>
+                        <span>Screening and diagnostic routing</span>
+                    </div>
+
+                    <div class="welcome-highlight">
+                        <strong>Explainable AI</strong>
+                        <span>Transparent prediction analysis</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="welcome-disclaimer">
+                <strong>Academic decision-support prototype</strong>
+                <p>
+                    This system is not a medical diagnosis.
+                    Consult a qualified healthcare professional for medical advice.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
-
 </html>

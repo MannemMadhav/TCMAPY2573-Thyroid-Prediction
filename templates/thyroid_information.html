@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thyroid Information - TCMAPY2573</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="thyroid-info-page">
+
+<div class="thyroid-info-container">
+
+    <nav class="thyroid-info-topbar">
+        <a href="{{ url_for('home') }}">Prediction</a>
+        <a href="{{ url_for('history') }}">Prediction History</a>
+        <a href="{{ url_for('healthcare') }}">Healthcare Finder</a>
+        <a href="{{ url_for('thyroid_information') }}">Thyroid Information</a>
+        <a href="{{ url_for('prediction_explanation') }}">Prediction Explanation</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    
+<a href="{{ url_for('consultation_preparation') }}">Consultation Preparation</a>
+</nav>
+    <a href="{{ url_for('thyroid_faq') }}">Thyroid Health FAQs</a>
+
+    <p class="thyroid-info-user">
+        Logged in as: <strong>{{ session_username }}</strong>
+    </p>
+
+    <header class="thyroid-info-header">
+        <h1>Thyroid Information &amp; Education</h1>
+        <p>
+            Learn about thyroid-related screening, laboratory measurements,
+            the two-stage prediction workflow, and how to interpret this
+            application as an academic decision-support tool.
+        </p>
+    </header>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">01</span>
+        <h2>What Is the Thyroid?</h2>
+        <p>
+            The thyroid is a gland that produces hormones involved in
+            regulating several important body processes. Thyroid function
+            is evaluated using medical history, clinical assessment, and
+            appropriate laboratory investigations.
+        </p>
+        <p>
+            This project explores machine-learning-based screening using
+            structured thyroid-related clinical and laboratory data.
+        </p>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">02</span>
+        <h2>Thyroid-Related Measurements</h2>
+
+        <div class="thyroid-measurement-grid">
+            <article class="thyroid-measurement">
+                <h3>TSH</h3>
+                <p>Thyroid-stimulating hormone, an important measurement in thyroid evaluation.</p>
+            </article>
+            <article class="thyroid-measurement">
+                <h3>T3</h3>
+                <p>A thyroid hormone measurement that may be used during clinical evaluation.</p>
+            </article>
+            <article class="thyroid-measurement">
+                <h3>TT4</h3>
+                <p>Total thyroxine, a measurement of thyroid hormone in the blood.</p>
+            </article>
+            <article class="thyroid-measurement">
+                <h3>T4U</h3>
+                <p>A thyroid-related laboratory measurement represented in the project data.</p>
+            </article>
+            <article class="thyroid-measurement">
+                <h3>FTI</h3>
+                <p>Free thyroxine index, interpreted by clinicians alongside other findings.</p>
+            </article>
+            <article class="thyroid-measurement">
+                <h3>TBG</h3>
+                <p>Thyroxine-binding globulin, a protein involved in thyroid hormone transport.</p>
+            </article>
+        </div>
+
+        <p class="thyroid-info-note">
+            These are educational descriptions. The actual model input features
+            depend on the dataset and preprocessing used in this project.
+        </p>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">03</span>
+        <h2>Stage 1 — Binary Screening</h2>
+        <div class="thyroid-stage-box">
+            <div class="thyroid-stage-number">1</div>
+            <div>
+                <h3>Normal vs Thyroid Dysfunction</h3>
+                <p>
+                    The first stage uses XGBoost to perform the project's
+                    binary screening task, separating the Normal category
+                    from the Thyroid Dysfunction category.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">04</span>
+        <h2>Stage 2 — Detailed Classification</h2>
+        <div class="thyroid-stage-box">
+            <div class="thyroid-stage-number">2</div>
+            <div>
+                <h3>Three-Class Classification</h3>
+                <p>
+                    The second stage uses the calibrated stacking ensemble
+                    for the project's detailed classification task.
+                </p>
+                <div class="thyroid-class-grid">
+                    <div>
+                        <strong>Normal</strong>
+                        <span>The model's Normal output category.</span>
+                    </div>
+                    <div>
+                        <strong>Hyperfunction</strong>
+                        <span>The model's Hyperfunction output category.</span>
+                    </div>
+                    <div>
+                        <strong>Subnormal</strong>
+                        <span>The model's Subnormal output category.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">05</span>
+        <h2>Calibrated Stacking Ensemble</h2>
+        <p>
+            The Stage 2 architecture combines predictions from multiple
+            base learners using a Logistic Regression meta-learner.
+        </p>
+        <div class="thyroid-model-grid">
+            <article class="thyroid-model">
+                <h3>Support Vector Machine</h3>
+                <p>A base learner in the ensemble.</p>
+            </article>
+            <article class="thyroid-model">
+                <h3>Random Forest</h3>
+                <p>A tree-based base learner.</p>
+            </article>
+            <article class="thyroid-model">
+                <h3>XGBoost</h3>
+                <p>A boosting-based base learner.</p>
+            </article>
+            <article class="thyroid-model">
+                <h3>Logistic Regression</h3>
+                <p>The meta-learner that combines base-learner outputs.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">06</span>
+        <h2>Explainable AI with SHAP</h2>
+        <div class="thyroid-explain-box">
+            <strong>Understanding model output</strong>
+            <p>
+                SHAP explanations help show how input features contribute
+                to a model's output. They explain model behaviour; they do
+                not establish a medical cause or diagnosis.
+            </p>
+        </div>
+    </section>
+
+    <section class="thyroid-info-card thyroid-guidance-card">
+        <span class="thyroid-info-label">07</span>
+        <h2>How to Use Your Prediction</h2>
+        <ol>
+            <li>Review the predicted category and probability information.</li>
+            <li>Review the screening and detailed classification information.</li>
+            <li>Read the available SHAP explanation.</li>
+            <li>Download the prediction report if needed.</li>
+            <li>Discuss health concerns with a qualified healthcare professional.</li>
+        </ol>
+    </section>
+
+    <section class="thyroid-info-navigation">
+        <a href="{{ url_for('home') }}" class="thyroid-info-nav-button">Back to Prediction</a>
+        <a href="{{ url_for('healthcare') }}" class="thyroid-info-nav-button">Healthcare Finder</a>
+        <a href="{{ url_for('history') }}" class="thyroid-info-nav-button">Prediction History</a>
+    </section>
+
+    <section class="thyroid-info-disclaimer">
+        <strong>Educational &amp; Medical Disclaimer</strong>
+        <p>
+            This page is for educational and academic decision-support
+            purposes. Predictions are not medical diagnoses and must not
+            be used alone to make healthcare decisions.
+        </p>
+        <p>
+            This application does not prescribe medication or treatment.
+            Consult a qualified healthcare professional for clinical
+            interpretation, diagnosis, and treatment decisions.
+        </p>
+    </section>
+
+</div>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Preparation - TCMAPY2573</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .consult-checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .consult-checklist li {
+            margin: 12px 0;
+            padding: 14px;
+            background: #f0fdfa;
+            border: 1px solid #d7e7e5;
+            border-radius: 9px;
+        }
+        .consult-checklist input {
+            margin-right: 10px;
+            accent-color: #0f766e;
+        }
+        .consult-question {
+            padding: 14px;
+            margin: 10px 0;
+            background: #f8fcfb;
+            border-left: 3px solid #0f766e;
+            border-radius: 7px;
+        }
+        .consult-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 22px 0;
+        }
+        @media print {
+            .thyroid-info-topbar, .consult-actions {
+                display: none !important;
+            }
+            body, .thyroid-info-container {
+                background: white !important;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .thyroid-info-card {
+                box-shadow: none;
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="thyroid-info-page">
+<div class="thyroid-info-container">
+
+    <nav class="thyroid-info-topbar">
+        <a href="{{ url_for('home') }}">Prediction</a>
+        <a href="{{ url_for('history') }}">Prediction History</a>
+        <a href="{{ url_for('healthcare') }}">Healthcare Finder</a>
+        <a href="{{ url_for('thyroid_information') }}">Thyroid Information</a>
+        <a href="{{ url_for('prediction_explanation') }}">Prediction Explanation</a>
+        <a href="{{ url_for('consultation_preparation') }}">Consultation Preparation</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </nav>
+    <a href="{{ url_for('thyroid_faq') }}">Thyroid Health FAQs</a>
+
+    <header class="thyroid-info-header">
+        <h1>Consultation Preparation</h1>
+        <p>
+            Use this checklist to prepare for a discussion with a qualified
+            healthcare professional. You can select the items you have ready
+            and print this page for personal reference.
+        </p>
+    </header>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">01</span>
+        <h2>Documents to Bring</h2>
+        <ul class="consult-checklist">
+            <li><label><input type="checkbox"> Recent thyroid laboratory reports, if available</label></li>
+            <li><label><input type="checkbox"> Relevant medical history and previous diagnoses</label></li>
+            <li><label><input type="checkbox"> Current medication and supplement list</label></li>
+            <li><label><input type="checkbox"> Previous consultation notes or test results</label></li>
+            <li><label><input type="checkbox"> AI-generated prediction report, if you wish to discuss it</label></li>
+        </ul>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">02</span>
+        <h2>Questions You May Wish to Ask</h2>
+        <div class="consult-question">Which clinical tests, if any, are appropriate for my situation?</div>
+        <div class="consult-question">How should my laboratory results be interpreted alongside my medical history?</div>
+        <div class="consult-question">Does the AI-generated screening result have any relevance to my clinical evaluation?</div>
+        <div class="consult-question">Do I need follow-up testing or a specialist consultation?</div>
+        <div class="consult-question">When should I arrange a follow-up appointment?</div>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">03</span>
+        <h2>Personal Notes</h2>
+        <p>
+            Use the space below to prepare questions or note information
+            you want to discuss. These notes remain in this page only;
+            they are not saved to your account or database.
+        </p>
+        <textarea id="consultationNotes"
+                  rows="7"
+                  style="box-sizing:border-box;width:100%;padding:12px;border:1px solid #cfe1df;border-radius:9px;"
+                  placeholder="Write your questions or notes here..."></textarea>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">04</span>
+        <h2>Related Project Pages</h2>
+        <p>Use these pages to review the information available in this application.</p>
+        <div class="consult-actions">
+            <a class="thyroid-info-nav-button" href="{{ url_for('home') }}">Make a Prediction</a>
+            <a class="thyroid-info-nav-button" href="{{ url_for('history') }}">Prediction History</a>
+            <a class="thyroid-info-nav-button" href="{{ url_for('prediction_explanation') }}">Prediction Explanation</a>
+            <a class="thyroid-info-nav-button" href="{{ url_for('healthcare') }}">Healthcare Finder</a>
+        </div>
+        <button type="button" class="thyroid-info-nav-button" onclick="window.print()">
+            Print Consultation Checklist
+        </button>
+    </section>
+
+    <section class="thyroid-info-disclaimer">
+        <strong>Important Notice</strong>
+        <p>
+            This checklist is for preparation and educational purposes only.
+            The application does not diagnose conditions or recommend
+            treatment. A qualified healthcare professional should interpret
+            your medical information and advise you on appropriate next steps.
+        </p>
+    </section>
+
+</div>
+</body>
+</html>
+

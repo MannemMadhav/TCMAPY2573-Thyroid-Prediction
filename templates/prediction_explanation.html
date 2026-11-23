@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Explanation - TCMAPY2573</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="thyroid-info-page">
+
+<div class="thyroid-info-container">
+
+    <nav class="thyroid-info-topbar">
+        <a href="{{ url_for('home') }}">Prediction</a>
+        <a href="{{ url_for('history') }}">Prediction History</a>
+        <a href="{{ url_for('healthcare') }}">Healthcare Finder</a>
+        <a href="{{ url_for('thyroid_information') }}">Thyroid Information</a>
+        <a href="{{ url_for('prediction_explanation') }}">Prediction Explanation</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    
+<a href="{{ url_for('consultation_preparation') }}">Consultation Preparation</a>
+</nav>
+    <a href="{{ url_for('thyroid_faq') }}">Thyroid Health FAQs</a>
+
+    <header class="thyroid-info-header">
+        <h1>Understanding Your Prediction</h1>
+        <p>
+            Learn how the hierarchical thyroid prediction system processes
+            inputs, generates a classification, and explains model behaviour.
+        </p>
+    </header>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">01</span>
+        <h2>How a Prediction Is Generated</h2>
+        <div class="thyroid-stage-box">
+            <div class="thyroid-stage-number">1</div>
+            <div>
+                <h3>Input Processing</h3>
+                <p>
+                    The application converts submitted clinical values into
+                    the input representation expected by the trained model.
+                </p>
+            </div>
+        </div>
+        <div class="thyroid-stage-box" style="margin-top:14px">
+            <div class="thyroid-stage-number">2</div>
+            <div>
+                <h3>Stage 1 Screening</h3>
+                <p>
+                    The first model performs binary screening between Normal
+                    and Thyroid Dysfunction.
+                </p>
+            </div>
+        </div>
+        <div class="thyroid-stage-box" style="margin-top:14px">
+            <div class="thyroid-stage-number">3</div>
+            <div>
+                <h3>Stage 2 Classification</h3>
+                <p>
+                    The stacking ensemble provides detailed classification
+                    among Normal, Hyperfunction, and Subnormal categories
+                    when required by the cascade.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">02</span>
+        <h2>Understanding Prediction Probabilities</h2>
+        <p>
+            Probability values represent the model's estimated support for
+            its available classes. They are not the same as a confirmed
+            clinical diagnosis or a guaranteed probability of disease.
+        </p>
+        <p>
+            Interpret these values alongside the predicted category, the
+            model's limitations, and advice from a qualified healthcare
+            professional.
+        </p>
+    </section>
+
+    <section class="thyroid-info-card">
+        <span class="thyroid-info-label">03</span>
+        <h2>Understanding SHAP Explanations</h2>
+        <p>
+            SHAP helps explain how input features contribute to a particular
+            model output relative to the explainer's reference or baseline.
+        </p>
+        <div class="thyroid-explain-box">
+            <strong>Important distinction</strong>
+            <p>
+                A feature's contribution describes model behaviour. It does
+                not prove that the feature caused a thyroid condition.
+            </p>
+        </div>
+    </section>
+
+    <section class="thyroid-info-navigation">
+        <a href="{{ url_for('home') }}" class="thyroid-info-nav-button">Make a Prediction</a>
+        <a href="{{ url_for('history') }}" class="thyroid-info-nav-button">View History</a>
+        <a href="{{ url_for('thyroid_information') }}" class="thyroid-info-nav-button">Thyroid Education</a>
+        <a href="{{ url_for('healthcare') }}" class="thyroid-info-nav-button">Healthcare Finder</a>
+    </section>
+
+    <section class="thyroid-info-disclaimer">
+        <strong>Medical Disclaimer</strong>
+        <p>
+            This explanation is educational. The output is not a medical
+            diagnosis and must not be used alone to make treatment decisions.
+            Consult a qualified healthcare professional for clinical advice.
+        </p>
+    </section>
+
+</div>
+</body>
+</html>
+
+
+
+
+

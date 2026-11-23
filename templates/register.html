@@ -5,59 +5,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Register - TCMAPY2573</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Create Account - TCMAPY2573</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
 </head>
 
-<body>
-<div class="container"></div>
-    <h1>Create Account</h1>
-    <div class="card"></div>
+<body class="auth-page">
 
-    <form method="POST" action="/register">
+    <main class="auth-page-container">
 
-        <label for="username">Username:</label>
-        <input
-            type="text"
-            id="username"
-            name="username"
-            required
-        >
+        <section class="auth-card" aria-labelledby="register-title">
 
-        <br><br>
+            <div class="auth-brand">
+                <div class="auth-brand-mark">
+                    T
+                </div>
 
-        <label for="email">Email:</label>
-        <input
-            type="email"
-            id="email"
-            name="email"
-            required
-        >
+                <div>
+                    <div class="auth-brand-title">
+                        THYROID AI
+                    </div>
 
-        <br><br>
+                    <div class="auth-brand-subtitle">
+                        Enhanced Thyroid Prediction System
+                    </div>
+                </div>
+            </div>
 
-        <label for="password">Password:</label>
-        <input
-            type="password"
-            id="password"
-            name="password"
-            required
-        >
+            <div class="auth-header">
+                <h1 id="register-title">
+                    Create Your Account
+                </h1>
 
-        <br><br>
+                <p>
+                    Create an account to securely access predictions,
+                    results, and your personal prediction history.
+                </p>
+            </div>
 
-        <button type="submit">Register</button>
+            {% if error %}
+            <div class="auth-message auth-message-error">
+                <strong>Account creation failed</strong>
+                <span>{{ error }}</span>
+            </div>
+            {% endif %}
 
-    </form>
-    </div>
+            <form
+                method="POST"
+                action="/register"
+                class="auth-form"
+                novalidate
+            >
 
-    <br>
+                <div class="auth-field">
+                    <label for="username">
+                        Username
+                    </label>
 
-    <a href="/">Back to Prediction Form</a>
-    <br><br>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter your username"
+                        autocomplete="username"
+                        minlength="3"
+                        maxlength="30"
+                        required
+                    >
 
-<a href="/login">Already have an account? Login</a>
-</div>
+                    <small>
+                        3–30 characters using letters, numbers, or underscores.
+                    </small>
+                </div>
+
+                <div class="auth-field">
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="auth-field">
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Create a strong password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+
+                    <small>
+                        At least 8 characters with uppercase, lowercase,
+                        and a number.
+                    </small>
+                </div>
+
+                <div class="auth-field">
+                    <label for="confirm_password">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm_password"
+                        name="confirm_password"
+                        placeholder="Re-enter your password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+                </div>
+
+                <button
+                    type="submit"
+                    class="auth-submit-button"
+                >
+                    Create Account
+                </button>
+
+            </form>
+
+            <div class="auth-divider">
+                <span>Already registered?</span>
+            </div>
+
+            <a
+                href="/login"
+                class="auth-secondary-button"
+            >
+                Login to Your Account
+            </a>
+
+            <a
+                href="/"
+                class="auth-back-link"
+            >
+                Back to Home
+            </a>
+
+        </section>
+
+    </main>
 
 </body>
 

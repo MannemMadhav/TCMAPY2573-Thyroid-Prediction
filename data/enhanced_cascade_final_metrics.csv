@@ -1,0 +1,2 @@
+stage1_accuracy,stage1_macro_f1,cascade_accuracy,cascade_balanced_accuracy,cascade_precision_macro,cascade_recall_macro,cascade_f1_macro,cascade_f1_weighted,confidence_threshold,final_test_samples,final_normal_count,stage2_count,uncertain_count,confident_non_normal_count,confident_normal_correct,confident_normal_incorrect,confident_normal_precision
+0.9607629427792915,0.9498824064941962,0.9602179836512261,0.9116589015316184,0.9011551913663058,0.9116589015316184,0.9060887647566656,0.9603778007140426,0.95,1835,1273,562,251,311,1265,8,0.9937156323644933

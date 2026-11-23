@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,15 +7,18 @@
 
     <title>Prediction Result - TCMAPY2573</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
 </head>
 
-<body>
+<body class="prediction-page">
 
 <div class="container">
 
     <!-- Navigation -->
-    <nav>
+    <nav class="prediction-topbar">
         <a href="/">Prediction</a> |
         <a href="/history">Prediction History</a> |
         <a href="/logout">Logout</a>
@@ -32,60 +35,486 @@
     <!-- Result heading -->
     <h1>Thyroid Prediction Result</h1>
 
-    <!-- Predicted class -->
-    <h2>Predicted Class</h2>
+    <!-- Final prediction -->
+    <h2>Final Prediction</h2>
 
     <div class="success">
         <strong>{{ predicted_class }}</strong>
     </div>
-    <!-- Prediction probabilities -->
-<h2>Prediction Probabilities</h2>
 
-<div class="card">
+    <!-- Prediction information -->
+    <h2>Prediction Information</h2>
 
-    <!-- Stage 1 -->
-    <h3>Stage 1 - Thyroid Dysfunction Screening</h3>
+    <div class="card">
 
-    <p>
-        <strong>Stage 1 Result:</strong>
-        {{ stage1_class }}
-    </p>
+        <p>
+            <strong>Final Class:</strong>
+            {{ final_class_label }}
+        </p>
 
-    <p>
-        <strong>Normal Probability:</strong>
-        {{ stage1_normal_probability }}%
-    </p>
+        <p>
+            <strong>Routing Decision:</strong>
+            {{ routing_decision }}
+        </p>
 
-    <div class="probability-bar">
-        <div
-            class="probability-fill negative-fill"
-            style="width: {{ stage1_normal_probability }}%;">
-        </div>
+        <p>
+            <strong>Stage 2 Used:</strong>
+            {{ "Yes" if stage2_used else "No" }}
+        </p>
+
     </div>
 
-    <p>
-        <strong>Thyroid Dysfunction Probability:</strong>
-        {{ stage1_dysfunction_probability }}%
-    </p>
+    
+<!-- Feature 5 - Prediction Summary -->
+<div class="prediction-summary-card">
 
-    <div class="probability-bar">
-        <div
-            class="probability-fill hypothyroid-fill"
-            style="width: {{ stage1_dysfunction_probability }}%;">
+    <h2>Prediction Summary</h2>
+
+    <div class="prediction-summary-grid">
+
+        <div class="prediction-summary-item">
+            <span class="prediction-summary-label">Final Prediction</span>
+            <strong class="prediction-summary-value">
+                {{ final_class_label }}
+            </strong>
         </div>
+
+        <div class="prediction-summary-item">
+            <span class="prediction-summary-label">Stage 1 Confidence</span>
+            <strong class="prediction-summary-value">
+                {{ stage1_confidence_percentage }}%
+            </strong>
+        </div>
+
+        <div class="prediction-summary-item">
+            <span class="prediction-summary-label">Routing Status</span>
+            <strong class="prediction-summary-value">
+                {{ routing_decision }}
+            </strong>
+        </div>
+
+        <div class="prediction-summary-item">
+            <span class="prediction-summary-label">Diagnostic Stage</span>
+            <strong class="prediction-summary-value">
+                {{ "Stage 2 Used" if stage2_used else "Stage 1 Only" }}
+            </strong>
+        </div>
+
+    </div>
+
+    {% if stage2_used %}
+    <div class="prediction-summary-diagnosis">
+        <span>Stage 2 Diagnosis</span>
+        <strong>{{ stage2_class_label }}</strong>
+    </div>
+    {% endif %}
+
+</div>
+
+<!-- Prediction probabilities -->
+    <h2>Prediction Probabilities</h2>
+
+    <div class="card">
+
+        <!-- Stage 1 -->
+        <h3>Stage 1 - Confidence-Guided Screening</h3>
+
+        <p>
+            <strong>Stage 1 Result:</strong>
+            {{ stage1_class }}
+        </p>
+
+        <p>
+            <strong>Normal Probability:</strong>
+            {{ stage1_normal_probability }}%
+        </p>
+
+        <div class="probability-bar">
+            <div
+                class="probability-fill negative-fill"
+                style="width: {{ stage1_normal_probability }}%;"
+            ></div>
+        </div>
+
+        <p>
+            <strong>Non-Normal Probability:</strong>
+            {{ stage1_dysfunction_probability }}%
+        </p>
+
+        <div class="probability-bar">
+            <div
+                class="probability-fill hypothyroid-fill"
+                style="width: {{ stage1_dysfunction_probability }}%;"
+            ></div>
+        </div>
+
+        <p>
+            <strong>Stage 1 Confidence:</strong>
+            {{ stage1_confidence_percentage }}%
+        </p>
+        <div class="confidence-gauge">
+            <div class="confidence-gauge-label">
+                <span>Confidence Level</span>
+                <strong>{{ stage1_confidence_percentage }}%</strong>
+            </div>
+
+            <div class="confidence-gauge-track">
+                <div
+                    class="confidence-gauge-fill"
+                    style="width: {{ stage1_confidence_percentage }}%;"
+                ></div>
+            </div>
+
+            <div class="confidence-gauge-description">
+                This confidence score is used by the confidence-guided
+                Stage 1 screening and routing mechanism.
+            </div>
+        </div>
+
+
+
+        <!-- Feature 4 - Confidence Threshold Scale -->
+        <div class="threshold-scale-card">
+
+            <h4>Confidence Threshold Scale</h4>
+
+            <p class="threshold-scale-description">
+                The Stage 1 confidence threshold is fixed at 95%.
+                The current confidence is shown relative to this threshold.
+            </p>
+
+            <div class="threshold-scale">
+
+                <div class="threshold-scale-track">
+                    <div class="threshold-scale-progress"
+                         style="width: {{ stage1_confidence_percentage }}%;"></div>
+
+                    <div class="threshold-marker"
+                         style="left: 95%;"></div>
+
+                    <div class="current-confidence-marker"
+                         style="left: {{ stage1_confidence_percentage }}%;"></div>
+                </div>
+
+                <div class="threshold-scale-labels">
+                    <span>0%</span>
+                    <span>50%</span>
+                    <span>95% Threshold</span>
+                    <span>100%</span>
+                </div>
+
+                <div class="threshold-scale-values">
+                    <span>
+                        Current Confidence:
+                        <strong>{{ stage1_confidence_percentage }}%</strong>
+                    </span>
+
+                    <span>
+                        Routing Threshold:
+                        <strong>95%</strong>
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <p>
+<!-- Feature 6 - Uncertainty / Reject Status -->
+    <div class="uncertainty-status-card">
+
+        <div class="uncertainty-status-header">
+            <strong>Uncertainty Status</strong>
+        </div>
+
+        {% if routing_decision == "UNCERTAIN_TO_STAGE_2" %}
+        <div class="uncertainty-status uncertain">
+            <strong>Uncertain / Low Confidence</strong>
+            <span>
+                Stage 1 confidence is below the confidence threshold.
+                The case is forwarded to Stage 2 for further classification.
+            </span>
+        </div>
+
+        {% elif routing_decision == "FINAL_NORMAL" %}
+        <div class="uncertainty-status normal">
+            <strong>High-Confidence Normal</strong>
+            <span>
+                Stage 1 confidence supports a direct Normal result.
+            </span>
+        </div>
+
+        {% elif routing_decision == "CONFIDENT_NON_NORMAL_TO_STAGE_2" %}
+        <div class="uncertainty-status confident">
+            <strong>High-Confidence Non-Normal</strong>
+            <span>
+                Stage 1 confidence supports routing to Stage 2 diagnosis.
+            </span>
+        </div>
+
+        {% else %}
+        <div class="uncertainty-status unknown">
+            <strong>Routing Status</strong>
+            <span>
+                The current routing state is shown below.
+            </span>
+        </div>
+        {% endif %}
+
     </div>
 
 
-    {% if stage2_class %}
+    </div>
 
-        <!-- Stage 2 -->
+    
+
+            
+<!-- Feature 7 - Calibration / Reliability Summary -->
+<div class="calibration-reliability-card">
+
+    <h4>Probability Calibration &amp; Reliability Summary</h4>
+
+    <p class="calibration-reliability-description">
+        This summary shows how the calibrated Stage 1 confidence values
+        compare with the observed accuracy across confidence ranges.
+        Smaller confidence-accuracy gaps indicate closer agreement between
+        predicted confidence and observed outcomes.
+    </p>
+
+    <div class="calibration-table-wrapper">
+        <table class="calibration-table">
+            <thead>
+                <tr>
+                    <th>Confidence Range</th>
+                    <th>Samples</th>
+                    <th>Mean Confidence</th>
+                    <th>Observed Accuracy</th>
+                    <th>Absolute Gap</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>50.00% â€“ 60.00%</td>
+                <td>26</td>
+                <td>55.30%</td>
+                <td>50.00%</td>
+                <td>5.30 percentage points</td>
+            </tr>
+            <tr>
+                <td>60.00% â€“ 70.00%</td>
+                <td>10</td>
+                <td>66.06%</td>
+                <td>70.00%</td>
+                <td>3.94 percentage points</td>
+            </tr>
+            <tr>
+                <td>70.00% â€“ 80.00%</td>
+                <td>20</td>
+                <td>75.01%</td>
+                <td>50.00%</td>
+                <td>25.01 percentage points</td>
+            </tr>
+            <tr>
+                <td>80.00% â€“ 90.00%</td>
+                <td>51</td>
+                <td>86.12%</td>
+                <td>74.51%</td>
+                <td>11.61 percentage points</td>
+            </tr>
+            <tr>
+                <td>90.00% â€“ 95.00%</td>
+                <td>110</td>
+                <td>93.29%</td>
+                <td>86.36%</td>
+                <td>6.93 percentage points</td>
+            </tr>
+            <tr>
+                <td>95.00% â€“ 101.00%</td>
+                <td>1251</td>
+                <td>98.51%</td>
+                <td>98.96%</td>
+                <td>0.45 percentage points</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+<!-- Feature 8 - Computational Efficiency Summary -->
+<div class="computational-efficiency-card">
+
+    <h4>Computational Efficiency Summary</h4>
+
+    <p class="computational-efficiency-description">
+        The following measurements summarize model size, routing workload,
+        and inference time for the enhanced hierarchical cascade on the
+        evaluated test set.
+    </p>
+
+    <div class="efficiency-grid">
+
+        <div class="efficiency-item">
+            <span class="efficiency-label">Stage 1 Model Size</span>
+            <strong class="efficiency-value">0.803 MB</strong>
+        </div>
+
+        <div class="efficiency-item">
+            <span class="efficiency-label">Stage 2 Model Size</span>
+            <strong class="efficiency-value">101.707 MB</strong>
+        </div>
+
+        <div class="efficiency-item">
+            <span class="efficiency-label">Final Cascade Size</span>
+            <strong class="efficiency-value">102.524 MB</strong>
+        </div>
+
+        <div class="efficiency-item">
+            <span class="efficiency-label">Test Cases</span>
+            <strong class="efficiency-value">1835</strong>
+        </div>
+
+        <div class="efficiency-item">
+            <span class="efficiency-label">Direct Final Normal</span>
+            <strong class="efficiency-value">1273</strong>
+        </div>
+
+        <div class="efficiency-item">
+            <span class="efficiency-label">Stage 2 Routed Cases</span>
+            <strong class="efficiency-value">562</strong>
+        </div>
+
+    </div>
+
+    <div class="efficiency-table-wrapper">
+        <table class="computational-efficiency-table">
+            <thead>
+                <tr>
+                    <th>Measurement</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Direct Final Normal Routing</td>
+                    <td>69.37%</td>
+                </tr>
+                <tr>
+                    <td>Stage 2 Routing</td>
+                    <td>30.63%</td>
+                </tr>
+                <tr>
+                    <td>Stage 1 Mean Inference Time</td>
+                    <td>0.012606 s</td>
+                </tr>
+                <tr>
+                    <td>Stage 2 Mean Inference Time</td>
+                    <td>0.686482 s</td>
+                </tr>
+                <tr>
+                    <td>Cascade Mean Inference Time</td>
+                    <td>0.769260 s</td>
+                </tr>
+                <tr>
+                    <td>Stage 1 Time per Patient</td>
+                    <td>0.00000687 s</td>
+                </tr>
+                <tr>
+                    <td>Stage 2 Time per Routed Patient</td>
+                    <td>0.00122150 s</td>
+                </tr>
+                <tr>
+                    <td>Cascade Time per Patient</td>
+                    <td>0.00041922 s</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<strong>Routing:</strong>
+            {{ routing_decision }}
+        </p>
+
+    <!-- Feature 3 - Confidence-Based Routing Flow -->
+<div class="routing-flow-card">
+
+    <h3>Confidence-Guided Routing Flow</h3>
+
+    <p class="routing-flow-description">
+        The prediction pipeline first performs Stage 1 screening,
+        evaluates confidence, and routes the sample according to
+        the confidence-guided decision mechanism.
+    </p>
+
+    <div class="routing-flow">
+
+        <div class="routing-node">
+            <strong>Patient Input</strong>
+            <span>Clinical and laboratory values</span>
+        </div>
+
+        <div class="routing-arrow">â†“</div>
+
+        <div class="routing-node">
+            <strong>Stage 1 Screening</strong>
+            <span>Normal vs Non-Normal</span>
+        </div>
+
+        <div class="routing-arrow">â†“</div>
+
+        <div class="routing-node">
+            <strong>Confidence Check</strong>
+            <span>{{ stage1_confidence_percentage }}% confidence</span>
+        </div>
+
+        <div class="routing-branches">
+
+            <div class="routing-branch">
+                <div class="routing-branch-title">High-Confidence Normal</div>
+                <div class="routing-branch-box">
+                    Final Normal
+                </div>
+            </div>
+
+            <div class="routing-branch">
+                <div class="routing-branch-title">Uncertain</div>
+                <div class="routing-branch-box">
+                    Stage 2 Diagnosis
+                </div>
+            </div>
+
+            <div class="routing-branch">
+                <div class="routing-branch-title">Confident Non-Normal</div>
+                <div class="routing-branch-box">
+                    Stage 2 Diagnosis
+                </div>
+            </div>
+
+        </div>
+
+        <div class="routing-current">
+            <strong>Current Routing:</strong>
+            {{ routing_decision }}
+        </div>
+
+    </div>
+</div>
+
+{% if stage2_used %}
+
+    <!-- Stage 2 -->
+    <div class="card">
+
         <hr>
 
-        <h3>Stage 2 - Thyroid Condition Classification</h3>
+        <h3>Stage 2 - Multi-Class Diagnosis</h3>
 
         <p>
             <strong>Stage 2 Result:</strong>
-            {{ stage2_class }}
+            {{ stage2_class_label }}
         </p>
 
         <p>
@@ -96,52 +525,130 @@
         <div class="probability-bar">
             <div
                 class="probability-fill negative-fill"
-                style="width: {{ stage2_normal_probability }}%;">
-            </div>
+                style="width: {{ stage2_normal_probability }}%;"
+            ></div>
         </div>
 
-
         <p>
-            <strong>Hyperfunction:</strong>
-            {{ stage2_hyperfunction_probability }}%
+            <strong>Hyperthyroid:</strong>
+            {{ stage2_hyperthyroid_probability }}%
         </p>
 
         <div class="probability-bar">
             <div
                 class="probability-fill hypothyroid-fill"
-                style="width: {{ stage2_hyperfunction_probability }}%;">
-            </div>
+                style="width: {{ stage2_hyperthyroid_probability }}%;"
+            ></div>
         </div>
 
-
         <p>
-            <strong>Subnormal:</strong>
-            {{ stage2_subnormal_probability }}%
+            <strong>Hypothyroid:</strong>
+            {{ stage2_hypothyroid_probability }}%
         </p>
 
         <div class="probability-bar">
             <div
                 class="probability-fill hypothyroid-fill"
-                style="width: {{ stage2_subnormal_probability }}%;">
-            </div>
+                style="width: {{ stage2_hypothyroid_probability }}%;"
+            ></div>
         </div>
+
+        <p>
+            <strong>Other / Related Diagnosis:</strong>
+            {{ stage2_other_probability }}%
+        </p>
+
+        <div class="probability-bar">
+            <div
+                class="probability-fill hypothyroid-fill"
+                style="width: {{ stage2_other_probability }}%;"
+            ></div>
+
+        <!-- Feature 1 - Stage 2 Four-Class Probability Chart -->
+        <hr>
+
+        <h4>Stage 2 Probability Profile</h4>
+
+        <p>
+            Probability distribution generated by the calibrated stacking
+            ensemble across the four diagnostic classes.
+        </p>
+
+        <div class="stage2-probability-chart">
+
+            <div class="stage2-chart-row">
+                <div class="stage2-chart-label">
+                    <span>Normal</span>
+                    <strong>{{ stage2_normal_probability }}%</strong>
+                </div>
+                <div class="stage2-chart-track">
+                    <div
+                        class="stage2-chart-fill stage2-normal-bar"
+                        style="width: {{ stage2_normal_probability }}%;"
+                    ></div>
+                </div>
+            </div>
+
+            <div class="stage2-chart-row">
+                <div class="stage2-chart-label">
+                    <span>Hyperthyroid</span>
+                    <strong>{{ stage2_hyperthyroid_probability }}%</strong>
+                </div>
+                <div class="stage2-chart-track">
+                    <div
+                        class="stage2-chart-fill stage2-hyperthyroid-bar"
+                        style="width: {{ stage2_hyperthyroid_probability }}%;"
+                    ></div>
+                </div>
+            </div>
+
+            <div class="stage2-chart-row">
+                <div class="stage2-chart-label">
+                    <span>Hypothyroid</span>
+                    <strong>{{ stage2_hypothyroid_probability }}%</strong>
+                </div>
+                <div class="stage2-chart-track">
+                    <div
+                        class="stage2-chart-fill stage2-hypothyroid-bar"
+                        style="width: {{ stage2_hypothyroid_probability }}%;"
+                    ></div>
+                </div>
+            </div>
+
+            <div class="stage2-chart-row">
+                <div class="stage2-chart-label">
+                    <span>Other / Related Diagnosis</span>
+                    <strong>{{ stage2_other_probability }}%</strong>
+                </div>
+                <div class="stage2-chart-track">
+                    <div
+                        class="stage2-chart-fill stage2-other-bar"
+                        style="width: {{ stage2_other_probability }}%;"
+                    ></div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
 
     {% else %}
+
+    <div class="card">
 
         <hr>
 
         <p>
             <strong>Stage 2:</strong>
-            Not required because Stage 1 classified the
-            sample as normal.
+            Not required because Stage 1 classified the sample
+            as a high-confidence Normal case.
         </p>
 
+    </div>
+
     {% endif %}
-
-</div>
-
-    
-    
 
     <!-- Explainable AI -->
     <h2 class="explainability-title">
@@ -151,22 +658,23 @@
     <div class="card explainability-card">
 
         <p class="shap-description">
-            SHAP values show how each feature influenced this individual
-prediction. Positive SHAP values push the prediction toward
-thyroid dysfunction, while negative SHAP values push it away
-from thyroid dysfunction.
+            SHAP values show how each processed feature contributed
+            to the individual Stage 1 screening prediction.
+            Positive SHAP values push the prediction toward the
+            non-normal class, while negative SHAP values push it
+            toward the normal class.
         </p>
 
         <!-- SHAP legend -->
         <p>
             <span class="shap-positive">
-                Green = pushes toward thyroid dysfunction
+                Positive = pushes toward non-normal screening
             </span>
 
-            &nbsp;&nbsp;|&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
 
             <span class="shap-negative">
-                Red = pushes away from thyroid dysfunction
+                Negative = pushes toward normal screening
             </span>
         </p>
 
@@ -182,59 +690,71 @@ from thyroid dysfunction.
 
             <tbody>
 
-                {% for feature in top_shap_features %}
+                {% if top_shap_features %}
 
-                <tr>
+                    {% for feature in top_shap_features %}
 
-                    <td>
-                        {{ feature["Feature"] }}
-                    </td>
+                    <tr>
 
-                    <td>
+                        <td>
+                            {{ feature["Feature"] }}
+                        </td>
 
-                        {% if feature["SHAP_Value"] > 0 %}
+                        <td>
 
-                            <span class="shap-positive">
-                                {{ "%.4f"|format(feature["SHAP_Value"]) }}
-                            </span>
+                            {% if feature["SHAP_Value"] > 0 %}
 
-                            <br>
+                                <span class="shap-positive">
+                                    {{ "%.4f"|format(feature["SHAP_Value"]) }}
+                                </span>
 
-                            <small>
-                                Pushes toward thyroid dysfunction
-                            </small>
+                                <br>
 
-                        {% elif feature["SHAP_Value"] < 0 %}
+                                <small>
+                                    Pushes toward non-normal screening
+                                </small>
 
-                            <span class="shap-negative">
-                                {{ "%.4f"|format(feature["SHAP_Value"]) }}
-                            </span>
+                            {% elif feature["SHAP_Value"] < 0 %}
 
-                            <br>
+                                <span class="shap-negative">
+                                    {{ "%.4f"|format(feature["SHAP_Value"]) }}
+                                </span>
 
-                            <small>
-                                Pushes away from thyroid dysfunction
-                            </small>
+                                <br>
 
-                        {% else %}
+                                <small>
+                                    Pushes toward normal screening
+                                </small>
 
-                            <span>
-                                {{ "%.4f"|format(feature["SHAP_Value"]) }}
-                            </span>
+                            {% else %}
 
-                            <br>
+                                <span>
+                                    {{ "%.4f"|format(feature["SHAP_Value"]) }}
+                                </span>
 
-                            <small>
-                                Little contribution
-                            </small>
+                                <br>
 
-                        {% endif %}
+                                <small>
+                                    Little contribution
+                                </small>
 
-                    </td>
+                            {% endif %}
 
-                </tr>
+                        </td>
 
-                {% endfor %}
+                    </tr>
+
+                    {% endfor %}
+
+                {% else %}
+
+                    <tr>
+                        <td colspan="2">
+                            SHAP explanation unavailable.
+                        </td>
+                    </tr>
+
+                {% endif %}
 
             </tbody>
 
@@ -249,18 +769,159 @@ from thyroid dysfunction.
         Make Another Prediction
     </a>
 
-    <!-- Medical disclaimer -->
-    <div class="disclaimer">
+    <!-- PDF report download -->
+<div style="margin-top: 20px;">
+    <a href="{{ url_for('download_report') }}">
+        Download PDF Report
+    </a>
+</div>
+
+<!-- Medical disclaimer -->
+    <!-- Medical Support & Care Navigation -->
+<div class="medical-faq-link">
+    <h3>Thyroid Health FAQs</h3>
+    <p>Learn about thyroid measurements, screening results, and common thyroid-related questions.</p>
+    <a href="{{ url_for('thyroid_faq') }}">Read Thyroid Health FAQs</a>
+</div>
+<div class="medical-support-card">
+    <h2>Medical Support & Care Navigation</h2>
+
+    <p class="medical-support-intro">
+        This AI-generated result is intended for academic decision support and
+        screening assistance. If you have concerns about your thyroid health,
+        consider consulting a qualified healthcare professional.
+    </p>
+
+    <div class="medical-support-grid">
+
+        <div class="medical-support-item">
+            <h3>Find an Endocrinologist</h3>
+            <p>
+                Locate endocrinologists and thyroid specialists near your
+                current location.
+            </p>
+            <a class="medical-support-button"
+               href="{{ url_for('healthcare') }}#endocrinologist"
+               target="_blank"
+               rel="noopener noreferrer">
+                Find Near Me
+            </a>
+        </div>
+
+        <div class="medical-support-item">
+            <h3>Thyroid & Endocrine Centers</h3>
+            <p>
+                Find nearby thyroid clinics and specialized endocrine care
+                centers.
+            </p>
+            <a class="medical-support-button"
+               href="{{ url_for('healthcare') }}#thyroid-center"
+               target="_blank"
+               rel="noopener noreferrer">
+                Find Centers
+            </a>
+        </div>
+
+        <div class="medical-support-item">
+            <h3>Diagnostic Laboratories</h3>
+            <p>
+                Locate diagnostic laboratories that may provide relevant
+                clinical testing services.
+            </p>
+            <a class="medical-support-button"
+               href="{{ url_for('healthcare') }}#diagnostic-lab"
+               target="_blank"
+               rel="noopener noreferrer">
+                Find Labs
+            </a>
+        </div>
+
+        <div class="medical-support-item">
+            <h3>Hospitals</h3>
+            <p>
+                Find hospitals and healthcare facilities for professional
+                medical evaluation.
+            </p>
+            <a class="medical-support-button"
+               href="{{ url_for('healthcare') }}#hospital"
+               target="_blank"
+               rel="noopener noreferrer">
+                Find Hospitals
+            </a>
+        </div>
+
+        <div class="medical-support-item">
+            <h3>Map & Directions</h3>
+            <p>
+                Open Google Maps to search for healthcare facilities and obtain
+                directions from your current location.
+            </p>
+            <a class="medical-support-button"
+               href="https://www.google.com/maps/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Open Maps
+            </a>
+        </div>
+
+        <div class="medical-support-item">
+            <h3>Doctor Consultation Summary</h3>
+            <p>
+                Take your prediction result and generated report with you when
+                discussing your results with a qualified healthcare professional.
+            </p>
+            <a class="medical-support-button"
+               href="#medical-next-steps">
+                View Next Steps
+            </a>
+        </div>
+
+    </div>
+
+    <div class="medical-support-item">
+    <h3>Understanding Your Prediction</h3>
+    <p>
+        Learn how the two-stage model works, understand prediction
+        probabilities, and read about SHAP explanations.
+    </p>
+    <a class="medical-support-button"
+       href="{{ url_for('prediction_explanation') }}">
+        Explain My Prediction
+    </a>
+</div>
+<div class="medical-next-steps" id="medical-next-steps">
+        <h3>Recommended Next Steps</h3>
+        <ul>
+            <li>Review the AI-assisted prediction result carefully.</li>
+            <li>Discuss the result with a qualified healthcare professional.</li>
+            <li>Carry relevant medical records and the prediction report during consultation.</li>
+            <li>Follow clinical evaluation and testing recommended by your healthcare professional.</li>
+        </ul>
+    </div>
+
+    <div class="medical-support-note">
+        <strong>Medical Support Notice:</strong>
+        This application provides AI-assisted screening and care-navigation
+        support. It does not provide a medical diagnosis, prescribe treatment,
+        or replace professional medical advice.
+    </div>
+</div>
+<div class="disclaimer">
 
         <strong>Academic decision-support prototype:</strong>
 
-        This prediction is not a medical diagnosis.
-        Consult a qualified healthcare professional for medical advice.
+        <p>
+            This prediction is not a medical diagnosis.
+            Consult a qualified healthcare professional for medical advice.
+        </p>
 
     </div>
 
 </div>
 
 </body>
-
 </html>
+
+
+
+

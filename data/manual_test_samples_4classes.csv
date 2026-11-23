@@ -1,0 +1,5 @@
+age,sex,on_thyroxine,query_on_thyroxine,on_antithyroid_medication,sick,pregnant,thyroid_surgery,I131_treatment,query_hypothyroid,query_hyperthyroid,lithium,goitre,tumor,hypopituitary,psych,TSH_measured,TSH,T3_measured,T3,TT4_measured,TT4,T4U_measured,T4U,FTI_measured,FTI,TBG_measured,TBG,referral_source,diagnosis_code,patient_id,target_group,stage1_target,stage1_label,stage2_target,stage2_label
+73.0,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,4.1,t,2.2,t,145.0,t,1.34,t,108.0,f,,other,-,850621028,Normal,0,Normal,0,Normal
+72.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.25,t,4.4,t,192.0,t,0.91,t,211.0,f,,other,A,860226043,Hyperthyroid,1,Non-Normal,1,Hyperthyroid
+42.0,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,6.2,t,1.7,t,72.0,t,0.89,t,81.0,f,,other,G,850430048,Hypothyroid,1,Non-Normal,2,Hypothyroid
+77.0,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,2.0,t,2.9,t,151.0,t,1.35,t,111.0,f,,other,I,850703050,Other / Related Diagnosis,1,Non-Normal,3,Other / Related Diagnosis

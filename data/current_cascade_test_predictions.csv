@@ -1,0 +1,1836 @@
+actual_label,predicted_label,stage1_label,routing_decision
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hyperthyroid,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Normal,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Hyperthyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Other / Related Diagnosis,Other / Related Diagnosis,Non-Normal,UNCERTAIN_TO_STAGE_2
+Normal,Normal,Normal,FINAL_NORMAL
+Normal,Normal,Normal,FINAL_NORMAL
+Hypothyroid,Hypothyroid,Non-Normal,UNCERTAIN_TO_STAGE_2

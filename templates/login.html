@@ -7,69 +7,130 @@
 
     <title>Login - TCMAPY2573</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
 </head>
 
-<body>
+<body class="auth-page">
 
-<div class="container">
+    <main class="auth-page-container">
 
-    <div class="card">
+        <section class="auth-card" aria-labelledby="login-title">
 
-        <h1>Login</h1>
+            <div class="auth-brand">
+                <div class="auth-brand-mark">
+                    T
+                </div>
 
-        {% if error %}
-            <div class="warning">
-                {{ error }}
+                <div>
+                    <div class="auth-brand-title">
+                        THYROID AI
+                    </div>
+
+                    <div class="auth-brand-subtitle">
+                        Enhanced Thyroid Prediction System
+                    </div>
+                </div>
             </div>
-            <br>
-        {% endif %}
 
-        <form method="POST" action="/login">
+            <div class="auth-header">
+                <h1 id="login-title">
+                    Welcome Back
+                </h1>
 
-            <label for="username">Username:</label>
+                <p>
+                    Sign in to access thyroid predictions,
+                    results, and your personal prediction history.
+                </p>
+            </div>
 
-            <input
-                type="text"
-                id="username"
-                name="username"
-                required
+            {% if registered %}
+            <div class="auth-message auth-message-success">
+                <strong>Account created successfully</strong>
+                <span>Your account has been saved securely. Please log in to continue.</span>
+            </div>
+            {% endif %}
+
+{% if error %}
+            <div class="auth-message auth-message-error">
+                <strong>Login unsuccessful</strong>
+                <span>{{ error }}</span>
+            </div>
+            {% endif %}
+
+            <form
+                method="POST"
+                action="/login"
+                class="auth-form"
             >
 
-            <br><br>
+                <div class="auth-field">
+                    <label for="username">
+                        Username or Email
+                    </label>
 
-            <label for="password">Password:</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter your username or email"
+                        autocomplete="username"
+                        required
+                    >
 
-            <input
-                type="password"
-                id="password"
-                name="password"
-                required
+                    <small>
+                        Use the username or email address associated
+                        with your account.
+                    </small>
+                </div>
+
+                <div class="auth-field">
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        autocomplete="current-password"
+                        required
+                    >
+                </div>
+
+                <button
+                    type="submit"
+                    class="auth-submit-button"
+                >
+                    Login
+                </button>
+
+            </form>
+
+            <div class="auth-divider">
+                <span>New to THYROID AI?</span>
+            </div>
+
+            <a
+                href="/register"
+                class="auth-secondary-button"
             >
+                Create an Account
+            </a>
 
-            <br><br>
+            <a
+                href="/"
+                class="auth-back-link"
+            >
+                Back to Home
+            </a>
 
-            <button type="submit">
-                Login
-            </button>
+        </section>
 
-        </form>
-
-        <br>
-
-        <a href="/register">
-            Create an account
-        </a>
-
-        <br><br>
-
-        <a href="/">
-            Back to Home
-        </a>
-
-    </div>
-
-</div>
+    </main>
 
 </body>
 

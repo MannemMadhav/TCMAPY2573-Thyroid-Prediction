@@ -1,0 +1,5 @@
+class_id,class_label,before_count,after_count,synthetic_added
+0,Normal,5416,5416,0
+1,Hyperthyroid,193,1000,807
+2,Hypothyroid,534,1000,466
+3,Other / Related Diagnosis,1194,1194,0
