@@ -82,6 +82,55 @@ DATABASE = os.path.join(
     "thyroid_predictions.db"
 )
 
+# ============================================================
+# Initialize SQLite database
+# ============================================================
+
+def init_db():
+
+    connection = sqlite3.connect(DATABASE)
+    cursor = connection.cursor()
+
+    # Users table
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT NOT NULL UNIQUE,
+            email TEXT NOT NULL UNIQUE,
+            password_hash TEXT NOT NULL
+        )
+    """)
+
+    # Predictions table
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS predictions (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER NOT NULL,
+            predicted_class TEXT,
+            negative_probability REAL,
+            hypothyroid_probability REAL,
+            shap_summary TEXT,
+            stage1_class TEXT,
+            stage1_confidence REAL,
+            routing_decision TEXT,
+            stage2_used INTEGER,
+            stage2_normal_probability REAL,
+            stage2_hyperthyroid_probability REAL,
+            stage2_hypothyroid_probability REAL,
+            stage2_other_probability REAL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (user_id) REFERENCES users(id)
+        )
+    """)
+
+    connection.commit()
+    connection.close()
+
+
+# Initialize database when application starts
+init_db()
+
+
 
 # ============================================================
 # Save prediction
