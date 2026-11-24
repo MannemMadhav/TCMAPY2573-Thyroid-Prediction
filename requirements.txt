@@ -10,3 +10,5 @@ shap==0.52.0
 
 reportlab==5.0.1
 pypdf==6.19.0
+
+gunicorn
