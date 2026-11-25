@@ -7,6 +7,35 @@ import pandas as pd
 import shap
 import sqlite3
 import sys
+def diagnose_database():
+
+    print("\n========== RENDER DATABASE CHECK ==========")
+
+    print("Database path:", DATABASE)
+    print("Database exists:", os.path.exists(DATABASE))
+
+    if not os.path.exists(DATABASE):
+        print("ERROR: Database file does not exist!")
+        return
+
+    print(
+        "Database size:",
+        os.path.getsize(DATABASE),
+        "bytes"
+    )
+
+    conn = sqlite3.connect(DATABASE)
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT COUNT(*) FROM users")
+    print("Total registered users:", cursor.fetchone()[0])
+
+    cursor.execute("SELECT COUNT(*) FROM predictions")
+    print("Total predictions:", cursor.fetchone()[0])
+
+    conn.close()
+
+    print("===========================================\n")
 from io import BytesIO
 
 from reportlab.lib import colors
